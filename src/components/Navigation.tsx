@@ -103,7 +103,9 @@ const Navigation = () => {
                 >
                   {t('hero.cta')}
                 </Button>
-                <LanguageSelector />
+                <div className="flex items-center space-x-4">
+                  <LanguageSelector />
+                </div>
               </div>
             </div>
           </div>

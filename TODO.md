@@ -1,0 +1,50 @@
+# TODO List - Carlos Mello Portfolio Website
+
+## UI/UX Improvements
+- [ ] Add "Add me to LinkedIn" button in HeroSection
+- [x] Adjust profile image in HeroSection
+- [x] Correct logos in ExperienceSection.tsx for:
+  - [x] BRQ
+  - [x] GFMS
+  - [x] Infoglobo
+- [x] Replicate Infoglobo div format in other experiences to remove weird gray line
+- [ ] Add links to official websites to the logo of each company, preferably in the language selected by the user
+
+## Content Enhancements
+- [ ] Add "View Credential" links in CertificationsSection.tsx
+- [ ] Add a "Schedule a Call" service to the website
+
+## Technical
+- [x] Optimize images for web performance
+- [x] Test contact form functionality with EmailJS
+- [ ] Verify all external links work correctly
+
+## Internationalization
+- [x] Implement i18n framework (react-i18next)
+- [x] Create translation files for all languages (EN, PT, FR, DE, ES)
+- [x] Add language selector component
+- [x] Translate all content sections:
+  - [x] Navigation
+  - [x] Hero Section
+  - [x] About Section (Portuguese lacking translations)
+  - [x] Expertise Section (Portuguese lacking translations)
+  - [x] Experience Section
+  - [x] Projects Section
+  - [x] Certifications Section
+  - [x] Contact Section
+- [x] Handle language-specific formatting (dates, phone numbers)
+- [x] Update meta tags for each language
+- [x] Set English as default language
+
+## Future Enhancements
+- [x] Implement dark/light theme toggle
+- [ ] Add animations/micro-interactions
+- [ ] Add testimonials section
+
+## Accessibility
+- [ ] validate WCAG 2.2 A compliance
+
+## Security
+- [x] check for known vulnerabilities and mitigate them
+---
+*Last updated: 2025-09-26*

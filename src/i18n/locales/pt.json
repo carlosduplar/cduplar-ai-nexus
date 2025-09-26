@@ -25,37 +25,7 @@
     "badge": "Sobre Mim",
     "title": "Apaixonado por Inovação Digital e Soluções Baseadas em IA",
     "description": "Sou um Gestor de Projeto de Transformação Digital experiente com mais de 15 anos de experiência em gestão do ciclo de vida de produtos. Atualmente na HEIG-VD, especializo-me em fazer a ponte entre desafios técnicos complexos e soluções de negócio escaláveis.",
-    "passion": "Minha paixão está em aproveitar tecnologias de IA de ponta e gestão estratégica de produtos para impulsionar iniciativas significativas de transformação digital que entregam valor real ao negócio.",
-    "coreStrengthsTitle": "Principais Competências e Especialização",
-    "highlights": [
-      "Mais de 15 anos em gestão do ciclo de vida de produtos",
-      "Líder GenAI Certificado pelo Google",
-      "Especialista em arquitetura de soluções baseadas em IA",
-      "Histórico comprovado em liderança de equipas multifuncionais"
-    ]
-  },
-  "expertise": {
-    "badge": "Especialização Principal",
-    "title": "Impulsionando Inovação Através de Gestão Estratégica de Produtos",
-    "subtitle": "Combinando conhecimento técnico profundo com perspicácia estratégica de negócios para entregar produtos digitais excepcionais e soluções baseadas em IA.",
-    "areas": {
-      "digitalTransformation": {
-        "title": "Transformação Digital",
-        "description": "Liderar iniciativas abrangentes de transformação digital que modernizam processos de negócio e impulsionam o crescimento organizacional através da adoção de tecnologia inovadora."
-      },
-      "aiProductManagement": {
-        "title": "Gestão de Produtos de IA",
-        "description": "Especializado na gestão de produtos baseados em IA desde a conceção até a implementação, com experiência em arquiteturas LLM, fluxos de machine learning e implementação GenAI."
-      },
-      "strategicPlanning": {
-        "title": "Planeamento Estratégico",
-        "description": "Desenvolver e executar roadmaps de produtos que alinham capacidades técnicas com objetivos de negócio, garantindo crescimento sustentável e vantagem competitiva."
-      },
-      "teamLeadership": {
-        "title": "Liderança de Equipas Multifuncionais",
-        "description": "Especialista em liderar equipas diversas e multinacionais através de projetos complexos usando metodologias Agile e Scrum para entregar resultados no prazo e dentro do orçamento."
-      }
-    },
+    "passion": "A minha paixão reside em alavancar tecnologias de IA de ponta e gestão estratégica de produtos para impulsionar iniciativas de transformação digital significativas que entregam valor real ao negócio.",
     "coreStrengthsTitle": "Principais Competências e Especialização",
     "achievements": [
       {
@@ -159,17 +129,128 @@
           "technologies": ["Jira", "Figma", "Confluence", "Scrum", "SAFe", "Design Thinking"]
         }
       }
-    }
+    },
+    "achievements": [
+      {
+        "value": "79%",
+        "label": "Redução no Tempo de Resposta do Serviço",
+        "detail": "Impacto da Transformação Digital"
+      },
+      {
+        "value": "13+",
+        "label": "Países Escalados",
+        "detail": "Plataforma SaaS da Siemens"
+      },
+      {
+        "value": "100+",
+        "label": "Membros de Equipa Treinados",
+        "detail": "IA, SEO & Competências Digitais"
+      }
+    ]
   },
   "experience": {
     "badge": "Jornada Profissional",
     "title": "15+ Anos de Excelência em Liderança de Produtos",
-    "subtitle": "De startups a empresas globais, entrego consistentemente resultados transformacionais em diversas indústrias e cenários técnicos."
+    "subtitle": "De startups a empresas globais, entreguei consistentemente resultados transformacionais em diversas indústrias e cenários técnicos.",
+    "careerStats": {
+      "title": "Resumo do Impacto na Carreira",
+      "subtitle": "Resultados quantificáveis em diferentes indústrias e funções",
+      "stats": [
+        {
+          "value": "6",
+          "label": "Grandes Empresas"
+        },
+        {
+          "value": "3",
+          "label": "Países Trabalhados"
+        },
+        {
+          "value": "€300k+",
+          "label": "Orçamento Gerido"
+        },
+        {
+          "value": "30+",
+          "label": "Membros de Equipa Liderados"
+        }
+      ]
+    },
+    "types": {
+      "fullTime": "Tempo Integral",
+      "partTime": "Meio Período",
+      "contract": "Contrato",
+      "present": "Atual"
+    }
   },
   "projects": {
     "badge": "Trabalhos Destacados",
     "title": "Projetos Transformadores & Resultados",
-    "subtitle": "Aplicações práticas de IA, análise de dados e gestão estratégica de produtos que entregaram impacto mensurável no negócio."
+    "subtitle": "Aplicações práticas de IA, análise de dados e gestão estratégica de produtos que entregaram impacto mensurável no negócio.",
+    "items": [
+      {
+        "title": "Modelo de Previsão Energética com Machine Learning",
+        "description": "Desenvolvi um modelo ML sofisticado atingindo 96,4% de precisão na previsão de consumo energético para ambientes de fabricação industrial. O modelo usa análise de séries temporais e incorpora múltiplas variáveis ambientais e operacionais.",
+        "category": "IA/ML",
+        "achievements": [
+          "96,4% precisão de previsão",
+          "Monitorização energética em tempo real",
+          "Insights de otimização de custos"
+        ],
+        "status": "Produção",
+        "impact": "Permitiu 15% de redução nos custos energéticos"
+      },
+      {
+        "title": "Laboratório de Ferramentas IA & Infraestrutura Auto-hospedado",
+        "description": "Construí e implementei uma infraestrutura IA abrangente usando ferramentas open-source para experimentação com LLMs, bases de dados vetoriais e IA conversacional. Este laboratório serve como campo de testes para funcionalidades de produtos IA e treino.",
+        "category": "Infraestrutura IA",
+        "achievements": [
+          "Suporte multi-modelo LLM",
+          "Integração de base de dados vetorial",
+          "Analíticas conversacionais"
+        ],
+        "status": "Desenvolvimento Ativo",
+        "impact": "Acelerou prototipagem de funcionalidades IA em 60%"
+      },
+      {
+        "title": "Dashboard de Analíticas de Pontualidade SBB",
+        "description": "Criei um dashboard Power BI interativo analisando padrões de pontualidade ferroviária suíça usando dados de transporte público. O dashboard fornece insights sobre atrasos, tendências sazonais e desempenho de rotas.",
+        "category": "Analítica de Dados",
+        "achievements": [
+          "Rastreamento de atrasos em tempo real",
+          "Análise de padrões sazonais",
+          "Insights de otimização de rotas"
+        ],
+        "status": "Concluído",
+        "impact": "Melhorou eficiência do planeamento de rotas"
+      },
+      {
+        "title": "Dashboard de Monitorização de Máquinas GFMS",
+        "description": "Liderei o desenvolvimento de um sistema de monitorização de máquinas industriais em tempo real usando protocolos OPC-UA e MTConnect. A plataforma fornece insights operacionais e capacidades de manutenção preditiva.",
+        "category": "IoT/Industrial",
+        "achievements": [
+          "79% redução nos tempos de resposta",
+          "Monitorização de máquinas em tempo real",
+          "Alertas de manutenção preditiva"
+        ],
+        "status": "Produção",
+        "impact": "39% crescimento QoQ em ligações de máquinas"
+      }
+    ],
+    "labels": {
+      "keyAchievements": "Principais Conquistas:",
+      "technologiesUsed": "Tecnologias Utilizadas:",
+      "businessImpact": "Impacto no Negócio:",
+      "viewDetails": "Ver Detalhes"
+    },
+    "statuses": {
+      "production": "Produção",
+      "activeDevelopment": "Desenvolvimento Ativo",
+      "completed": "Concluído"
+    },
+    "cta": {
+      "title": "Interessado em Mais Detalhes Técnicos?",
+      "description": "Estou sempre a trabalhar em novas experiências de IA e projetos de transformação digital. Vamos discutir como estas experiências podem beneficiar a sua organização.",
+      "button": "Vamos Conectar"
+    }
   },
   "certifications": {
     "badge": "Credenciais & Aprendizagem",

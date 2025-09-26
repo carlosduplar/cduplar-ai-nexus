@@ -129,12 +129,57 @@
           "technologies": ["Jira", "Figma", "Confluence", "Scrum", "SAFe", "Design Thinking"]
         }
       }
-    }
+    },
+    "achievements": [
+      {
+        "value": "79%",
+        "label": "Service Response Time Reduction",
+        "detail": "Digital Transformation Impact"
+      },
+      {
+        "value": "13+",
+        "label": "Countries Scaled",
+        "detail": "Siemens SaaS Platform"
+      },
+      {
+        "value": "100+",
+        "label": "Team Members Trained",
+        "detail": "AI, SEO & Digital Skills"
+      }
+    ]
   },
   "experience": {
     "badge": "Professional Journey",
     "title": "15+ Years of Product Leadership Excellence",
-    "subtitle": "From startups to global enterprises, I've consistently delivered transformational results across diverse industries and technical landscapes."
+    "subtitle": "From startups to global enterprises, I've consistently delivered transformational results across diverse industries and technical landscapes.",
+    "careerStats": {
+      "title": "Career Impact Summary",
+      "subtitle": "Quantifiable results across different industries and roles",
+      "stats": [
+        {
+          "value": "6",
+          "label": "Major Companies"
+        },
+        {
+          "value": "3",
+          "label": "Countries Worked"
+        },
+        {
+          "value": "€300k+",
+          "label": "Budget Managed"
+        },
+        {
+          "value": "30+",
+          "label": "Team Members Led"
+        }
+      ]
+    },
+    "types": {
+      "fullTime": "Full-time",
+      "partTime": "Part-time",
+      "contract": "Contract",
+      "present": "Present"
+    }
   },
   "projects": {
     "badge": "Featured Work",
