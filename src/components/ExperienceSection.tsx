@@ -1,5 +1,11 @@
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Calendar, Building, ArrowRight } from "lucide-react";
+import heigVdLogo from "@/assets/company-logos/heig-vd-logo.png";
+import gfLogo from "@/assets/company-logos/gf-logo.png";
+import siemensLogo from "@/assets/company-logos/siemens-logo.png";
+import brqLogo from "@/assets/company-logos/brq-logo.png";
+import timLogo from "@/assets/company-logos/tim-brasil-logo.png";
+import globoLogo from "@/assets/company-logos/globo-logo.png";
 
 const ExperienceSection = () => {
   const experiences = [
@@ -9,7 +15,7 @@ const ExperienceSection = () => {
       period: "September 2025 - Present",
       location: "Yverdon, Vaud, Switzerland",
       type: "Full-time",
-      logo: "HV",
+      logo: heigVdLogo,
       highlights: [
         "Defining and leading digital transformation initiatives to enhance educational technology infrastructure",
         "Developing comprehensive project roadmaps aligned with HES-SO's Schéma Directeur Numérique (SDN) framework",
@@ -24,7 +30,7 @@ const ExperienceSection = () => {
       period: "September 2022 - July 2025",
       location: "Biel, Bern, Switzerland",
       type: "Full-time",
-      logo: "GF",
+      logo: gfLogo,
       highlights: [
         "Cut service response & resolution times by up to 79% with global service Power BI KPI Dashboard",
         "Led Microsoft 365 Copilot pilot and trained 30+ colleagues on prompt engineering",
@@ -35,11 +41,11 @@ const ExperienceSection = () => {
     },
     {
       company: "Siemens",
-      role: "Senior IT Product Owner",
+      role: "Product Owner for Smart Infrastructure",
       period: "November 2020 - September 2022",
       location: "Lisbon, Portugal",
       type: "Full-time",
-      logo: "SI",
+      logo: siemensLogo,
       highlights: [
         "Grew user adoption 5x for a global SaaS password-management product",
         "Engaged with Product & Solution Security Experts for security reviews and risk assessments",
@@ -50,11 +56,11 @@ const ExperienceSection = () => {
     },
     {
       company: "BRQ Digital Solutions",
-      role: "Digital Transformation Product Owner/Team Lead",
+      role: "ERE Team Lead | Senior Application Specialist | Scrum Master",
       period: "January 2019 - November 2020",
       location: "Lisbon, Portugal",
       type: "Full-time",
-      logo: "BQ",
+      logo: brqLogo,
       highlights: [
         "Led two remote cross-functional Scrum teams for high-impact native iOS/Android app",
         "Collaborated with sales consulting on multiple RFIs and RFPs",
@@ -65,11 +71,11 @@ const ExperienceSection = () => {
     },
     {
       company: "TIM Brazil (Telecom Italia Mobile)",
-      role: "Product Owner for Web & Mobile",
+      role: "Senior IT Specialist | IT Product Owner",
       period: "July 2011 - October 2018",
       location: "Rio de Janeiro, Brazil",
       type: "Full-time",
-      logo: "TI",
+      logo: timLogo,
       highlights: [
         "Launched and scaled TIM's consumer self-service app to 8.2M total users (1.4M daily sessions)",
         "Improved app ratings from 1.5 to 4.0 stars and achieved Top 5 Utility app store ranking",
@@ -77,6 +83,21 @@ const ExperienceSection = () => {
         "Managed €300k annual IT budget with 3 direct reports"
       ],
       skills: ["Mobile Apps", "Agile Transformation", "Budget Management", "Team Leadership"]
+    },
+    {
+      company: "Infoglobo",
+      role: "IT Product Owner | Senior Business Analyst",
+      period: "October 2009 - July 2011",
+      location: "Rio de Janeiro, Brazil",
+      type: "Full-time",
+      logo: globoLogo,
+      highlights: [
+        "Enhanced SEO for all company websites and trained editorial staff, resulting in 18% increase in monthly visitors",
+        "Spearheaded database unification project, collaborating with Marketing and CRM teams to streamline user data",
+        "Led Agile initiative for Jornal Extra's new website, achieving 71% increase in search engine traffic in 2011",
+        "Served as Solutions Architect, overseeing technical selection of new CMS and editorial platform"
+      ],
+      skills: ["SEO Optimization", "Database Management", "Agile Implementation", "System Architecture"]
     }
   ];
 
@@ -114,10 +135,12 @@ const ExperienceSection = () => {
                 <div className="flex flex-col lg:flex-row gap-6">
                   {/* Company Logo & Period */}
                   <div className="flex-shrink-0">
-                    <div className="w-16 h-16 hero-gradient rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
-                      <span className="text-primary-foreground font-bold text-lg">
-                        {exp.logo}
-                      </span>
+                    <div className="w-16 h-16 bg-background rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200 border shadow-sm">
+                      <img 
+                        src={exp.logo} 
+                        alt={`${exp.company} logo`}
+                        className="w-10 h-10 object-contain"
+                      />
                     </div>
                     <div className="hidden lg:block space-y-1">
                       <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -209,11 +232,11 @@ const ExperienceSection = () => {
             
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div className="space-y-2">
-                <div className="text-2xl font-bold text-primary">5</div>
+                <div className="text-2xl font-bold text-primary">6</div>
                 <div className="text-sm text-muted-foreground">Major Companies</div>
               </div>
               <div className="space-y-2">
-                <div className="text-2xl font-bold text-primary">4</div>
+                <div className="text-2xl font-bold text-primary">3</div>
                 <div className="text-sm text-muted-foreground">Countries Worked</div>
               </div>
               <div className="space-y-2">
