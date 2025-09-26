@@ -12,7 +12,8 @@ import {
   Send,
   CheckCircle,
   Clock,
-  MessageSquare
+  MessageSquare,
+  Github
 } from "lucide-react";
 
 const ContactSection = () => {
@@ -71,6 +72,12 @@ const ContactSection = () => {
       label: "LinkedIn",
       value: "linkedin.com/in/carlosduplar",
       link: "https://linkedin.com/in/carlosduplar"
+    },
+    {
+      icon: <Github className="w-5 h-5" />,
+      label: "GitHub",
+      value: "github.com/carlosduplar",
+      link: "https://github.com/carlosduplar"
     }
   ];
 

@@ -108,7 +108,7 @@ const HeroSection = () => {
                 <img
                   src={heroImage}
                   alt="Carlos Duplar Mello - Professional Portrait"
-                  className="w-full h-[600px] object-cover object-center"
+                  className="w-full h-[600px] object-cover object-top scale-75 transform translate-y-4"
                 />
                 
                 {/* Gradient overlay for text readability */}
