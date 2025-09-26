@@ -135,17 +135,128 @@
           "technologies": ["Jira", "Figma", "Confluence", "Scrum", "SAFe", "Design Thinking"]
         }
       }
-    }
+    },
+    "achievements": [
+      {
+        "value": "79%",
+        "label": "Réduction du Temps de Réponse du Service",
+        "detail": "Impact de la Transformation Digitale"
+      },
+      {
+        "value": "13+",
+        "label": "Pays Évolués",
+        "detail": "Plateforme SaaS de Siemens"
+      },
+      {
+        "value": "100+",
+        "label": "Membres d'Équipe Formés",
+        "detail": "IA, SEO & Compétences Digitales"
+      }
+    ]
   },
   "experience": {
     "badge": "Parcours Professionnel",
     "title": "Plus de 15 Ans d'Excellence en Leadership Produit",
-    "subtitle": "Des startups aux entreprises mondiales, j'ai constamment livré des résultats transformationnels à travers diverses industries et paysages techniques."
+    "subtitle": "Des startups aux entreprises mondiales, j'ai constamment livré des résultats transformationnels à travers diverses industries et paysages techniques.",
+    "careerStats": {
+      "title": "Résumé de l'Impact de Carrière",
+      "subtitle": "Résultats quantifiables dans différentes industries et rôles",
+      "stats": [
+        {
+          "value": "6",
+          "label": "Grandes Entreprises"
+        },
+        {
+          "value": "3",
+          "label": "Pays Travaillés"
+        },
+        {
+          "value": "€300k+",
+          "label": "Budget Géré"
+        },
+        {
+          "value": "30+",
+          "label": "Membres d'Équipe Dirigés"
+        }
+      ]
+    },
+    "types": {
+      "fullTime": "Temps Plein",
+      "partTime": "Temps Partiel",
+      "contract": "Contrat",
+      "present": "Présent"
+    }
   },
   "projects": {
     "badge": "Réalisations Phares",
     "title": "Projets Transformateurs & Résultats",
-    "subtitle": "Applications concrètes de l'IA, de l'analyse de données et de la gestion stratégique de produits qui ont généré un impact business mesurable."
+    "subtitle": "Applications concrètes de l'IA, de l'analyse de données et de la gestion stratégique de produits qui ont généré un impact business mesurable.",
+    "items": [
+      {
+        "title": "Modèle de Prévision Énergétique par Machine Learning",
+        "description": "Développement d'un modèle ML sophistiqué atteignant 96,4% de précision dans la prédiction de consommation énergétique pour les environnements de fabrication industrielle. Le modèle utilise l'analyse de séries temporelles et incorpore plusieurs variables environnementales et opérationnelles.",
+        "category": "IA/ML",
+        "achievements": [
+          "96,4% de précision de prédiction",
+          "Surveillance énergétique en temps réel",
+          "Insights d'optimisation des coûts"
+        ],
+        "status": "Production",
+        "impact": "Permis 15% de réduction des coûts énergétiques"
+      },
+      {
+        "title": "Laboratoire d'Outils IA & Infrastructure Auto-hébergé",
+        "description": "Construction et déploiement d'une infrastructure IA complète utilisant des outils open-source pour l'expérimentation avec les LLMs, bases de données vectorielles et IA conversationnelle. Ce laboratoire sert de terrain d'essai pour les fonctionnalités produits IA et la formation.",
+        "category": "Infrastructure IA",
+        "achievements": [
+          "Support multi-modèle LLM",
+          "Intégration base de données vectorielle",
+          "Analytiques conversationnelles"
+        ],
+        "status": "Développement Actif",
+        "impact": "Accéléré le prototypage de fonctionnalités IA de 60%"
+      },
+      {
+        "title": "Dashboard d'Analytiques de Ponctualité SBB",
+        "description": "Création d'un dashboard Power BI interactif analysant les schémas de ponctualité ferroviaire suisse utilisant les données de transport public. Le dashboard fournit des insights sur les retards, tendances saisonnières et performance des itinéraires.",
+        "category": "Analytiques de Données",
+        "achievements": [
+          "Suivi des retards en temps réel",
+          "Analyse des schémas saisonniers",
+          "Insights d'optimisation d'itinéraires"
+        ],
+        "status": "Terminé",
+        "impact": "Amélioration de l'efficacité de planification d'itinéraires"
+      },
+      {
+        "title": "Dashboard de Surveillance de Machines GFMS",
+        "description": "Direction du développement d'un système de surveillance de machines industrielles en temps réel utilisant les protocoles OPC-UA et MTConnect. La plateforme fournit des insights opérationnels et des capacités de maintenance prédictive.",
+        "category": "IoT/Industriel",
+        "achievements": [
+          "79% de réduction des temps de réponse",
+          "Surveillance de machines en temps réel",
+          "Alertes de maintenance prédictive"
+        ],
+        "status": "Production",
+        "impact": "39% de croissance QoQ des connexions machines"
+      }
+    ],
+    "labels": {
+      "keyAchievements": "Réalisations Clés:",
+      "technologiesUsed": "Technologies Utilisées:",
+      "businessImpact": "Impact Business:",
+      "viewDetails": "Voir les Détails"
+    },
+    "statuses": {
+      "production": "Production",
+      "activeDevelopment": "Développement Actif",
+      "completed": "Terminé"
+    },
+    "cta": {
+      "title": "Intéressé par Plus de Détails Techniques?",
+      "description": "Je travaille toujours sur de nouvelles expériences IA et projets de transformation digitale. Discutons de comment ces expériences peuvent bénéficier à votre organisation.",
+      "button": "Connectons-nous"
+    }
   },
   "certifications": {
     "badge": "Accréditations & Formation",

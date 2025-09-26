@@ -135,17 +135,128 @@
           "technologies": ["Jira", "Figma", "Confluence", "Scrum", "SAFe", "Design Thinking"]
         }
       }
-    }
+    },
+    "achievements": [
+      {
+        "value": "79%",
+        "label": "Verkürzung der Service-Antwortzeiten",
+        "detail": "Digitale Transformationswirkung"
+      },
+      {
+        "value": "13+",
+        "label": "Länder skaliert",
+        "detail": "Siemens SaaS-Plattform"
+      },
+      {
+        "value": "100+",
+        "label": "Teammitglieder trainiert",
+        "detail": "KI, SEO & digitale Fähigkeiten"
+      }
+    ]
   },
   "experience": {
     "badge": "Beruflicher Werdegang",
     "title": "15+ Jahre Exzellenz in der Produktführung",
-    "subtitle": "Von Startups bis hin zu globalen Unternehmen habe ich konsequent transformative Ergebnisse in verschiedenen Branchen und technischen Landschaften geliefert."
+    "subtitle": "Von Startups bis hin zu globalen Unternehmen habe ich konsequent transformative Ergebnisse in verschiedenen Branchen und technischen Landschaften geliefert.",
+    "careerStats": {
+      "title": "Zusammenfassung der Karrierewirkung",
+      "subtitle": "Quantifizierbare Ergebnisse über verschiedene Branchen und Rollen hinweg",
+      "stats": [
+        {
+          "value": "6",
+          "label": "Große Unternehmen"
+        },
+        {
+          "value": "3",
+          "label": "Länder gearbeitet"
+        },
+        {
+          "value": "€300k+",
+          "label": "Budget verwaltet"
+        },
+        {
+          "value": "30+",
+          "label": "Teammitglieder geführt"
+        }
+      ]
+    },
+    "types": {
+      "fullTime": "Vollzeit",
+      "partTime": "Teilzeit",
+      "contract": "Vertrag",
+      "present": "Heute"
+    }
   },
   "projects": {
     "badge": "Ausgewählte Arbeiten",
     "title": "Transformative Projekte & Ergebnisse",
-    "subtitle": "Reale Anwendungen von KI, Datenanalyse und strategischem Produktmanagement, die messbaren Geschäftswert geliefert haben."
+    "subtitle": "Reale Anwendungen von KI, Datenanalyse und strategischem Produktmanagement, die messbaren Geschäftswert geliefert haben.",
+    "items": [
+      {
+        "title": "Machine Learning Energieverbrauchsprognose-Modell",
+        "description": "Entwicklung eines ausgeklügelten ML-Modells mit 96,4% Genauigkeit bei der Energieverbrauchsprognose für industrielle Fertigungsumgebungen. Das Modell nutzt Zeitreihenanalyse und berücksichtigt mehrere Umwelt- und Betriebsvariablen.",
+        "category": "KI/ML",
+        "achievements": [
+          "96,4% Vorhersagegenauigkeit",
+          "Echtzeit-Energieüberwachung",
+          "Kostenoptimierungseinblicke"
+        ],
+        "status": "Produktion",
+        "impact": "Ermöglichte 15% Reduzierung der Energiekosten"
+      },
+      {
+        "title": "Selbst-gehostetes KI-Tools & Infrastruktur-Labor",
+        "description": "Aufbau und Bereitstellung einer umfassenden KI-Infrastruktur mit Open-Source-Tools für Experimente mit LLMs, Vektordatenbanken und konversationeller KI. Dieses Labor dient als Testumgebung für KI-Produktfunktionen und Training.",
+        "category": "KI-Infrastruktur",
+        "achievements": [
+          "Multi-Modell LLM-Unterstützung",
+          "Vektordatenbank-Integration",
+          "Konversationsanalytik"
+        ],
+        "status": "Aktive Entwicklung",
+        "impact": "Beschleunigte KI-Feature-Prototyping um 60%"
+      },
+      {
+        "title": "SBB Pünktlichkeits-Analytics Dashboard",
+        "description": "Erstellung eines interaktiven Power BI Dashboards zur Analyse der Schweizer Eisenbahn-Pünktlichkeitsmuster unter Verwendung öffentlicher Verkehrsdaten. Das Dashboard bietet Einblicke in Verspätungen, saisonale Trends und Streckenleistung.",
+        "category": "Datenanalytik",
+        "achievements": [
+          "Echtzeit-Verspätungsverfolgung",
+          "Saisonale Musteranalyse",
+          "Streckenoptimierungseinblicke"
+        ],
+        "status": "Abgeschlossen",
+        "impact": "Verbesserte Effizienz der Streckenplanung"
+      },
+      {
+        "title": "GFMS Maschinenüberwachungs-Dashboard",
+        "description": "Leitete die Entwicklung eines Echtzeit-Industriemaschinenüberwachungssystems mit OPC-UA und MTConnect-Protokollen. Die Plattform bietet operative Einblicke und prädiktive Wartungsfähigkeiten.",
+        "category": "IoT/Industrie",
+        "achievements": [
+          "79% Reduzierung der Antwortzeiten",
+          "Echtzeit-Maschinenüberwachung",
+          "Prädiktive Wartungsalarme"
+        ],
+        "status": "Produktion",
+        "impact": "39% QoQ Wachstum bei Maschinenverbindungen"
+      }
+    ],
+    "labels": {
+      "keyAchievements": "Wichtige Erfolge:",
+      "technologiesUsed": "Verwendete Technologien:",
+      "businessImpact": "Geschäftswirkung:",
+      "viewDetails": "Details anzeigen"
+    },
+    "statuses": {
+      "production": "Produktion",
+      "activeDevelopment": "Aktive Entwicklung",
+      "completed": "Abgeschlossen"
+    },
+    "cta": {
+      "title": "Interessiert an mehr technischen Details?",
+      "description": "Ich arbeite ständig an neuen KI-Experimenten und digitalen Transformationsprojekten. Lassen Sie uns besprechen, wie diese Erfahrungen Ihrer Organisation zugute kommen können.",
+      "button": "Lassen Sie uns vernetzen"
+    }
   },
   "certifications": {
     "badge": "Zeugnisse & Weiterbildung",

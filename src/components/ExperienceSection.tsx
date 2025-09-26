@@ -1,15 +1,52 @@
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Calendar, Building, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import heigVdLogo from "@/assets/company-logos/heig-vd-logo.png";
+import { format } from 'date-fns';
+import { enUS, ptBR, fr, de, es } from 'date-fns/locale';
+import heigvdLogo from "@/assets/company-logos/heig-vd-logo.png";
 import gfLogo from "@/assets/company-logos/gf-logo.png";
 import siemensLogo from "@/assets/company-logos/siemens-logo.png";
 import brqLogo from "@/assets/company-logos/brq-logo.png";
-import timLogo from "@/assets/company-logos/tim-brasil-logo.png";
-import globoLogo from "@/assets/company-logos/globo-logo.png";
+import timBrasilLogo from "@/assets/company-logos/tim-brasil-logo.png";
+import infogloboLogo from "@/assets/company-logos/globo-logo.png";
+
+const localeMap: { [key: string]: Locale } = {
+  en: enUS,
+  pt: ptBR,
+  fr: fr,
+  de: de,
+  es: es,
+};
 
 const ExperienceSection = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const formatPeriod = (period: string) => {
+    const currentLocale = localeMap[i18n.language] || enUS;
+    const [start, end] = period.split(' - ');
+
+    const startDate = new Date(start);
+    const formattedStart = format(startDate, 'MMM yyyy', { locale: currentLocale });
+
+    if (end === 'Present') {
+      return `${formattedStart} - ${t('experience.types.present')}`;
+    }
+
+    const endDate = new Date(end);
+    const formattedEnd = format(endDate, 'MMM yyyy', { locale: currentLocale });
+
+    return `${formattedStart} - ${formattedEnd}`;
+  };
+
+  // Helper function to translate career stats safely
+  const getTranslatedCareerStats = () => {
+    try {
+      const stats = t('experience.careerStats.stats', { returnObjects: true });
+      return Array.isArray(stats) ? stats : [];
+    } catch {
+      return [];
+    }
+  };
   const experiences = [
     {
       company: "HEIG-VD",
@@ -17,7 +54,7 @@ const ExperienceSection = () => {
       period: "September 2025 - Present",
       location: "Yverdon, Vaud, Switzerland",
       type: "Full-time",
-      logo: heigVdLogo,
+      logo: heigvdLogo,
       highlights: [
         "Defining and leading digital transformation initiatives to enhance educational technology infrastructure",
         "Developing comprehensive project roadmaps aligned with HES-SO's Schéma Directeur Numérique (SDN) framework",
@@ -77,7 +114,7 @@ const ExperienceSection = () => {
       period: "July 2011 - October 2018",
       location: "Rio de Janeiro, Brazil",
       type: "Full-time",
-      logo: timLogo,
+      logo: timBrasilLogo,
       highlights: [
         "Launched and scaled TIM's consumer self-service app to 8.2M total users (1.4M daily sessions)",
         "Improved app ratings from 1.5 to 4.0 stars and achieved Top 5 Utility app store ranking",
@@ -92,7 +129,7 @@ const ExperienceSection = () => {
       period: "October 2009 - July 2011",
       location: "Rio de Janeiro, Brazil",
       type: "Full-time",
-      logo: globoLogo,
+      logo: infogloboLogo,
       highlights: [
         "Enhanced SEO for all company websites and trained editorial staff, resulting in 18% increase in monthly visitors",
         "Spearheaded database unification project, collaborating with Marketing and CRM teams to streamline user data",
@@ -133,16 +170,18 @@ const ExperienceSection = () => {
                   {/* Company Logo & Period */}
                   <div className="flex-shrink-0">
                     <div className="w-16 h-16 bg-background rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200 border shadow-sm">
-                      <img 
-                        src={exp.logo} 
+                      <img
+                        src={exp.logo}
                         alt={`${exp.company} logo`}
                         className="w-10 h-10 object-contain"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </div>
                     <div className="hidden lg:block space-y-1">
                       <div className="flex items-center gap-2 text-sm text-muted-foreground">
                         <Calendar size={14} />
-                        {exp.period}
+                        {formatPeriod(exp.period)}
                       </div>
                       <div className="flex items-center gap-2 text-sm text-muted-foreground">
                         <MapPin size={14} />
@@ -160,7 +199,7 @@ const ExperienceSection = () => {
                           {exp.role}
                         </h3>
                         <Badge variant="secondary" className="self-start lg:self-center">
-                          {exp.type}
+                          {t('experience.types.fullTime')}
                         </Badge>
                       </div>
                       <div className="text-lg font-semibold text-primary">
@@ -171,7 +210,7 @@ const ExperienceSection = () => {
                       <div className="lg:hidden space-y-1">
                         <div className="flex items-center gap-2 text-sm text-muted-foreground">
                           <Calendar size={14} />
-                          {exp.period}
+                          {formatPeriod(exp.period)}
                         </div>
                         <div className="flex items-center gap-2 text-sm text-muted-foreground">
                           <MapPin size={14} />
@@ -220,30 +259,20 @@ const ExperienceSection = () => {
           <div className="mt-16 professional-card fade-in-up">
             <div className="text-center mb-8">
               <h3 className="text-xl font-bold text-foreground mb-2">
-                Career Impact Summary
+                {t('experience.careerStats.title')}
               </h3>
               <p className="text-muted-foreground">
-                Quantifiable results across different industries and roles
+                {t('experience.careerStats.subtitle')}
               </p>
             </div>
-            
+
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              <div className="space-y-2">
-                <div className="text-2xl font-bold text-primary">6</div>
-                <div className="text-sm text-muted-foreground">Major Companies</div>
-              </div>
-              <div className="space-y-2">
-                <div className="text-2xl font-bold text-primary">3</div>
-                <div className="text-sm text-muted-foreground">Countries Worked</div>
-              </div>
-              <div className="space-y-2">
-                <div className="text-2xl font-bold text-primary">€300k+</div>
-                <div className="text-sm text-muted-foreground">Budget Managed</div>
-              </div>
-              <div className="space-y-2">
-                <div className="text-2xl font-bold text-primary">30+</div>
-                <div className="text-sm text-muted-foreground">Team Members Led</div>
-              </div>
+              {getTranslatedCareerStats().map((stat, index) => (
+                <div key={index} className="space-y-2">
+                  <div className="text-2xl font-bold text-primary">{stat.value}</div>
+                  <div className="text-sm text-muted-foreground">{stat.label}</div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
