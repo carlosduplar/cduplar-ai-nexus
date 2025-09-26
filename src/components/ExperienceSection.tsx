@@ -1,0 +1,235 @@
+import { Badge } from "@/components/ui/badge";
+import { MapPin, Calendar, Building, ArrowRight } from "lucide-react";
+
+const ExperienceSection = () => {
+  const experiences = [
+    {
+      company: "HEIG-VD",
+      role: "Digital Transformation Project Manager",
+      period: "September 2025 - Present",
+      location: "Yverdon, Vaud, Switzerland",
+      type: "Full-time",
+      logo: "HV",
+      highlights: [
+        "Defining and leading digital transformation initiatives to enhance educational technology infrastructure",
+        "Developing comprehensive project roadmaps aligned with HES-SO's Schéma Directeur Numérique (SDN) framework",
+        "Leading multidisciplinary teams including IT, faculty, and administrative stakeholders",
+        "Managing risk assessment while ensuring adherence to Swiss public sector standards"
+      ],
+      skills: ["Project Management", "Digital Transformation", "Strategic Planning", "Team Leadership"]
+    },
+    {
+      company: "Georg Fischer Machining Solutions",
+      role: "Senior Product Owner",
+      period: "September 2022 - July 2025",
+      location: "Biel, Bern, Switzerland",
+      type: "Full-time",
+      logo: "GF",
+      highlights: [
+        "Cut service response & resolution times by up to 79% with global service Power BI KPI Dashboard",
+        "Led Microsoft 365 Copilot pilot and trained 30+ colleagues on prompt engineering",
+        "Shaped GFMS's end-customer SaaS roadmap, averaging 39% QoQ machine connection growth since Q3 2023",
+        "Designed real-time machine monitoring dashboards using OPC-UA and MTConnect protocols"
+      ],
+      skills: ["Product Management", "AI/GenAI", "Power BI", "SaaS Migration", "IoT"]
+    },
+    {
+      company: "Siemens",
+      role: "Senior IT Product Owner",
+      period: "November 2020 - September 2022",
+      location: "Lisbon, Portugal",
+      type: "Full-time",
+      logo: "SI",
+      highlights: [
+        "Grew user adoption 5x for a global SaaS password-management product",
+        "Engaged with Product & Solution Security Experts for security reviews and risk assessments",
+        "Managed Siemens Energy carve-out project ensuring smooth and compliant transition",
+        "Scaled password management SaaS to 13+ countries while building internal BI tools"
+      ],
+      skills: ["SaaS Scaling", "Security", "Risk Management", "Global Teams"]
+    },
+    {
+      company: "BRQ Digital Solutions",
+      role: "Digital Transformation Product Owner/Team Lead",
+      period: "January 2019 - November 2020",
+      location: "Lisbon, Portugal",
+      type: "Full-time",
+      logo: "BQ",
+      highlights: [
+        "Led two remote cross-functional Scrum teams for high-impact native iOS/Android app",
+        "Collaborated with sales consulting on multiple RFIs and RFPs",
+        "Contributed directly to two new contract wins through technical consultation",
+        "Delivered solutions for TIM Brazil with focus on mobile-first approach"
+      ],
+      skills: ["Mobile Development", "Scrum", "Remote Teams", "Sales Support"]
+    },
+    {
+      company: "TIM Brazil (Telecom Italia Mobile)",
+      role: "Product Owner for Web & Mobile",
+      period: "July 2011 - October 2018",
+      location: "Rio de Janeiro, Brazil",
+      type: "Full-time",
+      logo: "TI",
+      highlights: [
+        "Launched and scaled TIM's consumer self-service app to 8.2M total users (1.4M daily sessions)",
+        "Improved app ratings from 1.5 to 4.0 stars and achieved Top 5 Utility app store ranking",
+        "Spearheaded TIM's first Agile project in 2011, reducing consumer portal lead time by 67%",
+        "Managed €300k annual IT budget with 3 direct reports"
+      ],
+      skills: ["Mobile Apps", "Agile Transformation", "Budget Management", "Team Leadership"]
+    }
+  ];
+
+  return (
+    <section id="experience" className="py-20 section-gradient">
+      <div className="container mx-auto px-6">
+        <div className="max-w-5xl mx-auto">
+          {/* Section Header */}
+          <div className="text-center mb-16 fade-in-up">
+            <div className="inline-flex items-center gap-2 bg-primary-muted text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
+              <Building size={16} />
+              Professional Experience
+            </div>
+            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
+              15+ Years of Product Leadership
+            </h2>
+            <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              A proven track record of transforming complex technical challenges into scalable digital products 
+              across manufacturing, telecom, education, and enterprise IT sectors.
+            </p>
+          </div>
+
+          {/* Experience Timeline */}
+          <div className="space-y-8 fade-in-up">
+            {experiences.map((exp, index) => (
+              <div
+                key={index}
+                className="professional-card group relative"
+              >
+                {/* Timeline connector */}
+                {index < experiences.length - 1 && (
+                  <div className="absolute left-14 top-24 w-0.5 h-16 bg-border hidden lg:block"></div>
+                )}
+
+                <div className="flex flex-col lg:flex-row gap-6">
+                  {/* Company Logo & Period */}
+                  <div className="flex-shrink-0">
+                    <div className="w-16 h-16 hero-gradient rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
+                      <span className="text-primary-foreground font-bold text-lg">
+                        {exp.logo}
+                      </span>
+                    </div>
+                    <div className="hidden lg:block space-y-1">
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <Calendar size={14} />
+                        {exp.period}
+                      </div>
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <MapPin size={14} />
+                        {exp.location}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Content */}
+                  <div className="flex-1 space-y-4">
+                    {/* Header */}
+                    <div className="space-y-2">
+                      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-2">
+                        <h3 className="text-xl font-bold text-foreground">
+                          {exp.role}
+                        </h3>
+                        <Badge variant="secondary" className="self-start lg:self-center">
+                          {exp.type}
+                        </Badge>
+                      </div>
+                      <div className="text-lg font-semibold text-primary">
+                        {exp.company}
+                      </div>
+                      
+                      {/* Mobile period and location */}
+                      <div className="lg:hidden space-y-1">
+                        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                          <Calendar size={14} />
+                          {exp.period}
+                        </div>
+                        <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                          <MapPin size={14} />
+                          {exp.location}
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Key Highlights */}
+                    <div className="space-y-3">
+                      {exp.highlights.map((highlight, highlightIndex) => (
+                        <div
+                          key={highlightIndex}
+                          className="flex items-start gap-3 text-muted-foreground"
+                        >
+                          <ArrowRight 
+                            size={16} 
+                            className="text-primary mt-0.5 flex-shrink-0" 
+                          />
+                          <span className="leading-relaxed">
+                            {highlight}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+
+                    {/* Skills */}
+                    <div className="flex flex-wrap gap-2 pt-2">
+                      {exp.skills.map((skill) => (
+                        <Badge 
+                          key={skill} 
+                          variant="outline"
+                          className="text-xs border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground"
+                        >
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Career Stats */}
+          <div className="mt-16 professional-card fade-in-up">
+            <div className="text-center mb-8">
+              <h3 className="text-xl font-bold text-foreground mb-2">
+                Career Impact Summary
+              </h3>
+              <p className="text-muted-foreground">
+                Quantifiable results across different industries and roles
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-4 gap-8 text-center">
+              <div className="space-y-2">
+                <div className="text-2xl font-bold text-primary">5</div>
+                <div className="text-sm text-muted-foreground">Major Companies</div>
+              </div>
+              <div className="space-y-2">
+                <div className="text-2xl font-bold text-primary">4</div>
+                <div className="text-sm text-muted-foreground">Countries Worked</div>
+              </div>
+              <div className="space-y-2">
+                <div className="text-2xl font-bold text-primary">€300k+</div>
+                <div className="text-sm text-muted-foreground">Budget Managed</div>
+              </div>
+              <div className="space-y-2">
+                <div className="text-2xl font-bold text-primary">30+</div>
+                <div className="text-sm text-muted-foreground">Team Members Led</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ExperienceSection;
