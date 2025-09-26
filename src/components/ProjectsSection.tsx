@@ -1,78 +1,46 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github, TrendingUp, Brain, Monitor, Zap } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const ProjectsSection = () => {
-  const projects = [
-    {
-      title: "Machine Learning Energy Forecast Model",
-      description: "Developed a sophisticated ML model achieving 96.4% accuracy in energy consumption prediction for industrial manufacturing environments. The model uses time-series analysis and incorporates multiple environmental and operational variables.",
-      category: "AI/ML",
-      icon: <Brain className="w-6 h-6" />,
-      technologies: ["Python", "scikit-learn", "Time Series Analysis", "Data Visualization"],
-      achievements: [
-        "96.4% prediction accuracy",
-        "Real-time energy monitoring",
-        "Cost optimization insights"
-      ],
-      link: "#",
-      status: "Production",
-      impact: "Enabled 15% reduction in energy costs"
-    },
-    {
-      title: "Self-Hosted AI Tools & Infrastructure Lab",
-      description: "Built and deployed a comprehensive AI infrastructure using open-source tools for experimentation with LLMs, vector databases, and conversational AI. This lab serves as a testing ground for AI product features and training.",
-      category: "AI Infrastructure",
-      icon: <Monitor className="w-6 h-6" />,
-      technologies: ["Ollama", "OpenWebUI", "LangChain", "Langfuse", "Qdrant", "Docker"],
-      achievements: [
-        "Multi-model LLM support",
-        "Vector database integration",
-        "Conversation analytics"
-      ],
-      link: "#",
-      status: "Active Development",
-      impact: "Accelerated AI feature prototyping by 60%"
-    },
-    {
-      title: "SBB Punctuality Analytics Dashboard",
-      description: "Created an interactive Power BI dashboard analyzing Swiss railway punctuality patterns using public transportation data. The dashboard provides insights into delays, seasonal trends, and route performance.",
-      category: "Data Analytics",
-      icon: <TrendingUp className="w-6 h-6" />,
-      technologies: ["Power BI", "Python", "API Integration", "Statistical Analysis"],
-      achievements: [
-        "Real-time delay tracking",
-        "Seasonal pattern analysis",
-        "Route optimization insights"
-      ],
-      link: "#",
-      status: "Completed",
-      impact: "Improved route planning efficiency"
-    },
-    {
-      title: "GFMS Machine Monitor Dashboard",
-      description: "Led the development of a real-time industrial machine monitoring system using OPC-UA and MTConnect protocols. The platform provides operational insights and predictive maintenance capabilities.",
-      category: "IoT/Industrial",
-      icon: <Zap className="w-6 h-6" />,
-      technologies: ["OPC-UA", "MTConnect", "Azure IoT", "Power BI", "Real-time Analytics"],
-      achievements: [
-        "79% reduction in response times",
-        "Real-time machine monitoring",
-        "Predictive maintenance alerts"
-      ],
-      link: "#",
-      status: "Production",
-      impact: "39% QoQ machine connection growth"
+  const { t } = useTranslation();
+
+  // Helper function to translate projects safely
+  const getTranslatedProjects = () => {
+    try {
+      const projects = t('projects.items', { returnObjects: true });
+      return Array.isArray(projects) ? projects : [];
+    } catch {
+      return [];
     }
+  };
+
+  const projectIcons = [
+    <Brain className="w-6 h-6" />,
+    <Monitor className="w-6 h-6" />,
+    <TrendingUp className="w-6 h-6" />,
+    <Zap className="w-6 h-6" />
+  ];
+
+  const projectTechnologies = [
+    ["Python", "scikit-learn", "Time Series Analysis", "Data Visualization"],
+    ["Ollama", "OpenWebUI", "LangChain", "Langfuse", "Qdrant", "Docker"],
+    ["Power BI", "Python", "API Integration", "Statistical Analysis"],
+    ["OPC-UA", "MTConnect", "Azure IoT", "Power BI", "Real-time Analytics"]
   ];
 
   const getStatusColor = (status: string) => {
+    const translatedProduction = t('projects.statuses.production');
+    const translatedActiveDevelopment = t('projects.statuses.activeDevelopment');
+    const translatedCompleted = t('projects.statuses.completed');
+
     switch (status) {
-      case "Production":
+      case translatedProduction:
         return "bg-green-100 text-green-800 border-green-200";
-      case "Active Development":
+      case translatedActiveDevelopment:
         return "bg-blue-100 text-blue-800 border-blue-200";
-      case "Completed":
+      case translatedCompleted:
         return "bg-purple-100 text-purple-800 border-purple-200";
       default:
         return "bg-gray-100 text-gray-800 border-gray-200";
@@ -87,20 +55,19 @@ const ProjectsSection = () => {
           <div className="text-center mb-16 fade-in-up">
             <div className="inline-flex items-center gap-2 bg-primary-muted text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
               <Brain size={16} />
-              Featured Projects
+              {t('projects.badge')}
             </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-              AI Projects & Digital Solutions
+              {t('projects.title')}
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Showcasing hands-on experience with machine learning, AI infrastructure, and data analytics 
-              projects that demonstrate technical expertise and business impact.
+              {t('projects.subtitle')}
             </p>
           </div>
 
           {/* Projects Grid */}
           <div className="grid lg:grid-cols-2 gap-8 fade-in-up">
-            {projects.map((project, index) => (
+            {getTranslatedProjects().map((project, index) => (
               <div
                 key={index}
                 className="professional-card group h-full flex flex-col"
@@ -109,7 +76,7 @@ const ProjectsSection = () => {
                 <div className="flex items-start gap-4 mb-6">
                   <div className="flex-shrink-0 w-14 h-14 hero-gradient rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
                     <div className="text-primary-foreground">
-                      {project.icon}
+                      {projectIcons[index]}
                     </div>
                   </div>
                   <div className="flex-1">
@@ -134,7 +101,7 @@ const ProjectsSection = () => {
 
                 {/* Key Achievements */}
                 <div className="mb-6">
-                  <h4 className="text-sm font-semibold text-foreground mb-3">Key Achievements:</h4>
+                  <h4 className="text-sm font-semibold text-foreground mb-3">{t('projects.labels.keyAchievements')}</h4>
                   <div className="space-y-2">
                     {project.achievements.map((achievement, achievementIndex) => (
                       <div
@@ -151,17 +118,17 @@ const ProjectsSection = () => {
                 {/* Business Impact */}
                 <div className="mb-6 p-3 bg-accent rounded-lg border border-accent/20">
                   <div className="text-sm font-medium text-accent-foreground">
-                    Business Impact: {project.impact}
+                    {t('projects.labels.businessImpact')} {project.impact}
                   </div>
                 </div>
 
                 {/* Technologies */}
                 <div className="mb-6">
-                  <h4 className="text-sm font-semibold text-foreground mb-3">Technologies Used:</h4>
+                  <h4 className="text-sm font-semibold text-foreground mb-3">{t('projects.labels.technologiesUsed')}</h4>
                   <div className="flex flex-wrap gap-2">
-                    {project.technologies.map((tech) => (
-                      <Badge 
-                        key={tech} 
+                    {projectTechnologies[index]?.map((tech) => (
+                      <Badge
+                        key={tech}
                         variant="outline"
                         className="text-xs border-primary/20 text-primary"
                       >
@@ -176,12 +143,12 @@ const ProjectsSection = () => {
                   <Button
                     size="sm"
                     className="flex-1 hero-gradient group"
-                    onClick={() => window.open(project.link, '_blank')}
+                    onClick={() => window.open("#", '_blank')}
                   >
-                    View Details
-                    <ExternalLink 
-                      size={16} 
-                      className="ml-2 group-hover:translate-x-1 transition-transform duration-200" 
+                    {t('projects.labels.viewDetails')}
+                    <ExternalLink
+                      size={16}
+                      className="ml-2 group-hover:translate-x-1 transition-transform duration-200"
                     />
                   </Button>
                 </div>
@@ -194,11 +161,10 @@ const ProjectsSection = () => {
             <div className="professional-card inline-block">
               <div className="text-center space-y-4">
                 <h3 className="text-xl font-bold text-foreground">
-                  Interested in More Technical Details?
+                  {t('projects.cta.title')}
                 </h3>
                 <p className="text-muted-foreground max-w-md">
-                  I'm always working on new AI experiments and digital transformation projects. 
-                  Let's discuss how these experiences can benefit your organization.
+                  {t('projects.cta.description')}
                 </p>
                 <Button
                   className="hero-gradient glow-effect"
@@ -209,7 +175,7 @@ const ProjectsSection = () => {
                     }
                   }}
                 >
-                  Let's Connect
+                  {t('projects.cta.button')}
                   <ExternalLink size={16} className="ml-2" />
                 </Button>
               </div>

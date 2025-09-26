@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Calendar, Building, ArrowRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import heigVdLogo from "@/assets/company-logos/heig-vd-logo.png";
 import gfLogo from "@/assets/company-logos/gf-logo.png";
 import siemensLogo from "@/assets/company-logos/siemens-logo.png";
@@ -8,6 +9,7 @@ import timLogo from "@/assets/company-logos/tim-brasil-logo.png";
 import globoLogo from "@/assets/company-logos/globo-logo.png";
 
 const ExperienceSection = () => {
+  const { t } = useTranslation();
   const experiences = [
     {
       company: "HEIG-VD",
@@ -109,14 +111,13 @@ const ExperienceSection = () => {
           <div className="text-center mb-16 fade-in-up">
             <div className="inline-flex items-center gap-2 bg-primary-muted text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
               <Building size={16} />
-              Professional Experience
+              {t('experience.badge')}
             </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-              15+ Years of Product Leadership
+              {t('experience.title')}
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              A proven track record of transforming complex technical challenges into scalable digital products 
-              across manufacturing, telecom, education, and enterprise IT sectors.
+              {t('experience.subtitle')}
             </p>
           </div>
 
@@ -127,10 +128,6 @@ const ExperienceSection = () => {
                 key={index}
                 className="professional-card group relative"
               >
-                {/* Timeline connector */}
-                {index < experiences.length - 1 && (
-                  <div className="absolute left-14 top-24 w-0.5 h-16 bg-border hidden lg:block"></div>
-                )}
 
                 <div className="flex flex-col lg:flex-row gap-6">
                   {/* Company Logo & Period */}

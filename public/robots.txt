@@ -1,14 +1,13 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
 User-agent: *
 Allow: /
+
+# Sitemap
+Sitemap: https://carlosmello.work/sitemap.xml
+
+# Common crawl delays
+Crawl-delay: 1
+
+# Block access to sensitive areas
+Disallow: /.env
+Disallow: /node_modules/
+Disallow: /src/

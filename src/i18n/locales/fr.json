@@ -1,0 +1,207 @@
+{
+  "navigation": {
+    "about": "À propos",
+    "expertise": "Expertise",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "hero": {
+    "location": "Région de Berne, Suisse",
+    "role": "Chef de Projet Transformation Digitale",
+    "title": "Transformer les Défis Techniques Complexes en Produits Digitaux Évolutifs",
+    "subtitle": "Chef de Projet Transformation Digitale chez HEIG-VD | Product Owner IA | Leader GenAI Certifié Google avec plus de 15 ans d'expérience en gestion du cycle de vie produit",
+    "cta": "Connectons-nous",
+    "languages": "Langues que je parle couramment:",
+    "availability": "Disponible pour de nouvelles opportunités",
+    "stats": {
+      "yearsExperience": "Années d'Expérience",
+      "usersServed": "Utilisateurs Servis",
+      "timeReduction": "Réduction de Temps"
+    }
+  },
+  "about": {
+    "badge": "À propos de moi",
+    "title": "Passionné par l'Innovation Digitale et les Solutions Basées sur l'IA",
+    "description": "Je suis un Chef de Projet Transformation Digitale expérimenté avec plus de 15 ans d'expérience en gestion du cycle de vie produit. Actuellement chez HEIG-VD, je me spécialise dans la création de ponts entre les défis techniques complexes et les solutions business évolutives.",
+    "passion": "Ma passion réside dans l'exploitation des technologies IA de pointe et la gestion stratégique de produits pour conduire des initiatives significatives de transformation digitale qui apportent une vraie valeur business.",
+    "coreStrengthsTitle": "Compétences Clés et Expertise",
+    "highlights": [
+      "Plus de 15 ans en gestion du cycle de vie produit",
+      "Leader GenAI Certifié Google",
+      "Expert en architecture de solutions basées sur l'IA",
+      "Historique prouvé en leadership d'équipes pluridisciplinaires"
+    ],
+    "achievements": [
+      {
+        "stat": "79%",
+        "description": "Réduction des temps de réponse service",
+        "detail": "chez Georg Fischer Machining Solutions"
+      },
+      {
+        "stat": "8.2M",
+        "description": "Base d'utilisateurs augmentée",
+        "detail": "App mobile TIM Brazil"
+      },
+      {
+        "stat": "5x",
+        "description": "Augmentation adoption utilisateurs",
+        "detail": "Plateforme SaaS globale Siemens"
+      },
+      {
+        "stat": "39%",
+        "description": "Croissance QoQ connexions machines",
+        "detail": "depuis Q3 2023 chez GFMS"
+      }
+    ],
+    "coreStrengths": [
+      {
+        "title": "Leadership IA & Technologie",
+        "description": "Leader GenAI Certifié Google avec expérience pratique en LLMs, architectures RAG et ingénierie des prompts. Direction d'initiatives IA et coaching d'équipes sur l'adoption de l'IA générative."
+      },
+      {
+        "title": "Leadership d'Équipes Pluridisciplinaires",
+        "description": "Plus de 15 ans de gestion de relations complexes avec les parties prenantes dans la fabrication, les télécoms, l'éducation et l'IT d'entreprise, assurant l'alignement entre objectifs techniques et business."
+      },
+      {
+        "title": "Stratégie de Transformation Digitale",
+        "description": "Historique prouvé de traduction des défis techniques complexes en produits digitaux évolutifs qui génèrent un impact business mesurable et une efficacité opérationnelle."
+      },
+      {
+        "title": "Perspective Multilingue & Globale",
+        "description": "Maîtrise native du portugais et de l'anglais, compétence professionnelle en français, allemand et espagnol, permettant une collaboration efficace dans des équipes internationales diverses."
+      }
+    ],
+    "professionalJourney": {
+      "title": "Parcours Professionnel",
+      "paragraph1": "Mes plus de 15 ans de gestion du cycle de vie produit dans la fabrication, les télécoms et l'IT d'entreprise ont façonné mon approche de la prise de décision basée sur les données et de l'alignement des parties prenantes. Chez GF Machining Solutions, j'ai livré des tableaux de bord de surveillance machine en temps réel et des programmes de migration SaaS qui ont amélioré la transparence opérationnelle globalement.",
+      "paragraph2": "Chez Siemens, j'ai fait évoluer un SaaS de gestion de mots de passe vers plus de 13 pays tout en construisant des outils BI internes pour l'optimisation de l'expérience utilisateur. En tant que défenseur reconnu de l'IA, j'ai été sélectionné pour les pilotes Microsoft 365 Copilot et ai coaché des équipes globales sur les meilleures pratiques d'ingénierie des prompts.",
+      "paragraph3": "Actuellement en expérimentation avec des stacks LLM auto-hébergés (Ollama, OpenWebUI, LangChain, Langfuse, Qdrant) pour approfondir la compréhension de l'infrastructure produit IA et stimuler l'innovation en technologie éducative. Je combine les méthodologies Agile avec la profondeur technique pour transformer des exigences complexes en produits utilisables et évolutifs."
+    },
+    "technicalExpertise": "Expertise Technique :"
+  },
+  "expertise": {
+    "badge": "Expertise Principale",
+    "title": "Compétences qui Stimulent l'Innovation",
+    "subtitle": "Un ensemble de compétences complet combinant la réflexion stratégique produit, l'expertise IA de pointe et des capacités de leadership éprouvées développées au cours de plus de 15 ans de livraison de solutions digitales complexes.",
+    "areas": {
+      "productStrategy": {
+        "title": "Produit & Stratégie",
+        "skills": [
+          "Priorisation Basée sur les Données",
+          "Agile (Scrum, SAFe)",
+          "Gestion des Parties Prenantes",
+          "Transformation Digitale"
+        ]
+      },
+      "aiTechnology": {
+        "title": "IA & Technologie",
+        "skills": [
+          "Agents IA & MCP",
+          "Architectures LLM/RAG",
+          "Ingénierie des Prompts",
+          "Plateformes Cloud (Azure, GCP)"
+        ]
+      },
+      "leadership": {
+        "title": "Leadership",
+        "skills": [
+          "Leadership d'Équipes Pluridisciplinaires",
+          "Gestion du Changement",
+          "Métriques de Valeur & KPIs",
+          "Risques & Conformité"
+        ]
+      }
+    },
+    "techStack": {
+      "title": "Expertise Technique",
+      "subtitle": "Technologies et frameworks modernes avec lesquels je travaille pour livrer des solutions évolutives de niveau entreprise.",
+      "categories": {
+        "aiMl": {
+          "title": "IA & ML",
+          "technologies": ["APIs OpenAI/Gemini", "Ollama", "LangChain", "Qdrant", "scikit-learn", "Ingénierie des Prompts"]
+        },
+        "dataBi": {
+          "title": "Data & BI",
+          "technologies": ["Power BI", "Python", "SQL", "Databricks", "Power Automate", "Visualisation de Données"]
+        },
+        "cloudDevops": {
+          "title": "Cloud & DevOps",
+          "technologies": ["Azure", "GCP", "Docker", "Git", "Intégration API", "Plateformes SaaS"]
+        },
+        "productTools": {
+          "title": "Outils Produit",
+          "technologies": ["Jira", "Figma", "Confluence", "Scrum", "SAFe", "Design Thinking"]
+        }
+      }
+    }
+  },
+  "experience": {
+    "badge": "Parcours Professionnel",
+    "title": "Plus de 15 Ans d'Excellence en Leadership Produit",
+    "subtitle": "Des startups aux entreprises mondiales, j'ai constamment livré des résultats transformationnels à travers diverses industries et paysages techniques."
+  },
+  "projects": {
+    "badge": "Réalisations Phares",
+    "title": "Projets Transformateurs & Résultats",
+    "subtitle": "Applications concrètes de l'IA, de l'analyse de données et de la gestion stratégique de produits qui ont généré un impact business mesurable."
+  },
+  "certifications": {
+    "badge": "Accréditations & Formation",
+    "title": "Développement Professionnel Continu",
+    "subtitle": "Rester à la pointe de la technologie grâce à des certifications formelles et à l'apprentissage pratique en IA, gestion de produits et transformation digitale."
+  },
+  "contact": {
+    "badge": "Connectons-nous",
+    "title": "Prêt à Transformer vos Produits Digitaux?",
+    "subtitle": "Que vous cherchiez à implémenter des solutions IA, faire évoluer vos produits digitaux ou conduire des initiatives de transformation digitale, j'aimerais discuter de notre collaboration.",
+    "form": {
+      "title": "Envoyez-moi un Message",
+      "description": "Je suis toujours intéressé par les discussions sur les nouvelles opportunités en transformation digitale, développement de produits IA et rôles stratégiques de gestion produit.",
+      "name": "Nom Complet",
+      "email": "Adresse Email",
+      "company": "Entreprise/Organisation",
+      "message": "Message",
+      "namePlaceholder": "Votre nom complet",
+      "emailPlaceholder": "votre.email@entreprise.com",
+      "companyPlaceholder": "Votre entreprise ou organisation",
+      "messagePlaceholder": "Parlez-moi de votre projet, opportunité ou comment je peux aider...",
+      "submit": "Envoyer le Message",
+      "sending": "Envoi du Message...",
+      "success": "Message Envoyé avec Succès!",
+      "successDescription": "Merci de m'avoir contacté. Je vous répondrai dans les 24 heures.",
+      "error": "Échec de l'Envoi du Message",
+      "errorDescription": "Il y a eu une erreur lors de l'envoi de votre message. Veuillez réessayer ou me contacter directement."
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "description": "Vous préférez un contact direct? N'hésitez pas à me contacter en utilisant l'une des méthodes ci-dessous.",
+      "email": "me@carlosmello.work",
+      "phone": "+41 77 490 32 40",
+      "location": "Biel/Bienne, Suisse",
+      "linkedin": "linkedin.com/in/carlosduplar",
+      "github": "github.com/carlosduplar"
+    },
+    "features": {
+      "title": "Pourquoi Travailler Avec Moi?",
+      "responseTime": {
+        "title": "Temps de Réponse 24h",
+        "description": "Je réponds généralement aux messages dans les 24 heures"
+      },
+      "languages": {
+        "title": "Plusieurs Langues",
+        "description": "Disponible en FR, EN, PT, DE, ES"
+      },
+      "availability": {
+        "title": "Ouvert aux Opportunités",
+        "description": "Conseil, postes permanents et partenariats"
+      }
+    },
+    "cta": {
+      "title": "Prêt à Commencer?",
+      "description": "Planifions un appel pour discuter de vos besoins en transformation digitale, stratégie IA ou défis de développement produit.",
+      "button": "Planifier un Appel"
+    }
+  }
+}

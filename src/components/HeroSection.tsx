@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MapPin, Briefcase } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import heroImage from "@/assets/carlos-profile.png";
 
 const HeroSection = () => {
+  const { t } = useTranslation();
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
@@ -11,7 +13,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <header className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with gradient overlay */}
       <div className="absolute inset-0 section-gradient"></div>
       
@@ -24,27 +26,22 @@ const HeroSection = () => {
             <div className="flex flex-wrap gap-3">
               <div className="flex items-center gap-2 bg-primary-muted text-primary px-4 py-2 rounded-full text-sm font-medium">
                 <MapPin size={16} />
-                Greater Bern Area, Switzerland
+                {t('hero.location')}
               </div>
               <div className="flex items-center gap-2 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-medium">
                 <Briefcase size={16} />
-                Digital Transformation PM
+                {t('hero.role')}
               </div>
             </div>
 
             {/* Main Headline */}
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
-                Transforming Complex Technical{" "}
-                <span className="bg-gradient-to-r from-primary to-primary-soft bg-clip-text text-transparent">
-                  Challenges
-                </span>{" "}
-                into Scalable Digital Products
+                {t('hero.title')}
               </h1>
-              
+
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                Digital Transformation Project Manager at HEIG-VD | AI Product Owner | 
-                Google Certified GenAI Leader with 15+ years of product lifecycle management experience
+                {t('hero.subtitle')}
               </p>
             </div>
 
@@ -52,15 +49,15 @@ const HeroSection = () => {
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="text-center lg:text-left">
                 <div className="text-2xl font-bold text-primary">15+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
+                <div className="text-sm text-muted-foreground">{t('hero.stats.yearsExperience')}</div>
               </div>
               <div className="text-center lg:text-left">
                 <div className="text-2xl font-bold text-primary">8.2M</div>
-                <div className="text-sm text-muted-foreground">Users Served</div>
+                <div className="text-sm text-muted-foreground">{t('hero.stats.usersServed')}</div>
               </div>
               <div className="text-center lg:text-left">
                 <div className="text-2xl font-bold text-primary">79%</div>
-                <div className="text-sm text-muted-foreground">Time Reduction</div>
+                <div className="text-sm text-muted-foreground">{t('hero.stats.timeReduction')}</div>
               </div>
             </div>
 
@@ -71,7 +68,7 @@ const HeroSection = () => {
                 onClick={() => scrollToSection("#projects")}
                 className="hero-gradient glow-effect hover:glow-effect group text-lg px-8 py-6"
               >
-                View Projects
+                {t('navigation.projects')}
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-200" size={20} />
               </Button>
               <Button
@@ -80,13 +77,13 @@ const HeroSection = () => {
                 onClick={() => scrollToSection("#contact")}
                 className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-6"
               >
-                Contact Me
+                {t('navigation.contact')}
               </Button>
             </div>
 
             {/* Languages */}
             <div className="pt-4">
-              <p className="text-sm text-muted-foreground mb-3">Multilingual Professional:</p>
+              <p className="text-sm text-muted-foreground mb-3">{t('hero.languages')}</p>
               <div className="flex flex-wrap gap-2">
                 {["Portuguese", "English", "French", "German", "Spanish"].map((lang) => (
                   <span
@@ -104,11 +101,11 @@ const HeroSection = () => {
           <div className="relative fade-in-right">
             <div className="relative">
               {/* Main image container with professional styling */}
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[3/4]">
                 <img
                   src={heroImage}
                   alt="Carlos Duplar Mello - Professional Portrait"
-                  className="w-full h-[600px] object-cover object-top scale-75 transform translate-y-4"
+                  className="w-full h-full object-cover object-center"
                 />
                 
                 {/* Gradient overlay for text readability */}
@@ -121,11 +118,11 @@ const HeroSection = () => {
                       Carlos Duplar Mello
                     </h3>
                     <p className="text-sm text-muted-foreground mb-2">
-                      Digital Transformation Project Manager
+                      {t('hero.role')}
                     </p>
                     <div className="flex items-center gap-2 text-xs text-primary">
                       <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
-                      Available for new opportunities
+                      {t('hero.availability')}
                     </div>
                   </div>
                 </div>
@@ -145,7 +142,7 @@ const HeroSection = () => {
           <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 

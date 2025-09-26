@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import LanguageSelector from "./LanguageSelector";
 
 const Navigation = () => {
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -15,12 +18,12 @@ const Navigation = () => {
   }, []);
 
   const navItems = [
-    { href: "#about", label: "About" },
-    { href: "#expertise", label: "Expertise" },
-    { href: "#experience", label: "Experience" },
-    { href: "#projects", label: "Projects" },
-    { href: "#certifications", label: "Certifications" },
-    { href: "#contact", label: "Contact" },
+    { href: "#about", label: t('navigation.about') },
+    { href: "#expertise", label: t('navigation.expertise') },
+    { href: "#experience", label: t('navigation.experience') },
+    { href: "#projects", label: t('navigation.projects') },
+    { href: "#certifications", label: t('navigation.certifications') },
+    { href: "#contact", label: t('navigation.contact') },
   ];
 
   const scrollToSection = (href: string) => {
@@ -64,8 +67,9 @@ const Navigation = () => {
               onClick={() => scrollToSection("#contact")}
               className="hero-gradient glow-effect hover:glow-effect"
             >
-              Let's Connect
+              {t('hero.cta')}
             </Button>
+            <LanguageSelector />
           </div>
 
           {/* Mobile Menu Button */}
@@ -97,8 +101,9 @@ const Navigation = () => {
                   onClick={() => scrollToSection("#contact")}
                   className="hero-gradient glow-effect self-start mt-4"
                 >
-                  Let's Connect
+                  {t('hero.cta')}
                 </Button>
+                <LanguageSelector />
               </div>
             </div>
           </div>

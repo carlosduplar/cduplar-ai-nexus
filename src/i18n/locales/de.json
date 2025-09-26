@@ -1,0 +1,207 @@
+{
+  "navigation": {
+    "about": "Über mich",
+    "expertise": "Expertise",
+    "experience": "Erfahrung",
+    "projects": "Projekte",
+    "certifications": "Zertifizierungen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "location": "Grossraum Bern, Schweiz",
+    "role": "Digital Transformation PM",
+    "title": "Komplexe Technische Herausforderungen in Skalierbare Digitale Produkte Verwandeln",
+    "subtitle": "Digital Transformation Projektmanager bei HEIG-VD | AI Product Owner | Google Zertifizierter GenAI Leader mit 15+ Jahren Erfahrung im Produktlebenszyklus-Management",
+    "cta": "Lassen Sie uns vernetzen",
+    "languages": "Sprachen, die ich fließend spreche:",
+    "availability": "Verfügbar für neue Möglichkeiten",
+    "stats": {
+      "yearsExperience": "Jahre Erfahrung",
+      "usersServed": "Betreute Nutzer",
+      "timeReduction": "Zeitreduzierung"
+    }
+  },
+  "about": {
+    "badge": "Über Mich",
+    "title": "Leidenschaftlich für Digitale Innovation und KI-Basierte Lösungen",
+    "description": "Ich bin ein erfahrener Digital Transformation Projektmanager mit über 15 Jahren Erfahrung im Produktlebenszyklus-Management. Derzeit bei HEIG-VD, spezialisiere ich mich darauf, komplexe technische Herausforderungen mit skalierbaren Geschäftslösungen zu verbinden.",
+    "passion": "Meine Leidenschaft liegt darin, modernste KI-Technologien und strategisches Produktmanagement zu nutzen, um bedeutungsvolle digitale Transformationsinitiativen voranzutreiben, die echten Geschäftswert liefern.",
+    "coreStrengthsTitle": "Kernkompetenzen und Fachexpertise",
+    "highlights": [
+      "15+ Jahre im Produktlebenszyklus-Management",
+      "Google Zertifizierter GenAI Leader",
+      "Experte in KI-basierten Lösungsarchitekturen",
+      "Nachgewiesene Erfolgsbilanz in funktionsübergreifender Teamführung"
+    ],
+    "achievements": [
+      {
+        "stat": "79%",
+        "description": "Verkürzung der Service-Antwortzeiten",
+        "detail": "bei Georg Fischer Machining Solutions"
+      },
+      {
+        "stat": "8.2M",
+        "description": "Nutzerbasis gewachsen",
+        "detail": "TIM Brazil mobile App"
+      },
+      {
+        "stat": "5x",
+        "description": "Steigerung der Nutzerakzeptanz",
+        "detail": "Siemens globale SaaS-Plattform"
+      },
+      {
+        "stat": "39%",
+        "description": "QoQ Maschinenverbindungswachstum",
+        "detail": "seit Q3 2023 bei GFMS"
+      }
+    ],
+    "coreStrengths": [
+      {
+        "title": "KI & Technologie-Leadership",
+        "description": "Google Zertifizierter GenAI Leader mit praktischer Erfahrung in LLMs, RAG-Architekturen und Prompt Engineering. Führung von KI-Initiativen und Coaching von Teams bei der Einführung generativer KI."
+      },
+      {
+        "title": "Funktionsübergreifende Teamführung",
+        "description": "15+ Jahre Erfahrung in der Führung komplexer Stakeholder-Beziehungen in Fertigung, Telekommunikation, Bildung und Unternehmens-IT, mit Fokus auf Abstimmung zwischen technischen und Geschäftszielen."
+      },
+      {
+        "title": "Digitale Transformationsstrategie",
+        "description": "Nachgewiesene Erfolgsbilanz bei der Umsetzung komplexer technischer Herausforderungen in skalierbare digitale Produkte, die messbaren Geschäftswert und operative Effizienz liefern."
+      },
+      {
+        "title": "Mehrsprachige & Globale Perspektive",
+        "description": "Muttersprachliche Beherrschung von Portugiesisch und Englisch, professionelle Arbeitssprachen Französisch, Deutsch und Spanisch, ermöglicht effektive Zusammenarbeit in internationalen Teams."
+      }
+    ],
+    "professionalJourney": {
+      "title": "Beruflicher Werdegang",
+      "paragraph1": "Meine 15+ Jahre im Produktlebenszyklus-Management in Fertigung, Telekommunikation und Unternehmens-IT haben meinen Ansatz für datengetriebene Entscheidungsfindung und Stakeholder-Abstimmung geprägt. Bei GF Machining Solutions lieferte ich Echtzeit-Maschinenüberwachungs-Dashboards und SaaS-Migrationsprogramme, die die operative Transparenz global verbesserten.",
+      "paragraph2": "Bei Siemens skalierte ich eine Passwort-Management-SaaS auf 13+ Länder und baute interne BI-Tools für die Optimierung der Benutzererfahrung auf. Als anerkannter KI-Befürworter wurde ich für Microsoft 365 Copilot-Pilotprojekte ausgewählt und coachte globale Teams in Prompt Engineering Best Practices.",
+      "paragraph3": "Derzeit experimentiere ich mit selbst gehosteten LLM-Stacks (Ollama, OpenWebUI, LangChain, Langfuse, Qdrant), um das Verständnis für KI-Produktinfrastruktur zu vertiefen und Innovation in der Bildungstechnologie voranzutreiben. Ich kombiniere Agile-Methoden mit technischer Tiefe, um komplexe Anforderungen in nutzbare, skalierbare Produkte umzuwandeln."
+    },
+    "technicalExpertise": "Technische Expertise:"
+  },
+  "expertise": {
+    "badge": "Kernexpertise",
+    "title": "Fähigkeiten, die Innovation Vorantreiben",
+    "subtitle": "Ein umfassendes Kompetenzspektrum, das strategisches Produktdenken, modernste KI-Expertise und bewährte Führungskompetenzen kombiniert, aufgebaut über 15+ Jahre der Umsetzung komplexer digitaler Lösungen.",
+    "areas": {
+      "productStrategy": {
+        "title": "Produkt & Strategie",
+        "skills": [
+          "Datengesteuerte Priorisierung",
+          "Agile (Scrum, SAFe)",
+          "Stakeholder-Management",
+          "Digitale Transformation"
+        ]
+      },
+      "aiTechnology": {
+        "title": "KI & Technologie",
+        "skills": [
+          "KI-Agenten & MCP",
+          "LLM/RAG-Architekturen",
+          "Prompt Engineering",
+          "Cloud-Plattformen (Azure, GCP)"
+        ]
+      },
+      "leadership": {
+        "title": "Führung",
+        "skills": [
+          "Funktionsübergreifende Teamführung",
+          "Change Management",
+          "Wertmetriken & KPIs",
+          "Risiko & Compliance"
+        ]
+      }
+    },
+    "techStack": {
+      "title": "Technische Expertise",
+      "subtitle": "Moderne Technologien und Frameworks, mit denen ich skalierbare, unternehmenstaugliche Lösungen liefere.",
+      "categories": {
+        "aiMl": {
+          "title": "KI & ML",
+          "technologies": ["OpenAI/Gemini APIs", "Ollama", "LangChain", "Qdrant", "scikit-learn", "Prompt Engineering"]
+        },
+        "dataBi": {
+          "title": "Daten & BI",
+          "technologies": ["Power BI", "Python", "SQL", "Databricks", "Power Automate", "Datenvisualisierung"]
+        },
+        "cloudDevops": {
+          "title": "Cloud & DevOps",
+          "technologies": ["Azure", "GCP", "Docker", "Git", "API-Integration", "SaaS-Plattformen"]
+        },
+        "productTools": {
+          "title": "Produkttools",
+          "technologies": ["Jira", "Figma", "Confluence", "Scrum", "SAFe", "Design Thinking"]
+        }
+      }
+    }
+  },
+  "experience": {
+    "badge": "Beruflicher Werdegang",
+    "title": "15+ Jahre Exzellenz in der Produktführung",
+    "subtitle": "Von Startups bis hin zu globalen Unternehmen habe ich konsequent transformative Ergebnisse in verschiedenen Branchen und technischen Landschaften geliefert."
+  },
+  "projects": {
+    "badge": "Ausgewählte Arbeiten",
+    "title": "Transformative Projekte & Ergebnisse",
+    "subtitle": "Reale Anwendungen von KI, Datenanalyse und strategischem Produktmanagement, die messbaren Geschäftswert geliefert haben."
+  },
+  "certifications": {
+    "badge": "Zeugnisse & Weiterbildung",
+    "title": "Kontinuierliche Berufliche Entwicklung",
+    "subtitle": "An der Spitze der Technologie bleiben durch formale Zertifizierungen und praktisches Lernen in KI, Produktmanagement und digitaler Transformation."
+  },
+  "contact": {
+    "badge": "Lassen Sie uns vernetzen",
+    "title": "Bereit, Ihre Digitalen Produkte zu Transformieren?",
+    "subtitle": "Ob Sie KI-Lösungen implementieren, Ihre digitalen Produkte skalieren oder digitale Transformationsinitiativen leiten möchten, ich würde gerne besprechen, wie wir zusammenarbeiten können.",
+    "form": {
+      "title": "Senden Sie mir eine Nachricht",
+      "description": "Ich bin immer interessiert an Diskussionen über neue Möglichkeiten in digitaler Transformation, KI-Produktentwicklung und strategischen Produktmanagement-Rollen.",
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "company": "Unternehmen/Organisation",
+      "message": "Nachricht",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "emailPlaceholder": "ihre.email@unternehmen.com",
+      "companyPlaceholder": "Ihr Unternehmen oder Organisation",
+      "messagePlaceholder": "Erzählen Sie mir von Ihrem Projekt, Ihrer Gelegenheit oder wie ich helfen kann...",
+      "submit": "Nachricht Senden",
+      "sending": "Nachricht wird gesendet...",
+      "success": "Nachricht Erfolgreich Gesendet!",
+      "successDescription": "Danke für Ihre Kontaktaufnahme. Ich werde Ihnen innerhalb von 24 Stunden antworten.",
+      "error": "Fehler beim Senden der Nachricht",
+      "errorDescription": "Es gab einen Fehler beim Senden Ihrer Nachricht. Bitte versuchen Sie es erneut oder kontaktieren Sie mich direkt."
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "description": "Bevorzugen Sie direkten Kontakt? Zögern Sie nicht, mich über eine der folgenden Methoden zu kontaktieren.",
+      "email": "me@carlosmello.work",
+      "phone": "+41 77 490 32 40",
+      "location": "Biel/Bienne, Schweiz",
+      "linkedin": "linkedin.com/in/carlosduplar",
+      "github": "github.com/carlosduplar"
+    },
+    "features": {
+      "title": "Warum Mit Mir Arbeiten?",
+      "responseTime": {
+        "title": "24h Antwortzeit",
+        "description": "Ich antworte normalerweise innerhalb von 24 Stunden auf Nachrichten"
+      },
+      "languages": {
+        "title": "Mehrere Sprachen",
+        "description": "Verfügbar in DE, EN, PT, FR, ES"
+      },
+      "availability": {
+        "title": "Offen für Möglichkeiten",
+        "description": "Beratung, Festanstellungen und Partnerschaften"
+      }
+    },
+    "cta": {
+      "title": "Bereit Anzufangen?",
+      "description": "Lassen Sie uns einen Anruf planen, um Ihre Bedürfnisse in der digitalen Transformation, KI-Strategie oder Produktentwicklungsherausforderungen zu besprechen.",
+      "button": "Anruf Planen"
+    }
+  }
+}

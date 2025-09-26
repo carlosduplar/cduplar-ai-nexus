@@ -1,9 +1,10 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { 
-  Award, 
-  GraduationCap, 
-  ExternalLink, 
+import { useTranslation } from "react-i18next";
+import {
+  Award,
+  GraduationCap,
+  ExternalLink,
   Calendar,
   Brain,
   Users,
@@ -12,6 +13,7 @@ import {
 } from "lucide-react";
 
 const CertificationsSection = () => {
+  const { t } = useTranslation();
   const recentCertifications = [
     {
       title: "Machine Learning Foundations for Product Managers",
@@ -125,14 +127,13 @@ const CertificationsSection = () => {
           <div className="text-center mb-16 fade-in-up">
             <div className="inline-flex items-center gap-2 bg-primary-muted text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
               <GraduationCap size={16} />
-              Certifications & Education
+              {t('certifications.badge')}
             </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-              Continuous Learning & Professional Development
+              {t('certifications.title')}
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Staying at the forefront of AI, product management, and digital transformation through 
-              continuous learning and industry-recognized certifications.
+              {t('certifications.subtitle')}
             </p>
           </div>
 

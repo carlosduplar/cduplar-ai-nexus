@@ -1,9 +1,9 @@
-import { 
-  Brain, 
-  Users, 
-  Cog, 
-  BarChart3, 
-  Zap, 
+import {
+  Brain,
+  Users,
+  Cog,
+  BarChart3,
+  Zap,
   Shield,
   Target,
   TrendingUp,
@@ -12,14 +12,36 @@ import {
   Cloud,
   Code
 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const ExpertiseSection = () => {
+  const { t } = useTranslation();
+
+  // Helper function to translate arrays safely
+  const getTranslatedSkills = (area: string) => {
+    try {
+      const skills = t(`expertise.areas.${area}.skills`, { returnObjects: true });
+      return Array.isArray(skills) ? skills : [];
+    } catch {
+      return [];
+    }
+  };
+
+  const getTranslatedTechnologies = (category: string) => {
+    try {
+      const technologies = t(`expertise.techStack.categories.${category}.technologies`, { returnObjects: true });
+      return Array.isArray(technologies) ? technologies : [];
+    } catch {
+      return [];
+    }
+  };
+
   const expertiseAreas = [
     {
       category: "Product & Strategy",
       icon: <Target className="w-8 h-8" />,
       color: "from-blue-500 to-blue-600",
-        skills: [
+      skills: [
         "Data-Driven Prioritization",
         "Agile (Scrum, SAFe)",
         "Stakeholder Management",
@@ -30,7 +52,7 @@ const ExpertiseSection = () => {
       category: "AI & Technology",
       icon: <Brain className="w-8 h-8" />,
       color: "from-purple-500 to-purple-600",
-        skills: [
+      skills: [
         "AI Agents & MCP",
         "LLM/RAG Architectures",
         "Prompt Engineering",
@@ -41,7 +63,7 @@ const ExpertiseSection = () => {
       category: "Leadership",
       icon: <Users className="w-8 h-8" />,
       color: "from-green-500 to-green-600",
-        skills: [
+      skills: [
         "Cross-functional Team Leadership",
         "Change Management",
         "Value Metrics & KPIs",
@@ -81,14 +103,13 @@ const ExpertiseSection = () => {
           <div className="text-center mb-16 fade-in-up">
             <div className="inline-flex items-center gap-2 bg-primary-muted text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
               <Lightbulb size={16} />
-              Core Expertise
+              {t('expertise.badge')}
             </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-              Skills That Drive Innovation
+              {t('expertise.title')}
             </h2>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              A comprehensive skill set combining strategic product thinking, cutting-edge AI expertise, 
-              and proven leadership capabilities built over 15+ years of delivering complex digital solutions.
+              {t('expertise.subtitle')}
             </p>
           </div>
 
@@ -106,12 +127,16 @@ const ExpertiseSection = () => {
                     </div>
                   </div>
                   <h3 className="text-xl font-bold text-foreground">
-                    {area.category}
+                    {index === 0 ? t('expertise.areas.productStrategy.title') :
+                     index === 1 ? t('expertise.areas.aiTechnology.title') :
+                     t('expertise.areas.leadership.title')}
                   </h3>
                 </div>
 
                 <div className="space-y-4">
-                  {area.skills.map((skill, skillIndex) => (
+                  {(index === 0 ? getTranslatedSkills('productStrategy') :
+                    index === 1 ? getTranslatedSkills('aiTechnology') :
+                    getTranslatedSkills('leadership')).map((skill, skillIndex) => (
                     <div
                       key={skillIndex}
                       className="text-sm text-muted-foreground bg-secondary-light px-3 py-2 rounded-lg font-medium"
@@ -128,11 +153,10 @@ const ExpertiseSection = () => {
           <div className="fade-in-up">
             <div className="text-center mb-12">
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                Technical Stack & Tools
+                {t('expertise.techStack.title')}
               </h3>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Hands-on experience with modern technologies and platforms that enable rapid prototyping, 
-                scalable solutions, and data-driven insights.
+                {t('expertise.techStack.subtitle')}
               </p>
             </div>
 
@@ -149,11 +173,17 @@ const ExpertiseSection = () => {
                   </div>
                   
                   <h4 className="text-lg font-semibold text-foreground mb-4">
-                    {stack.category}
+                    {index === 0 ? t('expertise.techStack.categories.aiMl.title') :
+                     index === 1 ? t('expertise.techStack.categories.dataBi.title') :
+                     index === 2 ? t('expertise.techStack.categories.cloudDevops.title') :
+                     t('expertise.techStack.categories.productTools.title')}
                   </h4>
-                  
+
                   <div className="space-y-2">
-                    {stack.technologies.map((tech, techIndex) => (
+                    {(index === 0 ? getTranslatedTechnologies('aiMl') :
+                      index === 1 ? getTranslatedTechnologies('dataBi') :
+                      index === 2 ? getTranslatedTechnologies('cloudDevops') :
+                      getTranslatedTechnologies('productTools')).map((tech, techIndex) => (
                       <div
                         key={techIndex}
                         className="text-sm text-muted-foreground bg-secondary-light px-3 py-1 rounded-full inline-block mr-1 mb-1 hover:bg-secondary hover:text-secondary-foreground transition-colors duration-200"

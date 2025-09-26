@@ -1,0 +1,267 @@
+{
+  "navigation": {
+    "about": "About",
+    "expertise": "Expertise",
+    "experience": "Experience",
+    "projects": "Projects",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "hero": {
+    "location": "Greater Bern Area, Switzerland",
+    "role": "Digital Transformation PM",
+    "title": "Transforming Complex Technical Challenges into Scalable Digital Products",
+    "subtitle": "Digital Transformation Project Manager at HEIG-VD | AI Product Owner | Google Certified GenAI Leader with 15+ years of product lifecycle management experience",
+    "cta": "Let's Connect",
+    "languages": "Languages I speak fluently:",
+    "availability": "Available for new opportunities",
+    "stats": {
+      "yearsExperience": "Years Experience",
+      "usersServed": "Users Served",
+      "timeReduction": "Time Reduction"
+    }
+  },
+  "about": {
+    "badge": "About Me",
+    "title": "Passionate About Digital Innovation & AI-Powered Solutions",
+    "description": "I'm a seasoned Digital Transformation Project Manager with over 15 years of experience in product lifecycle management. Currently at HEIG-VD, I specialize in bridging the gap between complex technical challenges and scalable business solutions.",
+    "passion": "My passion lies in leveraging cutting-edge AI technologies and strategic product management to drive meaningful digital transformation initiatives that deliver real business value.",
+    "coreStrengthsTitle": "Core Strengths & Expertise",
+    "achievements": [
+      {
+        "stat": "79%",
+        "description": "Cut service response times",
+        "detail": "at Georg Fischer Machining Solutions"
+      },
+      {
+        "stat": "8.2M",
+        "description": "User base grown",
+        "detail": "TIM Brazil mobile app"
+      },
+      {
+        "stat": "5x",
+        "description": "User adoption increase",
+        "detail": "Siemens global SaaS platform"
+      },
+      {
+        "stat": "39%",
+        "description": "QoQ machine connection growth",
+        "detail": "since Q3 2023 at GFMS"
+      }
+    ],
+    "coreStrengths": [
+      {
+        "title": "AI & Technology Leadership",
+        "description": "Google Certified GenAI Leader with hands-on experience in LLMs, RAG architectures, and prompt engineering. Leading AI initiatives and coaching teams on generative AI adoption."
+      },
+      {
+        "title": "Cross-functional Team Leadership",
+        "description": "15+ years managing complex stakeholder relationships across manufacturing, telecom, education, and enterprise IT, ensuring alignment between technical and business objectives."
+      },
+      {
+        "title": "Digital Transformation Strategy",
+        "description": "Proven track record of translating complex technical challenges into scalable digital products that drive measurable business impact and operational efficiency."
+      },
+      {
+        "title": "Multilingual & Global Perspective",
+        "description": "Native fluency in Portuguese and English, professional working proficiency in French, German, and Spanish, enabling effective collaboration across diverse international teams."
+      }
+    ],
+    "professionalJourney": {
+      "title": "Professional Journey",
+      "paragraph1": "My 15+ years of product lifecycle management across manufacturing, telecom, and enterprise IT have shaped my approach to data-driven decision making and stakeholder alignment. At GF Machining Solutions, I delivered real-time machine monitoring dashboards and SaaS migration programs that enhanced operational transparency globally.",
+      "paragraph2": "At Siemens, I scaled a password management SaaS to 13+ countries while building internal BI tools for user experience optimization. As a recognized AI advocate, I was selected for Microsoft 365 Copilot pilots and coached global teams on prompt engineering best practices.",
+      "paragraph3": "Currently experimenting with self-hosted LLM stacks (Ollama, OpenWebUI, LangChain, Langfuse, Qdrant) to deepen understanding of AI product infrastructure and drive innovation in educational technology. I combine Agile methodologies with technical depth to turn complex requirements into usable, scalable products."
+    },
+    "technicalExpertise": "Technical Expertise:"
+  },
+  "expertise": {
+    "badge": "Core Expertise",
+    "title": "Skills That Drive Innovation",
+    "subtitle": "A comprehensive skill set combining strategic product thinking, cutting-edge AI expertise, and proven leadership capabilities built over 15+ years of delivering complex digital solutions.",
+    "areas": {
+      "productStrategy": {
+        "title": "Product & Strategy",
+        "skills": [
+          "Data-Driven Prioritization",
+          "Agile (Scrum, SAFe)",
+          "Stakeholder Management",
+          "Digital Transformation"
+        ]
+      },
+      "aiTechnology": {
+        "title": "AI & Technology",
+        "skills": [
+          "AI Agents & MCP",
+          "LLM/RAG Architectures",
+          "Prompt Engineering",
+          "Cloud Platforms (Azure, GCP)"
+        ]
+      },
+      "leadership": {
+        "title": "Leadership",
+        "skills": [
+          "Cross-functional Team Leadership",
+          "Change Management",
+          "Value Metrics & KPIs",
+          "Risk & Compliance"
+        ]
+      }
+    },
+    "techStack": {
+      "title": "Technical Expertise",
+      "subtitle": "Modern technologies and frameworks I work with to deliver scalable, enterprise-grade solutions.",
+      "categories": {
+        "aiMl": {
+          "title": "AI & ML",
+          "technologies": ["OpenAI/Gemini APIs", "Ollama", "LangChain", "Qdrant", "scikit-learn", "Prompt Engineering"]
+        },
+        "dataBi": {
+          "title": "Data & BI",
+          "technologies": ["Power BI", "Python", "SQL", "Databricks", "Power Automate", "Data Visualization"]
+        },
+        "cloudDevops": {
+          "title": "Cloud & DevOps",
+          "technologies": ["Azure", "GCP", "Docker", "Git", "API Integration", "SaaS Platforms"]
+        },
+        "productTools": {
+          "title": "Product Tools",
+          "technologies": ["Jira", "Figma", "Confluence", "Scrum", "SAFe", "Design Thinking"]
+        }
+      }
+    }
+  },
+  "experience": {
+    "badge": "Professional Journey",
+    "title": "15+ Years of Product Leadership Excellence",
+    "subtitle": "From startups to global enterprises, I've consistently delivered transformational results across diverse industries and technical landscapes."
+  },
+  "projects": {
+    "badge": "Featured Work",
+    "title": "Transformative Projects & Results",
+    "subtitle": "Real-world applications of AI, data analytics, and strategic product management that delivered measurable business impact.",
+    "items": [
+      {
+        "title": "Machine Learning Energy Forecast Model",
+        "description": "Developed a sophisticated ML model achieving 96.4% accuracy in energy consumption prediction for industrial manufacturing environments. The model uses time-series analysis and incorporates multiple environmental and operational variables.",
+        "category": "AI/ML",
+        "achievements": [
+          "96.4% prediction accuracy",
+          "Real-time energy monitoring",
+          "Cost optimization insights"
+        ],
+        "status": "Production",
+        "impact": "Enabled 15% reduction in energy costs"
+      },
+      {
+        "title": "Self-Hosted AI Tools & Infrastructure Lab",
+        "description": "Built and deployed a comprehensive AI infrastructure using open-source tools for experimentation with LLMs, vector databases, and conversational AI. This lab serves as a testing ground for AI product features and training.",
+        "category": "AI Infrastructure",
+        "achievements": [
+          "Multi-model LLM support",
+          "Vector database integration",
+          "Conversation analytics"
+        ],
+        "status": "Active Development",
+        "impact": "Accelerated AI feature prototyping by 60%"
+      },
+      {
+        "title": "SBB Punctuality Analytics Dashboard",
+        "description": "Created an interactive Power BI dashboard analyzing Swiss railway punctuality patterns using public transportation data. The dashboard provides insights into delays, seasonal trends, and route performance.",
+        "category": "Data Analytics",
+        "achievements": [
+          "Real-time delay tracking",
+          "Seasonal pattern analysis",
+          "Route optimization insights"
+        ],
+        "status": "Completed",
+        "impact": "Improved route planning efficiency"
+      },
+      {
+        "title": "GFMS Machine Monitor Dashboard",
+        "description": "Led the development of a real-time industrial machine monitoring system using OPC-UA and MTConnect protocols. The platform provides operational insights and predictive maintenance capabilities.",
+        "category": "IoT/Industrial",
+        "achievements": [
+          "79% reduction in response times",
+          "Real-time machine monitoring",
+          "Predictive maintenance alerts"
+        ],
+        "status": "Production",
+        "impact": "39% QoQ machine connection growth"
+      }
+    ],
+    "labels": {
+      "keyAchievements": "Key Achievements:",
+      "technologiesUsed": "Technologies Used:",
+      "businessImpact": "Business Impact:",
+      "viewDetails": "View Details"
+    },
+    "statuses": {
+      "production": "Production",
+      "activeDevelopment": "Active Development",
+      "completed": "Completed"
+    },
+    "cta": {
+      "title": "Interested in More Technical Details?",
+      "description": "I'm always working on new AI experiments and digital transformation projects. Let's discuss how these experiences can benefit your organization.",
+      "button": "Let's Connect"
+    }
+  },
+  "certifications": {
+    "badge": "Credentials & Learning",
+    "title": "Continuous Professional Development",
+    "subtitle": "Staying at the forefront of technology through formal certifications and hands-on learning in AI, product management, and digital transformation."
+  },
+  "contact": {
+    "badge": "Let's Connect",
+    "title": "Ready to Transform Your Digital Products?",
+    "subtitle": "Whether you're looking to implement AI solutions, scale your digital products, or lead digital transformation initiatives, I'd love to discuss how we can work together.",
+    "form": {
+      "title": "Send Me a Message",
+      "description": "I'm always interested in discussing new opportunities in digital transformation, AI product development, and strategic product management roles.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company/Organization",
+      "message": "Message",
+      "namePlaceholder": "Your full name",
+      "emailPlaceholder": "your.email@company.com",
+      "companyPlaceholder": "Your company or organization",
+      "messagePlaceholder": "Tell me about your project, opportunity, or how I can help...",
+      "submit": "Send Message",
+      "sending": "Sending Message...",
+      "success": "Message Sent Successfully!",
+      "successDescription": "Thank you for reaching out. I'll get back to you within 24 hours.",
+      "error": "Failed to Send Message",
+      "errorDescription": "There was an error sending your message. Please try again or contact me directly."
+    },
+    "info": {
+      "title": "Contact Information",
+      "description": "Prefer direct contact? Feel free to reach out using any of the methods below.",
+      "email": "me@carlosmello.work",
+      "phone": "+41 77 490 32 40",
+      "location": "Biel/Bienne, Switzerland",
+      "linkedin": "linkedin.com/in/carlosduplar",
+      "github": "github.com/carlosduplar"
+    },
+    "features": {
+      "title": "Why Work With Me?",
+      "responseTime": {
+        "title": "24h Response Time",
+        "description": "I typically respond to messages within 24 hours"
+      },
+      "languages": {
+        "title": "Multiple Languages",
+        "description": "Available in EN, PT, FR, DE, ES"
+      },
+      "availability": {
+        "title": "Open to Opportunities",
+        "description": "Consulting, permanent roles, and partnerships"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Let's schedule a call to discuss your digital transformation needs, AI strategy, or product development challenges.",
+      "button": "Schedule a Call"
+    }
+  }
+}
