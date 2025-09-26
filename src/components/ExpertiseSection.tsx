@@ -19,33 +19,33 @@ const ExpertiseSection = () => {
       category: "Product & Strategy",
       icon: <Target className="w-8 h-8" />,
       color: "from-blue-500 to-blue-600",
-      skills: [
-        { name: "Data-Driven Prioritization", level: 95 },
-        { name: "Agile (Scrum, SAFe)", level: 92 },
-        { name: "Stakeholder Management", level: 90 },
-        { name: "Digital Transformation", level: 88 }
+        skills: [
+        "Data-Driven Prioritization",
+        "Agile (Scrum, SAFe)",
+        "Stakeholder Management",
+        "Digital Transformation"
       ]
     },
     {
       category: "AI & Technology",
       icon: <Brain className="w-8 h-8" />,
       color: "from-purple-500 to-purple-600",
-      skills: [
-        { name: "AI Agents & MCP", level: 88 },
-        { name: "LLM/RAG Architectures", level: 85 },
-        { name: "Prompt Engineering", level: 90 },
-        { name: "Cloud Platforms (Azure, GCP)", level: 82 }
+        skills: [
+        "AI Agents & MCP",
+        "LLM/RAG Architectures",
+        "Prompt Engineering",
+        "Cloud Platforms (Azure, GCP)"
       ]
     },
     {
       category: "Leadership",
       icon: <Users className="w-8 h-8" />,
       color: "from-green-500 to-green-600",
-      skills: [
-        { name: "Cross-functional Team Leadership", level: 93 },
-        { name: "Change Management", level: 87 },
-        { name: "Value Metrics & KPIs", level: 89 },
-        { name: "Risk & Compliance", level: 85 }
+        skills: [
+        "Cross-functional Team Leadership",
+        "Change Management",
+        "Value Metrics & KPIs",
+        "Risk & Compliance"
       ]
     }
   ];
@@ -110,23 +110,13 @@ const ExpertiseSection = () => {
                   </h3>
                 </div>
 
-                <div className="space-y-6">
+                <div className="space-y-4">
                   {area.skills.map((skill, skillIndex) => (
-                    <div key={skillIndex} className="space-y-2">
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm font-medium text-foreground">
-                          {skill.name}
-                        </span>
-                        <span className="text-sm text-primary font-semibold">
-                          {skill.level}%
-                        </span>
-                      </div>
-                      <div className="skill-bar">
-                        <div 
-                          className="skill-fill"
-                          style={{ width: `${skill.level}%` }}
-                        ></div>
-                      </div>
+                    <div
+                      key={skillIndex}
+                      className="text-sm text-muted-foreground bg-secondary-light px-3 py-2 rounded-lg font-medium"
+                    >
+                      {skill}
                     </div>
                   ))}
                 </div>
@@ -181,9 +171,9 @@ const ExpertiseSection = () => {
           <div className="mt-20 professional-card fade-in-up">
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div className="space-y-2">
-                <div className="text-3xl font-bold text-primary">96.4%</div>
-                <div className="text-sm text-muted-foreground">ML Model Accuracy</div>
-                <div className="text-xs text-muted-foreground">Energy Forecast Model</div>
+                <div className="text-3xl font-bold text-primary">79%</div>
+                <div className="text-sm text-muted-foreground">Service Response Time Reduction</div>
+                <div className="text-xs text-muted-foreground">Digital Transformation Impact</div>
               </div>
               <div className="space-y-2">
                 <div className="text-3xl font-bold text-primary">13+</div>
@@ -191,9 +181,9 @@ const ExpertiseSection = () => {
                 <div className="text-xs text-muted-foreground">Siemens SaaS Platform</div>
               </div>
               <div className="space-y-2">
-                <div className="text-3xl font-bold text-primary">30+</div>
+                <div className="text-3xl font-bold text-primary">100+</div>
                 <div className="text-sm text-muted-foreground">Team Members Trained</div>
-                <div className="text-xs text-muted-foreground">GenAI & Prompt Engineering</div>
+                <div className="text-xs text-muted-foreground">AI, SEO & Digital Skills</div>
               </div>
             </div>
           </div>
