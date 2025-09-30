@@ -115,13 +115,6 @@ const ProjectsSection = () => {
                   </div>
                 </div>
 
-                {/* Business Impact */}
-                <div className="mb-6 p-3 bg-accent rounded-lg border border-accent/20">
-                  <div className="text-sm font-medium text-accent-foreground">
-                    {t('projects.labels.businessImpact')} {project.impact}
-                  </div>
-                </div>
-
                 {/* Technologies */}
                 <div className="mb-6">
                   <h4 className="text-sm font-semibold text-foreground mb-3">{t('projects.labels.technologiesUsed')}</h4>
@@ -136,21 +129,6 @@ const ProjectsSection = () => {
                       </Badge>
                     ))}
                   </div>
-                </div>
-
-                {/* Project Links */}
-                <div className="flex gap-3 mt-auto">
-                  <Button
-                    size="sm"
-                    className="flex-1 hero-gradient group"
-                    onClick={() => window.open("#", '_blank')}
-                  >
-                    {t('projects.labels.viewDetails')}
-                    <ExternalLink
-                      size={16}
-                      className="ml-2 group-hover:translate-x-1 transition-transform duration-200"
-                    />
-                  </Button>
                 </div>
               </div>
             ))}

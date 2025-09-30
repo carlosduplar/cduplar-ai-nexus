@@ -23,6 +23,7 @@ i18n
   .init({
     resources,
     fallbackLng: 'en',
+    supportedLngs: ['en', 'pt', 'fr', 'de', 'es'],
     debug: false,
 
     interpolation: {
@@ -30,9 +31,23 @@ i18n
     },
 
     detection: {
+      // Detection order: localStorage (user preference) > navigator (browser language) > htmlTag > fallback
       order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
+      lookupLocalStorage: 'i18nextLng',
+      // Convert browser language codes to supported languages
+      convertDetectedLanguage: (lng: string) => {
+        // Extract base language code (e.g., 'en-US' -> 'en', 'pt-BR' -> 'pt')
+        const baseLanguage = lng.split('-')[0].toLowerCase();
+        // Return base language if supported, otherwise return as-is for fallback handling
+        return ['en', 'pt', 'fr', 'de', 'es'].includes(baseLanguage) ? baseLanguage : lng;
+      }
     }
   });
+
+// Update HTML lang attribute when language changes
+i18n.on('languageChanged', (lng) => {
+  document.documentElement.lang = lng;
+});
 
 export default i18n;
