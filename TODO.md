@@ -1,14 +1,14 @@
 # TODO List - Carlos Mello Portfolio Website
 
 ## UI/UX Improvements
-- [ ] Add "Add me to LinkedIn" button in HeroSection
+- [x] Add "Add me to LinkedIn" button in HeroSection
 - [x] Adjust profile image in HeroSection
 - [x] Correct logos in ExperienceSection.tsx for:
   - [x] BRQ
   - [x] GFMS
   - [x] Infoglobo
 - [x] Replicate Infoglobo div format in other experiences to remove weird gray line
-- [ ] Add links to official websites to the logo of each company, preferably in the language selected by the user
+- [x] Add links to official websites to the logo of each company, preferably in the language selected by the user
 - [ ] Adjust visualization on Professional Certifications (need a space between both icons)
 - [x] Remove "Business Impact" and "View Details" from projects
 
@@ -30,9 +30,9 @@
   - [x] Hero Section
   - [x] About Section (Portuguese lacking translations)
   - [x] Expertise Section (Portuguese lacking translations)
-  - [ ] Experience Section
+  - [x] Experience Section
   - [x] Projects Section
-  - [ ] Certifications Section
+  - [x] Certifications Section
   - [x] Contact Section
 - [x] Handle language-specific formatting (dates, phone numbers)
 - [x] Update meta tags for each language

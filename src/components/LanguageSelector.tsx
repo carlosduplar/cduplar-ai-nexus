@@ -8,13 +8,14 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Globe, Check } from "lucide-react";
+import Flag from "@/components/ui/Flag";
 
 const languages = [
-  { code: 'en', name: 'English', flag: '🇺🇸' },
-  { code: 'pt', name: 'Português', flag: '🇧🇷' },
-  { code: 'fr', name: 'Français', flag: '🇫🇷' },
-  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'en', name: 'English', countryCode: 'us' },
+  { code: 'pt', name: 'Português', countryCode: 'br' },
+  { code: 'fr', name: 'Français', countryCode: 'fr' },
+  { code: 'de', name: 'Deutsch', countryCode: 'de' },
+  { code: 'es', name: 'Español', countryCode: 'es' },
 ];
 
 const LanguageSelector = () => {
@@ -37,8 +38,13 @@ const LanguageSelector = () => {
           className="gap-2 text-muted-foreground hover:text-foreground"
         >
           <Globe className="h-4 w-4" />
-          <span className="hidden sm:inline">{currentLanguage.flag} {currentLanguage.name}</span>
-          <span className="sm:hidden">{currentLanguage.flag}</span>
+          <span className="hidden sm:inline-flex items-center gap-2">
+            <Flag countryCode={currentLanguage.countryCode} />
+            {currentLanguage.name}
+          </span>
+          <span className="sm:hidden">
+            <Flag countryCode={currentLanguage.countryCode} />
+          </span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-48">
@@ -48,7 +54,7 @@ const LanguageSelector = () => {
             onClick={() => handleLanguageChange(language.code)}
             className="flex items-center gap-3 cursor-pointer"
           >
-            <span className="text-lg">{language.flag}</span>
+            <Flag countryCode={language.countryCode} />
             <span className="flex-1">{language.name}</span>
             {i18n.language === language.code && (
               <Check className="h-4 w-4 text-primary" />
