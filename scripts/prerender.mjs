@@ -1,8 +1,10 @@
 import puppeteer from 'puppeteer';
-import { createServer } from 'vite';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import http from 'http';
+import serveStatic from 'serve-static';
+import finalhandler from 'finalhandler';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const distPath = path.resolve(__dirname, '../dist');
@@ -10,15 +12,13 @@ const distPath = path.resolve(__dirname, '../dist');
 async function prerender() {
   console.log('🚀 Starting prerendering process...');
 
-  // Start a local server for the dist folder
-  const server = await createServer({
-    root: distPath,
-    server: {
-      port: 3000
-    }
+  // Setup the static server
+  const serve = serveStatic(distPath, { index: ['index.html'] });
+  const server = http.createServer((req, res) => {
+    serve(req, res, finalhandler(req, res));
   });
 
-  await server.listen();
+  await new Promise(resolve => server.listen(3000, resolve));
   console.log('✅ Local server started on http://localhost:3000');
 
   // Launch Puppeteer
@@ -28,6 +28,9 @@ async function prerender() {
   });
 
   const page = await browser.newPage();
+
+  // Listen for console events from the page
+  page.on('console', msg => console.log('PAGE LOG:', msg.text()));
 
   try {
     console.log('🔍 Loading page...');
@@ -69,7 +72,7 @@ async function prerender() {
     throw error;
   } finally {
     await browser.close();
-    await server.close();
+    server.close();
     console.log('🛑 Server stopped');
   }
 }
