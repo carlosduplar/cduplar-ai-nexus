@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, MapPin, Briefcase } from "lucide-react";
+import { ArrowRight, MapPin, Briefcase, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import heroImage from "@/assets/carlos-profile.png";
 
@@ -65,11 +65,11 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 size="lg"
-                onClick={() => scrollToSection("#projects")}
+                onClick={() => window.open("https://linkedin.com/in/carlosduplar", "_blank")}
                 className="hero-gradient glow-effect hover:glow-effect group text-lg px-8 py-6"
               >
-                {t('navigation.projects')}
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-200" size={20} />
+                <Linkedin className="mr-2" size={20} />
+                {t('hero.cta')}
               </Button>
               <Button
                 size="lg"
