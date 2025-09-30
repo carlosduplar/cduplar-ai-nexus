@@ -70,98 +70,31 @@ const ExperienceSection = () => {
       return [];
     }
   };
-  const experiences = [
-    {
-      company: "HEIG-VD",
-      role: "Digital Transformation Project Manager",
-      period: "September 2025 - Present",
-      location: "Yverdon, Vaud, Switzerland",
-      type: "Full-time",
-      logo: heigvdLogo,
-      highlights: [
-        "Defining and leading digital transformation initiatives to enhance educational technology infrastructure",
-        "Developing comprehensive project roadmaps aligned with HES-SO's Schéma Directeur Numérique (SDN) framework",
-        "Leading multidisciplinary teams including IT, faculty, and administrative stakeholders",
-        "Managing risk assessment while ensuring adherence to Swiss public sector standards"
-      ],
-      skills: ["Project Management", "Digital Transformation", "Strategic Planning", "Team Leadership"]
-    },
-    {
-      company: "Georg Fischer Machining Solutions",
-      role: "Senior Product Owner",
-      period: "September 2022 - July 2025",
-      location: "Biel, Bern, Switzerland",
-      type: "Full-time",
-      logo: gfLogo,
-      highlights: [
-        "Cut service response & resolution times by up to 79% with global service Power BI KPI Dashboard",
-        "Led Microsoft 365 Copilot pilot and trained 30+ colleagues on prompt engineering",
-        "Shaped GFMS's end-customer SaaS roadmap, averaging 39% QoQ machine connection growth since Q3 2023",
-        "Designed real-time machine monitoring dashboards using OPC-UA and MTConnect protocols"
-      ],
-      skills: ["Product Management", "AI/GenAI", "Power BI", "SaaS Migration", "IoT"]
-    },
-    {
-      company: "Siemens",
-      role: "Product Owner for Smart Infrastructure",
-      period: "November 2020 - September 2022",
-      location: "Lisbon, Portugal",
-      type: "Full-time",
-      logo: siemensLogo,
-      highlights: [
-        "Grew user adoption 5x for a global SaaS password-management product",
-        "Engaged with Product & Solution Security Experts for security reviews and risk assessments",
-        "Managed Siemens Energy carve-out project ensuring smooth and compliant transition",
-        "Scaled password management SaaS to 13+ countries while building internal BI tools"
-      ],
-      skills: ["SaaS Scaling", "Security", "Risk Management", "Global Teams"]
-    },
-    {
-      company: "BRQ Digital Solutions",
-      role: "ERE Team Lead | Senior Application Specialist | Scrum Master",
-      period: "January 2019 - November 2020",
-      location: "Lisbon, Portugal",
-      type: "Full-time",
-      logo: brqLogo,
-      highlights: [
-        "Led two remote cross-functional Scrum teams for high-impact native iOS/Android app",
-        "Collaborated with sales consulting on multiple RFIs and RFPs",
-        "Contributed directly to two new contract wins through technical consultation",
-        "Delivered solutions for TIM Brazil with focus on mobile-first approach"
-      ],
-      skills: ["Mobile Development", "Scrum", "Remote Teams", "Sales Support"]
-    },
-    {
-      company: "TIM Brazil (Telecom Italia Mobile)",
-      role: "Senior IT Specialist | IT Product Owner",
-      period: "July 2011 - October 2018",
-      location: "Rio de Janeiro, Brazil",
-      type: "Full-time",
-      logo: timBrasilLogo,
-      highlights: [
-        "Launched and scaled TIM's consumer self-service app to 8.2M total users (1.4M daily sessions)",
-        "Improved app ratings from 1.5 to 4.0 stars and achieved Top 5 Utility app store ranking",
-        "Spearheaded TIM's first Agile project in 2011, reducing consumer portal lead time by 67%",
-        "Managed €300k annual IT budget with 3 direct reports"
-      ],
-      skills: ["Mobile Apps", "Agile Transformation", "Budget Management", "Team Leadership"]
-    },
-    {
-      company: "Infoglobo",
-      role: "IT Product Owner | Senior Business Analyst",
-      period: "October 2009 - July 2011",
-      location: "Rio de Janeiro, Brazil",
-      type: "Full-time",
-      logo: infogloboLogo,
-      highlights: [
-        "Enhanced SEO for all company websites and trained editorial staff, resulting in 18% increase in monthly visitors",
-        "Spearheaded database unification project, collaborating with Marketing and CRM teams to streamline user data",
-        "Led Agile initiative for Jornal Extra's new website, achieving 71% increase in search engine traffic in 2011",
-        "Served as Solutions Architect, overseeing technical selection of new CMS and editorial platform"
-      ],
-      skills: ["SEO Optimization", "Database Management", "Agile Implementation", "System Architecture"]
+  const logoMap: { [key: string]: string } = {
+    heigvdLogo,
+    gfLogo,
+    siemensLogo,
+    brqLogo,
+    timBrasilLogo,
+    infogloboLogo,
+  };
+
+  const getTranslatedExperiences = () => {
+    try {
+      const jobs = t('experience.jobs', { returnObjects: true });
+      if (Array.isArray(jobs)) {
+        return jobs.map(job => ({
+          ...job,
+          logo: logoMap[job.logo] || infogloboLogo, 
+        }));
+      }
+      return [];
+    } catch {
+      return [];
     }
-  ];
+  };
+
+  const experiences = getTranslatedExperiences();
 
   return (
     <section id="experience" className="py-20 section-gradient">
@@ -192,15 +125,17 @@ const ExperienceSection = () => {
                 <div className="flex flex-col lg:flex-row gap-6">
                   {/* Company Logo & Period */}
                   <div className="flex-shrink-0">
-                    <div className="w-16 h-16 bg-background rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200 border shadow-sm">
-                      <img
-                        src={exp.logo}
-                        alt={`${exp.company} logo`}
-                        className="w-10 h-10 object-contain"
-                        loading="lazy"
-                        decoding="async"
-                      />
-                    </div>
+                    <a href={exp.website} target="_blank" rel="noopener noreferrer">
+                      <div className="w-16 h-16 bg-background rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200 border shadow-sm">
+                        <img
+                          src={exp.logo}
+                          alt={`${exp.company} logo`}
+                          className="w-10 h-10 object-contain"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                    </a>
                     <div className="hidden lg:block space-y-1">
                       <div className="flex items-center gap-2 text-sm text-muted-foreground">
                         <Calendar size={14} />
