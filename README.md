@@ -1,73 +1,217 @@
-# Welcome to your Lovable project
+# Carlos Duplar Mello - Portfolio Website
 
-## Project info
+A modern, multilingual portfolio website showcasing professional experience, expertise, and projects. Built with cutting-edge web technologies for optimal performance and accessibility.
 
-**URL**: https://lovable.dev/projects/a3906a50-b0cd-4082-9839-2acefef31b9f
+🌐 **Live Site:** [carlosmello.work](https://carlosmello.work)
 
-## How can I edit this code?
+## 🚀 Tech Stack
 
-There are several ways of editing your application.
+### Core Framework
+- **Vite** - Next-generation frontend tooling
+- **React 18** - UI library with hooks
+- **TypeScript** - Type-safe development
+- **React Router** - Client-side routing
 
-**Use Lovable**
+### UI & Styling
+- **shadcn/ui** - High-quality React components built on Radix UI
+- **Tailwind CSS** - Utility-first CSS framework
+- **Lucide React** - Beautiful icon library
+- **Tailwind Animate** - Animation utilities
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a3906a50-b0cd-4082-9839-2acefef31b9f) and start prompting.
+### Internationalization
+- **i18next** - i18n framework
+- **react-i18next** - React bindings for i18next
+- **i18next-browser-languagedetector** - Automatic language detection
 
-Changes made via Lovable will be committed automatically to this repo.
+### Additional Tools
+- **React Hook Form** - Performant form handling
+- **Zod** - TypeScript-first schema validation
+- **EmailJS** - Contact form email service
+- **TanStack Query** - Data fetching and caching
 
-**Use your preferred IDE**
+## ✨ Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **🌍 Multilingual Support** - Full internationalization in 5 languages:
+  - 🇺🇸 English
+  - 🇧🇷 Portuguese
+  - 🇫🇷 French
+  - 🇩🇪 German
+  - 🇪🇸 Spanish
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **🔍 Automatic Language Detection** - Detects user's preferred language from browser settings with fallback to localStorage preferences
 
-Follow these steps:
+- **📱 Fully Responsive** - Mobile-first design optimized for all screen sizes
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **🦊 Firefox Android Compatible** - Uses legacy polyfills for broader browser support
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **📧 Contact Form** - Integrated with EmailJS for direct communication
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **♿ Accessible** - Built with accessibility in mind using Radix UI primitives
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- **⚡ Performance Optimized** - Fast loading times with Vite's build optimizations
+
+## 📋 Prerequisites
+
+- **Node.js** 18.x or higher
+- **npm** (comes with Node.js)
+
+## 🛠️ Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/carlosduplar/cduplar-ai-nexus.git
+
+# Navigate to project directory
+cd cduplar-ai-nexus
+
+# Install dependencies
+npm install
+```
+
+## 🚀 Development
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🏗️ Build
 
-**Use GitHub Codespaces**
+Create a production build:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+```
 
-## What technologies are used for this project?
+Build output will be in the `dist/` directory.
 
-This project is built with:
+### Build for Development
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm run build:dev
+```
 
-## How can I deploy this project?
+## 👀 Preview
 
-Simply open [Lovable](https://lovable.dev/projects/a3906a50-b0cd-4082-9839-2acefef31b9f) and click on Share -> Publish.
+Preview the production build locally:
 
-## Can I connect a custom domain to my Lovable project?
+```bash
+npm run preview
+```
 
-Yes, you can!
+## 🧪 Linting
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Run ESLint to check code quality:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```bash
+npm run lint
+```
+
+## 📁 Project Structure
+
+```
+cduplar-ai-nexus/
+├── src/
+│   ├── components/          # React components
+│   │   ├── ui/             # shadcn/ui components
+│   │   ├── AboutSection.tsx
+│   │   ├── CertificationsSection.tsx
+│   │   ├── ContactSection.tsx
+│   │   ├── ExperienceSection.tsx
+│   │   ├── ExpertiseSection.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── LanguageSelector.tsx
+│   │   ├── Navigation.tsx
+│   │   └── ProjectsSection.tsx
+│   ├── i18n/               # Internationalization
+│   │   ├── locales/        # Translation files (en, pt, fr, de, es)
+│   │   └── index.ts        # i18n configuration
+│   ├── pages/              # Page components
+│   │   ├── Index.tsx       # Main landing page
+│   │   └── NotFound.tsx    # 404 page
+│   ├── hooks/              # Custom React hooks
+│   ├── lib/                # Utility functions
+│   ├── utils/              # Helper utilities
+│   ├── App.tsx             # Main app component
+│   └── main.tsx            # Application entry point
+├── public/                 # Static assets
+├── dist/                   # Production build output
+├── vite.config.ts          # Vite configuration
+├── tailwind.config.ts      # Tailwind CSS configuration
+├── tsconfig.json           # TypeScript configuration
+└── package.json            # Project dependencies
+```
+
+## ⚙️ Configuration
+
+### Vite Configuration (`vite.config.ts`)
+- React SWC plugin for faster builds
+- Legacy plugin for Firefox Android compatibility
+- Path aliases (`@/` → `./src/`)
+- Custom asset output structure
+- Server configuration (port 8080, IPv6 support)
+
+### Internationalization (`src/i18n/index.ts`)
+- Language detection order: localStorage → browser language → fallback
+- Automatic locale code conversion (e.g., `pt-BR` → `pt`)
+- Dynamic HTML `lang` attribute updates
+- Persistent language preference in localStorage
+
+### Tailwind Configuration (`tailwind.config.ts`)
+- Custom color palette with CSS variables
+- Extended theme with sidebar support
+- Custom animations (accordion)
+- Inter font family integration
+
+## 🌐 Browser Support
+
+- **Modern Browsers:** Chrome, Firefox, Safari, Edge (latest versions)
+- **Mobile:** iOS Safari, Chrome Android, Firefox Android
+- **Legacy Support:** Firefox ESR and older Android browsers via polyfills
+
+## 📦 Key Dependencies
+
+| Package | Purpose |
+|---------|---------|
+| `react` | UI library |
+| `vite` | Build tool |
+| `typescript` | Type safety |
+| `tailwindcss` | Styling |
+| `i18next` | Internationalization |
+| `react-router-dom` | Routing |
+| `@radix-ui/*` | Accessible UI primitives |
+| `@vitejs/plugin-legacy` | Legacy browser support |
+
+## 🚢 Deployment
+
+This site is deployed as a static site in Firebase Hosting. The build output in `dist/` can be hosted on:
+- Netlify
+- Vercel
+- GitHub Pages
+- AWS S3 + CloudFront
+- Any static hosting service
+
+Build command: `npm run build`
+Output directory: `dist`
+
+## 📝 Environment Variables
+
+No environment variables are required for basic operation. For EmailJS integration in the contact form, configure the service directly in the component or add appropriate credentials.
+
+## 📄 License
+
+This project is private and not licensed for public use.
+
+## 👤 Contact
+
+**Carlos Duplar Mello**
+
+- 🌐 Website: [carlosmello.work](https://carlosmello.work)
+- 💼 LinkedIn: [linkedin.com/in/carlosduplar](https://linkedin.com/in/carlosduplar)
+
+---
+
+Built with Lovable, Claude Code, and Gemini CLI

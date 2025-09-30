@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Calendar, Building, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { format } from 'date-fns';
+import { format, Locale } from 'date-fns';
 import { enUS, ptBR, fr, de, es } from 'date-fns/locale';
 import heigvdLogo from "@/assets/company-logos/heig-vd-logo.png";
 import gfLogo from "@/assets/company-logos/gf-logo.png";
