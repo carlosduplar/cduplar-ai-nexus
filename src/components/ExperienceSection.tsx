@@ -25,14 +25,37 @@ const ExperienceSection = () => {
     const currentLocale = localeMap[i18n.language] || enUS;
     const [start, end] = period.split(' - ');
 
-    const startDate = new Date(start);
+    // Parse date string "Month YYYY" format
+    const parseDate = (dateStr: string) => {
+      const parts = dateStr.trim().split(' ');
+      if (parts.length === 2) {
+        const [month, year] = parts;
+        // Create date on the 1st of the month
+        return new Date(`${month} 1, ${year}`);
+      }
+      return new Date(dateStr);
+    };
+
+    const startDate = parseDate(start);
+
+    // Validate date before formatting
+    if (isNaN(startDate.getTime())) {
+      return period; // Return original if parsing fails
+    }
+
     const formattedStart = format(startDate, 'MMM yyyy', { locale: currentLocale });
 
     if (end === 'Present') {
       return `${formattedStart} - ${t('experience.types.present')}`;
     }
 
-    const endDate = new Date(end);
+    const endDate = parseDate(end);
+
+    // Validate date before formatting
+    if (isNaN(endDate.getTime())) {
+      return `${formattedStart} - ${end}`; // Return partial formatted if end parsing fails
+    }
+
     const formattedEnd = format(endDate, 'MMM yyyy', { locale: currentLocale });
 
     return `${formattedStart} - ${formattedEnd}`;
