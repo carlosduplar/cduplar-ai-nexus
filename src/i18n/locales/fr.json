@@ -185,7 +185,99 @@
       "partTime": "Temps Partiel",
       "contract": "Contrat",
       "present": "Présent"
-    }
+    },
+    "jobs": [
+      {
+        "company": "HEIG-VD",
+        "role": "Chef de Projet Transformation Digitale",
+        "period": "Septembre 2025 - Présent",
+        "location": "Yverdon, Vaud, Suisse",
+        "logo": "heigvdLogo",
+        "website": "https://www.heig-vd.ch/",
+        "highlights": [
+          "Définir et diriger des initiatives de transformation digitale pour améliorer l'infrastructure technologique éducative",
+          "Développer des feuilles de route de projet complètes alignées avec le cadre Schéma Directeur Numérique (SDN) de HES-SO",
+          "Diriger des équipes multidisciplinaires incluant IT, faculté et parties prenantes administratives",
+          "Gérer l'évaluation des risques tout en assurant le respect des normes du secteur public suisse"
+        ],
+        "skills": ["Gestion de Projet", "Transformation Digitale", "Planification Stratégique", "Leadership d'Équipe"]
+      },
+      {
+        "company": "Georg Fischer Machining Solutions",
+        "role": "Senior Product Owner",
+        "period": "Septembre 2022 - Juillet 2025",
+        "location": "Biel, Berne, Suisse",
+        "logo": "gfLogo",
+        "website": "https://www.gfms.com/",
+        "highlights": [
+          "Réduction des temps de réponse et de résolution du service jusqu'à 79% avec dashboard KPI de service global Power BI",
+          "Direction du pilote Microsoft 365 Copilot et formation de 30+ collègues sur l'ingénierie des prompts",
+          "Façonné la feuille de route SaaS client final de GFMS, avec une croissance moyenne de 39% QoQ des connexions machines depuis Q3 2023",
+          "Conception de dashboards de surveillance machines en temps réel utilisant les protocoles OPC-UA et MTConnect"
+        ],
+        "skills": ["Gestion de Produits", "IA/GenAI", "Power BI", "Migration SaaS", "IoT"]
+      },
+      {
+        "company": "Siemens",
+        "role": "Product Owner pour Smart Infrastructure",
+        "period": "Novembre 2020 - Septembre 2022",
+        "location": "Lisbonne, Portugal",
+        "logo": "siemensLogo",
+        "website": "https://www.siemens.com/",
+        "highlights": [
+          "Augmentation de l'adoption utilisateur de 5x pour un produit SaaS global de gestion de mots de passe",
+          "Collaboration avec les Experts en Sécurité Produits et Solutions pour les revues de sécurité et évaluations des risques",
+          "Gestion du projet de séparation Siemens Energy assurant une transition fluide et conforme",
+          "Évolution du SaaS de gestion de mots de passe vers 13+ pays tout en construisant des outils BI internes"
+        ],
+        "skills": ["Évolution SaaS", "Sécurité", "Gestion des Risques", "Équipes Mondiales"]
+      },
+      {
+        "company": "BRQ Digital Solutions",
+        "role": "Team Lead | Senior Application Specialist | Scrum Master",
+        "period": "Janvier 2019 - Novembre 2020",
+        "location": "Lisbonne, Portugal",
+        "logo": "brqLogo",
+        "website": "https://www.brq.com/",
+        "highlights": [
+          "Direction de deux équipes Scrum pluridisciplinaires à distance pour application native iOS/Android à fort impact",
+          "Collaboration avec le conseil en vente sur plusieurs RFIs et RFPs",
+          "Contribution directe à deux nouveaux contrats gagnés par consultation technique",
+          "Livraison de solutions pour TIM Brazil avec approche mobile-first"
+        ],
+        "skills": ["Développement Mobile", "Scrum", "Équipes Distantes", "Support Ventes"]
+      },
+      {
+        "company": "TIM Brazil (Telecom Italia Mobile)",
+        "role": "Senior IT Specialist | IT Product Owner",
+        "period": "Juillet 2011 - Octobre 2018",
+        "location": "Rio de Janeiro, Brésil",
+        "logo": "timBrasilLogo",
+        "website": "https://www.tim.com.br/",
+        "highlights": [
+          "Lancement et évolution de l'application libre-service consommateur TIM à 8,2M utilisateurs totaux (1,4M sessions quotidiennes)",
+          "Amélioration des notes de l'application de 1,5 à 4,0 étoiles et atteinte du classement Top 5 en app store Utilitaires",
+          "Pionnier du premier projet Agile de TIM en 2011, réduisant le délai du portail consommateur de 67%",
+          "Gestion d'un budget IT annuel de 300k€ avec 3 rapports directs"
+        ],
+        "skills": ["Applications Mobiles", "Transformation Agile", "Gestion de Budget", "Leadership d'Équipe"]
+      },
+      {
+        "company": "Infoglobo",
+        "role": "IT Product Owner | Senior Business Analyst",
+        "period": "Octobre 2009 - Juillet 2011",
+        "location": "Rio de Janeiro, Brésil",
+        "logo": "infogloboLogo",
+        "website": "https://www.infoglobo.com.br/",
+        "highlights": [
+          "Amélioration du SEO pour tous les sites web de l'entreprise et formation du personnel éditorial, résultant en 18% d'augmentation des visiteurs mensuels",
+          "Pionnier du projet d'unification de base de données, collaboration avec les équipes Marketing et CRM pour rationaliser les données utilisateur",
+          "Direction de l'initiative Agile pour le nouveau site web de Jornal Extra, atteignant 71% d'augmentation du trafic moteur de recherche en 2011",
+          "Service en tant qu'Architecte de Solutions, supervisant la sélection technique du nouveau CMS et plateforme éditoriale"
+        ],
+        "skills": ["Optimisation SEO", "Gestion de Base de Données", "Implémentation Agile", "Architecture Système"]
+      }
+    ]
   },
   "projects": {
     "badge": "Réalisations Phares",
@@ -261,7 +353,118 @@
   "certifications": {
     "badge": "Accréditations & Formation",
     "title": "Développement Professionnel Continu",
-    "subtitle": "Rester à la pointe de la technologie grâce à des certifications formelles et à l'apprentissage pratique en IA, gestion de produits et transformation digitale."
+    "subtitle": "Rester à la pointe de la technologie grâce à des certifications formelles et à l'apprentissage pratique en IA, gestion de produits et transformation digitale.",
+    "recentAI": {
+      "title": "Certifications Récentes en IA et Leadership (2025)",
+      "subtitle": "Dernières certifications axées sur le leadership en IA et l'application pratique"
+    },
+    "professional": {
+      "title": "Certifications Professionnelles",
+      "subtitle": "Certifications reconnues par l'industrie en gestion de produits, méthodologies agiles et analyse de données"
+    },
+    "education": {
+      "title": "Formation Académique",
+      "subtitle": "Base solide en informatique et technologies numériques"
+    },
+    "learning": {
+      "title": "Engagement envers l'Apprentissage Continu",
+      "p1": "Dans le domaine en rapide évolution de l'IA et de la transformation digitale, je crois qu'il faut rester en avance grâce à l'apprentissage continu. Mon accent récent sur le leadership en IA, l'apprentissage automatique et l'ingénierie des prompts reflète mon engagement à comprendre et à appliquer les technologies de pointe dans des contextes commerciaux pratiques.",
+      "stats": [
+        { "value": "10+", "label": "Certifications Récentes" },
+        { "value": "25+", "label": "Années d'Apprentissage" },
+        { "value": "5", "label": "Langues Parlées" }
+      ]
+    },
+    "viewCredential": "Voir les Accréditations",
+    "credentialId": "ID d'Accréditation:",
+    "recentCertifications": [
+      {
+        "title": "Fondements du Machine Learning pour Gestionnaires de Produits",
+        "issuer": "Duke University (Coursera)",
+        "date": "Juillet 2025",
+        "credential": "JROSVNV9MOIM",
+        "category": "IA/ML",
+        "icon": "Brain",
+        "skills": ["Littératie IA", "Python", "Gestion de Produits", "Machine Learning"]
+      },
+      {
+        "title": "Google Cloud Generative AI Leader",
+        "issuer": "Google",
+        "date": "2025",
+        "credential": "Vérifié",
+        "category": "Leadership IA",
+        "icon": "Award",
+        "skills": ["GenAI", "Stratégie IA", "Cloud AI", "Leadership"]
+      },
+      {
+        "title": "Introduction au Model Context Protocol",
+        "issuer": "Anthropic Academy",
+        "date": "Juillet 2025",
+        "credential": "oq6tdifkv33d",
+        "category": "Développement IA",
+        "icon": "Code",
+        "skills": ["APIs IA", "MCP", "Intégration IA", "Ingénierie des Prompts"]
+      },
+      {
+        "title": "Application Pratique de Gen AI pour Chefs de Projet",
+        "issuer": "Project Management Institute",
+        "date": "Août 2025",
+        "credential": "Vérifié",
+        "category": "Gestion de Projet",
+        "icon": "Users",
+        "skills": ["GenAI", "Gestion de Projet", "Productivité IA"]
+      }
+    ],
+    "professionalCertifications": [
+      {
+        "title": "Professional Scrum Product Owner II (PSPO II)",
+        "issuer": "Scrum.org",
+        "date": "2022",
+        "category": "Gestion de Produits",
+        "status": "Actuel"
+      },
+      {
+        "title": "Professional Scrum Master II (PSM II)",
+        "issuer": "Scrum.org",
+        "date": "2022",
+        "category": "Leadership Agile",
+        "status": "Actuel"
+      },
+      {
+        "title": "Microsoft Data Analyst Associate",
+        "issuer": "Microsoft",
+        "date": "2023",
+        "category": "Analyse de Données",
+        "status": "Actuel"
+      },
+      {
+        "title": "Databricks Fundamentals Accreditation",
+        "issuer": "Databricks",
+        "date": "Juin 2025",
+        "category": "Ingénierie de Données",
+        "status": "Actuel"
+      }
+    ],
+    "educationData": [
+      {
+        "degree": "Licence en Sciences - Informatique",
+        "institution": "Pontifícia Universidade Católica do Rio de Janeiro",
+        "period": "1995 - 1999",
+        "type": "Premier cycle"
+      },
+      {
+        "degree": "Troisième cycle - Technologies Internet",
+        "institution": "COPPE-UFRJ / IBPI",
+        "period": "1999 - 2000",
+        "type": "Troisième cycle"
+      },
+      {
+        "degree": "Troisième cycle - Gestion Stratégique du Marketing Digital",
+        "institution": "IGEC - FACHA",
+        "period": "2009",
+        "type": "Troisième cycle"
+      }
+    ]
   },
   "contact": {
     "badge": "Connectons-nous",

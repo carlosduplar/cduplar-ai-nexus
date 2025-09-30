@@ -245,6 +245,7 @@
       ]
     },
     "viewCredential": "View Credential",
+    "credentialId": "Credential ID:",
     "recentCertifications": [
       {
         "title": "Machine Learning Foundations for Product Managers",
@@ -373,6 +374,7 @@
         "period": "September 2025 - Present",
         "location": "Yverdon, Vaud, Switzerland",
         "logo": "heigvdLogo",
+        "website": "https://www.heig-vd.ch/",
         "highlights": [
           "Defining and leading digital transformation initiatives to enhance educational technology infrastructure",
           "Developing comprehensive project roadmaps aligned with HES-SO's Schéma Directeur Numérique (SDN) framework",
@@ -387,6 +389,7 @@
         "period": "September 2022 - July 2025",
         "location": "Biel, Bern, Switzerland",
         "logo": "gfLogo",
+        "website": "https://www.gfms.com/",
         "highlights": [
           "Cut service response & resolution times by up to 79% with global service Power BI KPI Dashboard",
           "Led Microsoft 365 Copilot pilot and trained 30+ colleagues on prompt engineering",
@@ -401,6 +404,7 @@
         "period": "November 2020 - September 2022",
         "location": "Lisbon, Portugal",
         "logo": "siemensLogo",
+        "website": "https://www.siemens.com/",
         "highlights": [
           "Grew user adoption 5x for a global SaaS password-management product",
           "Engaged with Product & Solution Security Experts for security reviews and risk assessments",
@@ -411,10 +415,11 @@
       },
       {
         "company": "BRQ Digital Solutions",
-        "role": "ERE Team Lead | Senior Application Specialist | Scrum Master",
+        "role": "Team Lead | Senior Application Specialist | Scrum Master",
         "period": "January 2019 - November 2020",
         "location": "Lisbon, Portugal",
         "logo": "brqLogo",
+        "website": "https://www.brq.com/",
         "highlights": [
           "Led two remote cross-functional Scrum teams for high-impact native iOS/Android app",
           "Collaborated with sales consulting on multiple RFIs and RFPs",
@@ -429,6 +434,7 @@
         "period": "July 2011 - October 2018",
         "location": "Rio de Janeiro, Brazil",
         "logo": "timBrasilLogo",
+        "website": "https://www.tim.com.br/",
         "highlights": [
           "Launched and scaled TIM's consumer self-service app to 8.2M total users (1.4M daily sessions)",
           "Improved app ratings from 1.5 to 4.0 stars and achieved Top 5 Utility app store ranking",
@@ -443,6 +449,7 @@
         "period": "October 2009 - July 2011",
         "location": "Rio de Janeiro, Brazil",
         "logo": "infogloboLogo",
+        "website": "https://www.infoglobo.com.br/",
         "highlights": [
           "Enhanced SEO for all company websites and trained editorial staff, resulting in 18% increase in monthly visitors",
           "Spearheaded database unification project, collaborating with Marketing and CRM teams to streamline user data",

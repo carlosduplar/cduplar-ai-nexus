@@ -12,98 +12,19 @@ import {
   BarChart3
 } from "lucide-react";
 
+interface LearningStat {
+  value: string;
+  label: string;
+}
+
 const CertificationsSection = () => {
   const { t } = useTranslation();
-  const recentCertifications = [
-    {
-      title: "Machine Learning Foundations for Product Managers",
-      issuer: "Duke University (Coursera)",
-      date: "July 2025",
-      credential: "JROSVNV9MOIM",
-      category: "AI/ML",
-      icon: <Brain className="w-5 h-5" />,
-      skills: ["AI Literacy", "Python", "Product Management", "Machine Learning"]
-    },
-    {
-      title: "Google Cloud Generative AI Leader",
-      issuer: "Google",
-      date: "2025",
-      credential: "Verified",
-      category: "AI Leadership",
-      icon: <Award className="w-5 h-5" />,
-      skills: ["GenAI", "AI Strategy", "Cloud AI", "Leadership"]
-    },
-    {
-      title: "Introduction to Model Context Protocol",
-      issuer: "Anthropic Academy",
-      date: "July 2025",
-      credential: "oq6tdifkv33d",
-      category: "AI Development",
-      icon: <Code className="w-5 h-5" />,
-      skills: ["AI APIs", "MCP", "AI Integration", "Prompt Engineering"]
-    },
-    {
-      title: "Practical Application of Gen AI for Project Managers",
-      issuer: "Project Management Institute",
-      date: "August 2025",
-      credential: "Verified",
-      category: "Project Management",
-      icon: <Users className="w-5 h-5" />,
-      skills: ["GenAI", "Project Management", "AI Productivity"]
-    }
-  ];
 
-  const professionalCertifications = [
-    {
-      title: "Professional Scrum Product Owner II (PSPO II)",
-      issuer: "Scrum.org",
-      date: "2022",
-      category: "Product Management",
-      status: "Current"
-    },
-    {
-      title: "Professional Scrum Master II (PSM II)",
-      issuer: "Scrum.org", 
-      date: "2022",
-      category: "Agile Leadership",
-      status: "Current"
-    },
-    {
-      title: "Microsoft Data Analyst Associate",
-      issuer: "Microsoft",
-      date: "2023",
-      category: "Data Analytics",
-      status: "Current"
-    },
-    {
-      title: "Databricks Fundamentals Accreditation",
-      issuer: "Databricks",
-      date: "June 2025",
-      category: "Data Engineering",
-      status: "Current"
-    }
-  ];
+  const recentCertifications = Object.values(t('certifications.recentCertifications', { returnObjects: true }) || []);
 
-  const education = [
-    {
-      degree: "Bachelor of Science - Computer Science",
-      institution: "Pontifícia Universidade Católica do Rio de Janeiro",
-      period: "1995 - 1999",
-      type: "Undergraduate"
-    },
-    {
-      degree: "Postgraduate - Internet Technologies",
-      institution: "COPPE-UFRJ / IBPI",
-      period: "1999 - 2000",
-      type: "Postgraduate"
-    },
-    {
-      degree: "Postgraduate - Digital Marketing Strategic Management",
-      institution: "IGEC - FACHA",
-      period: "2009",
-      type: "Postgraduate"
-    }
-  ];
+  const professionalCertifications = Object.values(t('certifications.professionalCertifications', { returnObjects: true }) || []);
+
+  const education = Object.values(t('certifications.educationData', { returnObjects: true }) || []);
 
   const getCategoryColor = (category: string) => {
     const colors = {
@@ -141,10 +62,10 @@ const CertificationsSection = () => {
           <div className="mb-16 fade-in-up">
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                Recent AI & Leadership Certifications (2025)
+                {t('certifications.recentAI.title')}
               </h3>
               <p className="text-muted-foreground">
-                Latest certifications focusing on AI leadership and practical application
+                {t('certifications.recentAI.subtitle')}
               </p>
             </div>
 
@@ -178,7 +99,7 @@ const CertificationsSection = () => {
                       </p>
                       {cert.credential && (
                         <p className="text-xs text-muted-foreground mb-3">
-                          Credential ID: {cert.credential}
+                          {t('certifications.credentialId')} {cert.credential}
                         </p>
                       )}
                     </div>
@@ -201,7 +122,7 @@ const CertificationsSection = () => {
                       variant="ghost"
                       className="w-full text-primary hover:bg-primary hover:text-primary-foreground group/btn"
                     >
-                      View Credential
+                      {t('certifications.viewCredential')}
                       <ExternalLink 
                         size={14} 
                         className="ml-2 group-hover/btn:translate-x-1 transition-transform duration-200" 
@@ -217,10 +138,10 @@ const CertificationsSection = () => {
           <div className="mb-16 fade-in-up">
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                Professional Certifications
+                {t('certifications.professional.title')}
               </h3>
               <p className="text-muted-foreground">
-                Industry-recognized certifications in product management, agile methodologies, and data analytics
+                {t('certifications.professional.subtitle')}
               </p>
             </div>
 
@@ -230,10 +151,10 @@ const CertificationsSection = () => {
                   key={index}
                   className="professional-card text-center group"
                 >
-                  <div className="inline-flex items-center justify-center w-14 h-14 hero-gradient rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-200">
+                  <div className="inline-flex items-center justify-center w-14 h-14 hero-gradient rounded-2xl mb-6 group-hover:scale-110 transition-transform duration-200">
                     <Award className="w-6 h-6 text-primary-foreground" />
                   </div>
-                  
+
                   <div className={`inline-block px-2 py-1 rounded-full text-xs font-medium border mb-3 ${getCategoryColor(cert.category)}`}>
                     {cert.category}
                   </div>
@@ -262,10 +183,10 @@ const CertificationsSection = () => {
           <div className="fade-in-up">
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                Educational Background
+                {t('certifications.education.title')}
               </h3>
               <p className="text-muted-foreground">
-                Strong foundation in computer science and digital technologies
+                {t('certifications.education.subtitle')}
               </p>
             </div>
 
@@ -310,27 +231,18 @@ const CertificationsSection = () => {
           <div className="mt-16 professional-card text-center fade-in-up">
             <div className="max-w-2xl mx-auto space-y-4">
               <h3 className="text-xl font-bold text-foreground">
-                Commitment to Continuous Learning
+                {t('certifications.learning.title')}
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                In the rapidly evolving field of AI and digital transformation, I believe in staying ahead 
-                of the curve through continuous learning. My recent focus on AI leadership, machine learning, 
-                and prompt engineering reflects my commitment to understanding and applying cutting-edge technologies 
-                in practical business contexts.
+                {t('certifications.learning.p1')}
               </p>
               <div className="grid md:grid-cols-3 gap-6 pt-6">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-primary">10+</div>
-                  <div className="text-sm text-muted-foreground">Recent Certifications</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-primary">25+</div>
-                  <div className="text-sm text-muted-foreground">Years Learning</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-primary">5</div>
-                  <div className="text-sm text-muted-foreground">Languages Spoken</div>
-                </div>
+                {(Object.values(t('certifications.learning.stats', { returnObjects: true }) || []) as LearningStat[]).map((stat, index) => (
+                  <div key={index} className="text-center">
+                    <div className="text-2xl font-bold text-primary">{stat.value}</div>
+                    <div className="text-sm text-muted-foreground">{stat.label}</div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>

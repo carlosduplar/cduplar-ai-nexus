@@ -185,7 +185,99 @@
       "partTime": "Teilzeit",
       "contract": "Vertrag",
       "present": "Heute"
-    }
+    },
+    "jobs": [
+      {
+        "company": "HEIG-VD",
+        "role": "Digital Transformation Projektmanager",
+        "period": "September 2025 - Heute",
+        "location": "Yverdon, Waadt, Schweiz",
+        "logo": "heigvdLogo",
+        "website": "https://www.heig-vd.ch/",
+        "highlights": [
+          "Definition und Leitung digitaler Transformationsinitiativen zur Verbesserung der Bildungstechnologie-Infrastruktur",
+          "Entwicklung umfassender Projekt-Roadmaps in Übereinstimmung mit HES-SOs Schéma Directeur Numérique (SDN) Rahmenwerk",
+          "Leitung multidisziplinärer Teams einschließlich IT, Fakultät und administrativer Stakeholder",
+          "Management von Risikobewertungen bei gleichzeitiger Einhaltung Schweizer öffentlicher Standards"
+        ],
+        "skills": ["Projektmanagement", "Digitale Transformation", "Strategische Planung", "Teamführung"]
+      },
+      {
+        "company": "Georg Fischer Machining Solutions",
+        "role": "Senior Product Owner",
+        "period": "September 2022 - Juli 2025",
+        "location": "Biel, Bern, Schweiz",
+        "logo": "gfLogo",
+        "website": "https://www.gfms.com/",
+        "highlights": [
+          "Reduzierung der Service-Antwort- und Lösungszeiten um bis zu 79% mit globalem Service Power BI KPI Dashboard",
+          "Leitung des Microsoft 365 Copilot-Pilotprojekts und Schulung von 30+ Kollegen in Prompt Engineering",
+          "Gestaltung der SaaS-Roadmap für GFMS-Endkunden mit durchschnittlich 39% QoQ-Wachstum bei Maschinenverbindungen seit Q3 2023",
+          "Design von Echtzeit-Maschinenüberwachungs-Dashboards mit OPC-UA und MTConnect-Protokollen"
+        ],
+        "skills": ["Produktmanagement", "KI/GenAI", "Power BI", "SaaS-Migration", "IoT"]
+      },
+      {
+        "company": "Siemens",
+        "role": "Product Owner für Smart Infrastructure",
+        "period": "November 2020 - September 2022",
+        "location": "Lissabon, Portugal",
+        "logo": "siemensLogo",
+        "website": "https://www.siemens.com/",
+        "highlights": [
+          "Steigerung der Nutzerakzeptanz um das 5-fache für ein globales SaaS-Passwort-Management-Produkt",
+          "Zusammenarbeit mit Produkt- und Lösungssicherheitsexperten für Sicherheitsüberprüfungen und Risikobewertungen",
+          "Management des Siemens Energy Carve-out-Projekts zur Sicherstellung eines reibungslosen und konformen Übergangs",
+          "Skalierung des Passwort-Management-SaaS auf 13+ Länder bei gleichzeitigem Aufbau interner BI-Tools"
+        ],
+        "skills": ["SaaS-Skalierung", "Sicherheit", "Risikomanagement", "Globale Teams"]
+      },
+      {
+        "company": "BRQ Digital Solutions",
+        "role": "Team Lead | Senior Application Specialist | Scrum Master",
+        "period": "Januar 2019 - November 2020",
+        "location": "Lissabon, Portugal",
+        "logo": "brqLogo",
+        "website": "https://www.brq.com/",
+        "highlights": [
+          "Leitung von zwei Remote-funktionsübergreifenden Scrum-Teams für hochprofilierende native iOS/Android-App",
+          "Zusammenarbeit mit Vertriebsberatung bei mehreren RFIs und RFPs",
+          "Direkter Beitrag zu zwei neuen Vertragsabschlüssen durch technische Beratung",
+          "Bereitstellung von Lösungen für TIM Brazil mit Fokus auf Mobile-First-Ansatz"
+        ],
+        "skills": ["Mobile-Entwicklung", "Scrum", "Remote-Teams", "Vertriebsunterstützung"]
+      },
+      {
+        "company": "TIM Brazil (Telecom Italia Mobile)",
+        "role": "Senior IT Specialist | IT Product Owner",
+        "period": "Juli 2011 - Oktober 2018",
+        "location": "Rio de Janeiro, Brasilien",
+        "logo": "timBrasilLogo",
+        "website": "https://www.tim.com.br/",
+        "highlights": [
+          "Start und Skalierung der TIM-Kunden-Self-Service-App auf 8,2 Mio. Nutzer insgesamt (1,4 Mio. tägliche Sitzungen)",
+          "Verbesserung der App-Bewertungen von 1,5 auf 4,0 Sterne und Erreichung der Top-5-Utility-App-Store-Platzierung",
+          "Vorreiter von TIMs erstem Agile-Projekt im Jahr 2011, Reduzierung der Vorlaufzeit für Kundenportal um 67%",
+          "Management eines jährlichen IT-Budgets von 300.000 € mit 3 direkten Mitarbeitern"
+        ],
+        "skills": ["Mobile Apps", "Agile Transformation", "Budgetverwaltung", "Teamführung"]
+      },
+      {
+        "company": "Infoglobo",
+        "role": "IT Product Owner | Senior Business Analyst",
+        "period": "Oktober 2009 - Juli 2011",
+        "location": "Rio de Janeiro, Brasilien",
+        "logo": "infogloboLogo",
+        "website": "https://www.infoglobo.com.br/",
+        "highlights": [
+          "Verbesserung des SEO für alle Unternehmens-Websites und Schulung von Redaktionsmitarbeitern, was zu 18% Anstieg der monatlichen Besucher führte",
+          "Vorreiter des Datenbank-Vereinheitlichungsprojekts, Zusammenarbeit mit Marketing- und CRM-Teams zur Optimierung von Benutzerdaten",
+          "Leitung der Agile-Initiative für die neue Website von Jornal Extra, Erreichung von 71% Anstieg des Suchmaschinenverkehrs im Jahr 2011",
+          "Tätigkeit als Solutions Architect, Überwachung der technischen Auswahl des neuen CMS und der redaktionellen Plattform"
+        ],
+        "skills": ["SEO-Optimierung", "Datenbankverwaltung", "Agile-Implementierung", "Systemarchitektur"]
+      }
+    ]
   },
   "projects": {
     "badge": "Ausgewählte Arbeiten",
@@ -261,7 +353,118 @@
   "certifications": {
     "badge": "Zeugnisse & Weiterbildung",
     "title": "Kontinuierliche Berufliche Entwicklung",
-    "subtitle": "An der Spitze der Technologie bleiben durch formale Zertifizierungen und praktisches Lernen in KI, Produktmanagement und digitaler Transformation."
+    "subtitle": "An der Spitze der Technologie bleiben durch formale Zertifizierungen und praktisches Lernen in KI, Produktmanagement und digitaler Transformation.",
+    "recentAI": {
+      "title": "Aktuelle KI & Leadership-Zertifizierungen (2025)",
+      "subtitle": "Neueste Zertifizierungen mit Fokus auf KI-Leadership und praktische Anwendung"
+    },
+    "professional": {
+      "title": "Professionelle Zertifizierungen",
+      "subtitle": "Branchenweit anerkannte Zertifizierungen in Produktmanagement, agilen Methoden und Datenanalyse"
+    },
+    "education": {
+      "title": "Bildungshintergrund",
+      "subtitle": "Starke Grundlage in Informatik und digitalen Technologien"
+    },
+    "learning": {
+      "title": "Engagement für kontinuierliches Lernen",
+      "p1": "Im sich schnell entwickelnden Bereich der KI und digitalen Transformation glaube ich daran, durch kontinuierliches Lernen voraus zu bleiben. Mein aktueller Fokus auf KI-Leadership, maschinelles Lernen und Prompt Engineering spiegelt mein Engagement wider, modernste Technologien in praktischen Geschäftskontexten zu verstehen und anzuwenden.",
+      "stats": [
+        { "value": "10+", "label": "Aktuelle Zertifizierungen" },
+        { "value": "25+", "label": "Jahre Lernen" },
+        { "value": "5", "label": "Gesprochene Sprachen" }
+      ]
+    },
+    "viewCredential": "Zertifikat ansehen",
+    "credentialId": "Zertifikat-ID:",
+    "recentCertifications": [
+      {
+        "title": "Machine Learning Grundlagen für Produktmanager",
+        "issuer": "Duke University (Coursera)",
+        "date": "Juli 2025",
+        "credential": "JROSVNV9MOIM",
+        "category": "KI/ML",
+        "icon": "Brain",
+        "skills": ["KI-Kompetenz", "Python", "Produktmanagement", "Maschinelles Lernen"]
+      },
+      {
+        "title": "Google Cloud Generative AI Leader",
+        "issuer": "Google",
+        "date": "2025",
+        "credential": "Verifiziert",
+        "category": "KI-Leadership",
+        "icon": "Award",
+        "skills": ["GenAI", "KI-Strategie", "Cloud KI", "Leadership"]
+      },
+      {
+        "title": "Einführung in Model Context Protocol",
+        "issuer": "Anthropic Academy",
+        "date": "Juli 2025",
+        "credential": "oq6tdifkv33d",
+        "category": "KI-Entwicklung",
+        "icon": "Code",
+        "skills": ["KI-APIs", "MCP", "KI-Integration", "Prompt Engineering"]
+      },
+      {
+        "title": "Praktische Anwendung von Gen AI für Projektmanager",
+        "issuer": "Project Management Institute",
+        "date": "August 2025",
+        "credential": "Verifiziert",
+        "category": "Projektmanagement",
+        "icon": "Users",
+        "skills": ["GenAI", "Projektmanagement", "KI-Produktivität"]
+      }
+    ],
+    "professionalCertifications": [
+      {
+        "title": "Professional Scrum Product Owner II (PSPO II)",
+        "issuer": "Scrum.org",
+        "date": "2022",
+        "category": "Produktmanagement",
+        "status": "Aktuell"
+      },
+      {
+        "title": "Professional Scrum Master II (PSM II)",
+        "issuer": "Scrum.org",
+        "date": "2022",
+        "category": "Agiles Leadership",
+        "status": "Aktuell"
+      },
+      {
+        "title": "Microsoft Data Analyst Associate",
+        "issuer": "Microsoft",
+        "date": "2023",
+        "category": "Datenanalyse",
+        "status": "Aktuell"
+      },
+      {
+        "title": "Databricks Fundamentals Accreditation",
+        "issuer": "Databricks",
+        "date": "Juni 2025",
+        "category": "Datentechnik",
+        "status": "Aktuell"
+      }
+    ],
+    "educationData": [
+      {
+        "degree": "Bachelor of Science - Informatik",
+        "institution": "Pontifícia Universidade Católica do Rio de Janeiro",
+        "period": "1995 - 1999",
+        "type": "Grundstudium"
+      },
+      {
+        "degree": "Postgradual - Internet-Technologien",
+        "institution": "COPPE-UFRJ / IBPI",
+        "period": "1999 - 2000",
+        "type": "Postgradual"
+      },
+      {
+        "degree": "Postgradual - Strategisches Management für Digitales Marketing",
+        "institution": "IGEC - FACHA",
+        "period": "2009",
+        "type": "Postgradual"
+      }
+    ]
   },
   "contact": {
     "badge": "Lassen Sie uns vernetzen",

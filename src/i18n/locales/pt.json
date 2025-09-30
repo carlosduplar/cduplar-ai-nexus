@@ -179,7 +179,99 @@
       "partTime": "Meio Período",
       "contract": "Contrato",
       "present": "Atual"
-    }
+    },
+    "jobs": [
+      {
+        "company": "HEIG-VD",
+        "role": "Gestor de Projeto de Transformação Digital",
+        "period": "Setembro 2025 - Atual",
+        "location": "Yverdon, Vaud, Suíça",
+        "logo": "heigvdLogo",
+        "website": "https://www.heig-vd.ch/",
+        "highlights": [
+          "Definindo e liderando iniciativas de transformação digital para melhorar a infraestrutura de tecnologia educativa",
+          "Desenvolvendo roadmaps de projeto abrangentes alinhados com o quadro Schéma Directeur Numérique (SDN) da HES-SO",
+          "Liderando equipas multidisciplinares incluindo IT, faculdade e stakeholders administrativos",
+          "Gerindo avaliação de riscos enquanto garante aderência aos padrões do setor público suíço"
+        ],
+        "skills": ["Gestão de Projetos", "Transformação Digital", "Planeamento Estratégico", "Liderança de Equipas"]
+      },
+      {
+        "company": "Georg Fischer Machining Solutions",
+        "role": "Senior Product Owner",
+        "period": "Setembro 2022 - Julho 2025",
+        "location": "Biel, Berna, Suíça",
+        "logo": "gfLogo",
+        "website": "https://www.gfms.com/",
+        "highlights": [
+          "Redução dos tempos de resposta e resolução do serviço em até 79% com dashboard KPI de serviço global em Power BI",
+          "Liderei piloto do Microsoft 365 Copilot e treinei 30+ colegas em engenharia de prompts",
+          "Moldei o roadmap SaaS para clientes finais da GFMS, com média de 39% de crescimento QoQ em ligações de máquinas desde Q3 2023",
+          "Desenhei dashboards de monitorização de máquinas em tempo real usando protocolos OPC-UA e MTConnect"
+        ],
+        "skills": ["Gestão de Produtos", "IA/GenAI", "Power BI", "Migração SaaS", "IoT"]
+      },
+      {
+        "company": "Siemens",
+        "role": "Product Owner para Smart Infrastructure",
+        "period": "Novembro 2020 - Setembro 2022",
+        "location": "Lisboa, Portugal",
+        "logo": "siemensLogo",
+        "website": "https://www.siemens.com/",
+        "highlights": [
+          "Aumentei adoção de utilizadores em 5x para um produto SaaS global de gestão de palavras-passe",
+          "Colaborei com Especialistas em Segurança de Produtos e Soluções para revisões de segurança e avaliações de risco",
+          "Geri projeto de separação da Siemens Energy garantindo transição fluida e conforme",
+          "Escalei SaaS de gestão de palavras-passe para 13+ países enquanto construía ferramentas BI internas"
+        ],
+        "skills": ["Escalamento SaaS", "Segurança", "Gestão de Riscos", "Equipas Globais"]
+      },
+      {
+        "company": "BRQ Digital Solutions",
+        "role": "Team Lead | Senior Application Specialist | Scrum Master",
+        "period": "Janeiro 2019 - Novembro 2020",
+        "location": "Lisboa, Portugal",
+        "logo": "brqLogo",
+        "website": "https://www.brq.com/",
+        "highlights": [
+          "Liderei duas equipas Scrum multifuncionais remotas para aplicação nativa iOS/Android de alto impacto",
+          "Colaborei com consultoria de vendas em múltiplos RFIs e RFPs",
+          "Contribuí diretamente para dois novos contratos ganhos através de consultoria técnica",
+          "Entreguei soluções para TIM Brazil com foco em abordagem mobile-first"
+        ],
+        "skills": ["Desenvolvimento Móvel", "Scrum", "Equipas Remotas", "Suporte de Vendas"]
+      },
+      {
+        "company": "TIM Brazil (Telecom Italia Mobile)",
+        "role": "Senior IT Specialist | IT Product Owner",
+        "period": "Julho 2011 - Outubro 2018",
+        "location": "Rio de Janeiro, Brasil",
+        "logo": "timBrasilLogo",
+        "website": "https://www.tim.com.br/",
+        "highlights": [
+          "Lancei e escalei aplicação de self-service para consumidores da TIM para 8,2M utilizadores totais (1,4M sessões diárias)",
+          "Melhorei classificações da aplicação de 1,5 para 4,0 estrelas e alcancei ranking Top 5 na app store de Utilitários",
+          "Fui pioneiro do primeiro projeto Agile da TIM em 2011, reduzindo tempo de entrega do portal de consumidores em 67%",
+          "Geri orçamento anual de IT de €300k com 3 reportes diretos"
+        ],
+        "skills": ["Aplicações Móveis", "Transformação Ágil", "Gestão de Orçamento", "Liderança de Equipas"]
+      },
+      {
+        "company": "Infoglobo",
+        "role": "IT Product Owner | Senior Business Analyst",
+        "period": "Outubro 2009 - Julho 2011",
+        "location": "Rio de Janeiro, Brasil",
+        "logo": "infogloboLogo",
+        "website": "https://www.infoglobo.com.br/",
+        "highlights": [
+          "Melhorei SEO para todos os sites da empresa e treinei pessoal editorial, resultando em 18% de aumento em visitantes mensais",
+          "Fui pioneiro no projeto de unificação de base de dados, colaborando com equipas de Marketing e CRM para otimizar dados de utilizadores",
+          "Liderei iniciativa Agile para novo site do Jornal Extra, alcançando 71% de aumento no tráfego de motores de busca em 2011",
+          "Servi como Arquiteto de Soluções, supervisionando seleção técnica de novo CMS e plataforma editorial"
+        ],
+        "skills": ["Otimização SEO", "Gestão de Base de Dados", "Implementação Ágil", "Arquitetura de Sistemas"]
+      }
+    ]
   },
   "projects": {
     "badge": "Trabalhos Destacados",
@@ -255,7 +347,118 @@
   "certifications": {
     "badge": "Credenciais & Aprendizagem",
     "title": "Desenvolvimento Profissional Contínuo",
-    "subtitle": "Mantendo-me na vanguarda da tecnologia através de certificações formais e aprendizagem prática em IA, gestão de produtos e transformação digital."
+    "subtitle": "Mantendo-me na vanguarda da tecnologia através de certificações formais e aprendizagem prática em IA, gestão de produtos e transformação digital.",
+    "recentAI": {
+      "title": "Certificações Recentes em IA e Liderança (2025)",
+      "subtitle": "Últimas certificações focadas em liderança em IA e aplicação prática"
+    },
+    "professional": {
+      "title": "Certificações Profissionais",
+      "subtitle": "Certificações reconhecidas pela indústria em gestão de produtos, metodologias ágeis e análise de dados"
+    },
+    "education": {
+      "title": "Formação Académica",
+      "subtitle": "Base sólida em ciências da computação e tecnologias digitais"
+    },
+    "learning": {
+      "title": "Compromisso com a Aprendizagem Contínua",
+      "p1": "No campo em rápida evolução da IA e transformação digital, acredito em manter-me à frente através da aprendizagem contínua. O meu foco recente em liderança em IA, aprendizagem automática e engenharia de prompts reflete o meu compromisso de compreender e aplicar tecnologias de ponta em contextos empresariais práticos.",
+      "stats": [
+        { "value": "10+", "label": "Certificações Recentes" },
+        { "value": "25+", "label": "Anos de Aprendizagem" },
+        { "value": "5", "label": "Idiomas Falados" }
+      ]
+    },
+    "viewCredential": "Ver Credencial",
+    "credentialId": "ID da Credencial:",
+    "recentCertifications": [
+      {
+        "title": "Fundamentos de Machine Learning para Gestores de Produto",
+        "issuer": "Duke University (Coursera)",
+        "date": "Julho 2025",
+        "credential": "JROSVNV9MOIM",
+        "category": "IA/ML",
+        "icon": "Brain",
+        "skills": ["Literacia em IA", "Python", "Gestão de Produtos", "Machine Learning"]
+      },
+      {
+        "title": "Google Cloud Generative AI Leader",
+        "issuer": "Google",
+        "date": "2025",
+        "credential": "Verificado",
+        "category": "Liderança em IA",
+        "icon": "Award",
+        "skills": ["GenAI", "Estratégia IA", "Cloud AI", "Liderança"]
+      },
+      {
+        "title": "Introdução ao Model Context Protocol",
+        "issuer": "Anthropic Academy",
+        "date": "Julho 2025",
+        "credential": "oq6tdifkv33d",
+        "category": "Desenvolvimento IA",
+        "icon": "Code",
+        "skills": ["APIs IA", "MCP", "Integração IA", "Engenharia de Prompts"]
+      },
+      {
+        "title": "Aplicação Prática de Gen AI para Gestores de Projeto",
+        "issuer": "Project Management Institute",
+        "date": "Agosto 2025",
+        "credential": "Verificado",
+        "category": "Gestão de Projetos",
+        "icon": "Users",
+        "skills": ["GenAI", "Gestão de Projetos", "Produtividade IA"]
+      }
+    ],
+    "professionalCertifications": [
+      {
+        "title": "Professional Scrum Product Owner II (PSPO II)",
+        "issuer": "Scrum.org",
+        "date": "2022",
+        "category": "Gestão de Produtos",
+        "status": "Vigente"
+      },
+      {
+        "title": "Professional Scrum Master II (PSM II)",
+        "issuer": "Scrum.org",
+        "date": "2022",
+        "category": "Liderança Ágil",
+        "status": "Vigente"
+      },
+      {
+        "title": "Microsoft Data Analyst Associate",
+        "issuer": "Microsoft",
+        "date": "2023",
+        "category": "Análise de Dados",
+        "status": "Vigente"
+      },
+      {
+        "title": "Databricks Fundamentals Accreditation",
+        "issuer": "Databricks",
+        "date": "Junho 2025",
+        "category": "Engenharia de Dados",
+        "status": "Vigente"
+      }
+    ],
+    "educationData": [
+      {
+        "degree": "Licenciatura em Ciências - Informática",
+        "institution": "Pontifícia Universidade Católica do Rio de Janeiro",
+        "period": "1995 - 1999",
+        "type": "Graduação"
+      },
+      {
+        "degree": "Pós-graduação - Tecnologias de Internet",
+        "institution": "COPPE-UFRJ / IBPI",
+        "period": "1999 - 2000",
+        "type": "Pós-graduação"
+      },
+      {
+        "degree": "Pós-graduação - Gestão Estratégica de Marketing Digital",
+        "institution": "IGEC - FACHA",
+        "period": "2009",
+        "type": "Pós-graduação"
+      }
+    ]
   },
   "contact": {
     "badge": "Vamos Conectar",
