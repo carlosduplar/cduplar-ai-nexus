@@ -12,8 +12,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     legacy({
-      targets: ['defaults', 'Firefox ESR'],
-      modernPolyfills: true
+      targets: ['defaults', 'Firefox ESR']
     })
   ],
   resolve: {
@@ -25,12 +24,16 @@ export default defineConfig(({ mode }) => ({
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
-          const info = assetInfo.name.split('.');
-          let extType = info[info.length - 1];
-          if (/png|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType)) {
-            extType = 'images';
+          const name = assetInfo.name || '';
+          const info = name.split('.');
+          const ext = info.length > 1 ? info.pop() : '';
+          if (ext && /png|jpe?g|svg|gif|tiff|bmp|ico/i.test(ext)) {
+            return `assets/images/[name]-[hash][extname]`;
           }
-          return `assets/${extType}/[name]-[hash][extname]`;
+          if (ext) {
+            return `assets/${ext}/[name]-[hash][extname]`;
+          }
+          return `assets/[name]-[hash][extname]`;
         },
       },
     },
