@@ -15,6 +15,13 @@
     "cta": "Connectons-nous",
     "languages": "Langues que je parle :",
     "availability": "Disponible pour de nouvelles opportunités",
+    "languageNames": {
+      "portuguese": "Portugais",
+      "english": "Anglais",
+      "french": "Français",
+      "german": "Allemand",
+      "spanish": "Espagnol"
+    },
     "stats": {
       "yearsExperience": "Années d'Expérience",
       "usersServed": "Utilisateurs Servis",

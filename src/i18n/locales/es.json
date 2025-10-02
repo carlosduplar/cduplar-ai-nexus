@@ -15,6 +15,13 @@
     "cta": "Conectemos",
     "languages": "Idiomas que hablo:",
     "availability": "Disponible para nuevas oportunidades",
+    "languageNames": {
+      "portuguese": "Portugués",
+      "english": "Inglés",
+      "french": "Francés",
+      "german": "Alemán",
+      "spanish": "Español"
+    },
     "stats": {
       "yearsExperience": "Años de Experiencia",
       "usersServed": "Usuarios Atendidos",
