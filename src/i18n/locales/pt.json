@@ -511,5 +511,33 @@
       "description": "Vamos agendar uma chamada para discutir as suas necessidades de transformação digital, estratégia de IA ou desafios de desenvolvimento de produtos.",
       "button": "Agendar uma Chamada"
     }
+  },
+  "consent": {
+    "title": "Valorizo a Sua Privacidade",
+    "description": "Uso cookies para melhorar a sua experiência de navegação e analisar o tráfego do site. Pode personalizar as suas preferências ou aceitar todos os cookies.",
+    "acceptAll": "Aceitar Tudo",
+    "rejectAll": "Rejeitar Tudo",
+    "customize": "Personalizar",
+    "savePreferences": "Guardar Preferências",
+    "settings": {
+      "title": "Preferências de Cookies",
+      "description": "Gerir as suas preferências de cookies. Pode ativar ou desativar diferentes tipos de cookies abaixo.",
+      "essential": {
+        "title": "Cookies Essenciais",
+        "description": "Estes cookies são necessários para o funcionamento adequado do site. Não podem ser desativados."
+      },
+      "analytics": {
+        "title": "Cookies de Análise",
+        "description": "Estes cookies ajudam-me a entender como os visitantes interagem com o meu site, coletando e reportando informações anonimamente."
+      },
+      "marketing": {
+        "title": "Cookies de Marketing",
+        "description": "Estes cookies são usados para rastrear visitantes em sites para exibir anúncios relevantes e envolventes."
+      },
+      "preferences": {
+        "title": "Cookies de Preferências",
+        "description": "Estes cookies permitem que o site se lembre das suas escolhas (como idioma ou região) para fornecer uma experiência mais personalizada."
+      }
+    }
   }
 }

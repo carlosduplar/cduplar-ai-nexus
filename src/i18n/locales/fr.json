@@ -517,5 +517,33 @@
       "description": "Planifions un appel pour discuter de vos besoins en transformation digitale, stratégie IA ou défis de développement produit.",
       "button": "Planifier un Appel"
     }
+  },
+  "consent": {
+    "title": "Je Respecte Votre Vie Privée",
+    "description": "J'utilise des cookies pour améliorer votre expérience de navigation et analyser le trafic du site. Vous pouvez personnaliser vos préférences ou accepter tous les cookies.",
+    "acceptAll": "Tout Accepter",
+    "rejectAll": "Tout Refuser",
+    "customize": "Personnaliser",
+    "savePreferences": "Enregistrer les Préférences",
+    "settings": {
+      "title": "Préférences de Cookies",
+      "description": "Gérez vos préférences de cookies. Vous pouvez activer ou désactiver différents types de cookies ci-dessous.",
+      "essential": {
+        "title": "Cookies Essentiels",
+        "description": "Ces cookies sont nécessaires au bon fonctionnement du site. Ils ne peuvent pas être désactivés."
+      },
+      "analytics": {
+        "title": "Cookies Analytiques",
+        "description": "Ces cookies m'aident à comprendre comment les visiteurs interagissent avec mon site en collectant et en rapportant des informations de manière anonyme."
+      },
+      "marketing": {
+        "title": "Cookies Marketing",
+        "description": "Ces cookies sont utilisés pour suivre les visiteurs sur les sites web afin d'afficher des publicités pertinentes et engageantes."
+      },
+      "preferences": {
+        "title": "Cookies de Préférences",
+        "description": "Ces cookies permettent au site de se souvenir de vos choix (tels que la langue ou la région) pour offrir une expérience plus personnalisée."
+      }
+    }
   }
 }

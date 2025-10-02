@@ -517,5 +517,33 @@
       "description": "Programemos una llamada para discutir tus necesidades de transformación digital, estrategia de IA o desafíos de desarrollo de productos.",
       "button": "Programar una Llamada"
     }
+  },
+  "consent": {
+    "title": "Valoro Tu Privacidad",
+    "description": "Utilizo cookies para mejorar tu experiencia de navegación y analizar el tráfico del sitio. Puedes personalizar tus preferencias o aceptar todas las cookies.",
+    "acceptAll": "Aceptar Todo",
+    "rejectAll": "Rechazar Todo",
+    "customize": "Personalizar",
+    "savePreferences": "Guardar Preferencias",
+    "settings": {
+      "title": "Preferencias de Cookies",
+      "description": "Administra tus preferencias de cookies. Puedes activar o desactivar diferentes tipos de cookies a continuación.",
+      "essential": {
+        "title": "Cookies Esenciales",
+        "description": "Estas cookies son necesarias para que el sitio web funcione correctamente. No se pueden desactivar."
+      },
+      "analytics": {
+        "title": "Cookies Analíticas",
+        "description": "Estas cookies me ayudan a entender cómo los visitantes interactúan con mi sitio web recopilando e informando información de forma anónima."
+      },
+      "marketing": {
+        "title": "Cookies de Marketing",
+        "description": "Estas cookies se utilizan para rastrear a los visitantes en los sitios web para mostrar anuncios relevantes y atractivos."
+      },
+      "preferences": {
+        "title": "Cookies de Preferencias",
+        "description": "Estas cookies permiten que el sitio web recuerde tus elecciones (como el idioma o la región) para proporcionar una experiencia más personalizada."
+      }
+    }
   }
 }
