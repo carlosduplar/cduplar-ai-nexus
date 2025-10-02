@@ -85,12 +85,12 @@ const HeroSection = () => {
             <div className="pt-4">
               <p className="text-sm text-muted-foreground mb-3">{t('hero.languages')}</p>
               <div className="flex flex-wrap gap-2">
-                {["Portuguese", "English", "French", "German", "Spanish"].map((lang) => (
+                {["portuguese", "english", "french", "german", "spanish"].map((langKey) => (
                   <span
-                    key={lang}
+                    key={langKey}
                     className="px-3 py-1 bg-secondary-light text-secondary text-xs font-medium rounded-full"
                   >
-                    {lang}
+                    {t(`hero.languageNames.${langKey}`)}
                   </span>
                 ))}
               </div>
