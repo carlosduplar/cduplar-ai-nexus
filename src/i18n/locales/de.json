@@ -15,6 +15,13 @@
     "cta": "Lassen Sie uns vernetzen",
     "languages": "Sprachen, die ich spreche:",
     "availability": "Verfügbar für neue Möglichkeiten",
+    "languageNames": {
+      "portuguese": "Portugiesisch",
+      "english": "Englisch",
+      "french": "Französisch",
+      "german": "Deutsch",
+      "spanish": "Spanisch"
+    },
     "stats": {
       "yearsExperience": "Jahre Erfahrung",
       "usersServed": "Betreute Nutzer",

@@ -15,6 +15,13 @@
     "cta": "Let's Connect",
     "languages": "Languages I speak:",
     "availability": "Available for new opportunities",
+    "languageNames": {
+      "portuguese": "Portuguese",
+      "english": "English",
+      "french": "French",
+      "german": "German",
+      "spanish": "Spanish"
+    },
     "stats": {
       "yearsExperience": "Years Experience",
       "usersServed": "Users Served",
