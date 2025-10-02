@@ -511,5 +511,33 @@
       "description": "Let's schedule a call to discuss your digital transformation needs, AI strategy, or product development challenges.",
       "button": "Schedule a Call"
     }
+  },
+  "consent": {
+    "title": "I Value Your Privacy",
+    "description": "I use cookies to enhance your browsing experience and analyze site traffic. You can customize your preferences or accept all cookies.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All",
+    "customize": "Customize",
+    "savePreferences": "Save Preferences",
+    "settings": {
+      "title": "Cookie Preferences",
+      "description": "Manage your cookie preferences. You can enable or disable different types of cookies below.",
+      "essential": {
+        "title": "Essential Cookies",
+        "description": "These cookies are necessary for the website to function properly. They cannot be disabled."
+      },
+      "analytics": {
+        "title": "Analytics Cookies",
+        "description": "These cookies help me understand how visitors interact with my website by collecting and reporting information anonymously."
+      },
+      "marketing": {
+        "title": "Marketing Cookies",
+        "description": "These cookies are used to track visitors across websites to display relevant and engaging advertisements."
+      },
+      "preferences": {
+        "title": "Preference Cookies",
+        "description": "These cookies enable the website to remember your choices (such as language or region) to provide a more personalized experience."
+      }
+    }
   }
 }
