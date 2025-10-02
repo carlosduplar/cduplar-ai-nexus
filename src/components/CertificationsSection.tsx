@@ -26,6 +26,18 @@ const CertificationsSection = () => {
 
   const education = Object.values(t('certifications.educationData', { returnObjects: true }) || []);
 
+  const getIconComponent = (iconName: string) => {
+    const icons = {
+      "Brain": Brain,
+      "Award": Award,
+      "Code": Code,
+      "Users": Users,
+      "BarChart3": BarChart3
+    };
+    const IconComponent = icons[iconName] || Award;
+    return <IconComponent className="w-6 h-6" />;
+  };
+
   const getCategoryColor = (category: string) => {
     const colors = {
       "AI/ML": "bg-purple-100 text-purple-800 border-purple-200",
@@ -78,7 +90,7 @@ const CertificationsSection = () => {
                   <div className="flex items-start gap-4 mb-4">
                     <div className="flex-shrink-0 w-12 h-12 hero-gradient rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
                       <div className="text-primary-foreground">
-                        {cert.icon}
+                        {getIconComponent(cert.icon)}
                       </div>
                     </div>
                     <div className="flex-1">
