@@ -517,5 +517,33 @@
       "description": "Lassen Sie uns einen Anruf planen, um Ihre Bedürfnisse in der digitalen Transformation, KI-Strategie oder Produktentwicklungsherausforderungen zu besprechen.",
       "button": "Anruf Planen"
     }
+  },
+  "consent": {
+    "title": "Ich Respektiere Ihre Privatsphäre",
+    "description": "Ich verwende Cookies, um Ihr Surferlebnis zu verbessern und den Website-Verkehr zu analysieren. Sie können Ihre Einstellungen anpassen oder alle Cookies akzeptieren.",
+    "acceptAll": "Alle Akzeptieren",
+    "rejectAll": "Alle Ablehnen",
+    "customize": "Anpassen",
+    "savePreferences": "Einstellungen Speichern",
+    "settings": {
+      "title": "Cookie-Einstellungen",
+      "description": "Verwalten Sie Ihre Cookie-Einstellungen. Sie können verschiedene Arten von Cookies unten aktivieren oder deaktivieren.",
+      "essential": {
+        "title": "Notwendige Cookies",
+        "description": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website erforderlich. Sie können nicht deaktiviert werden."
+      },
+      "analytics": {
+        "title": "Analytische Cookies",
+        "description": "Diese Cookies helfen mir zu verstehen, wie Besucher mit meiner Website interagieren, indem sie Informationen anonym sammeln und melden."
+      },
+      "marketing": {
+        "title": "Marketing-Cookies",
+        "description": "Diese Cookies werden verwendet, um Besucher über Websites hinweg zu verfolgen, um relevante und ansprechende Werbung anzuzeigen."
+      },
+      "preferences": {
+        "title": "Präferenz-Cookies",
+        "description": "Diese Cookies ermöglichen es der Website, sich an Ihre Entscheidungen (wie Sprache oder Region) zu erinnern, um ein personalisierteres Erlebnis zu bieten."
+      }
+    }
   }
 }
