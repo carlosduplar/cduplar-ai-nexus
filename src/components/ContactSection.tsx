@@ -312,25 +312,6 @@ const ContactSection = () => {
                   </div>
                 </div>
               </Card>
-
-              {/* Call to Action */}
-              <Card className="p-6 bg-gradient-to-r from-primary/10 to-primary-soft/10 border-primary/20">
-                <div className="text-center space-y-4">
-                  <h4 className="text-lg font-semibold text-foreground">
-                    {t('contact.cta.title')}
-                  </h4>
-                  <p className="text-sm text-muted-foreground">
-                    {t('contact.cta.description')}
-                  </p>
-                  <Button
-                    className="hero-gradient glow-effect"
-                    onClick={() => window.open("mailto:me@carlosmello.work", '_blank')}
-                  >
-                    {t('contact.cta.button')}
-                    <Phone className="ml-2" size={16} />
-                  </Button>
-                </div>
-              </Card>
             </div>
           </div>
         </div>

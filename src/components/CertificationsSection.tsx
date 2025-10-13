@@ -129,17 +129,20 @@ const CertificationsSection = () => {
                         </Badge>
                       ))}
                     </div>
-                    <Button
-                      size="sm"
-                      variant="ghost"
-                      className="w-full text-primary hover:bg-primary hover:text-primary-foreground group/btn"
-                    >
-                      {t('certifications.viewCredential')}
-                      <ExternalLink 
-                        size={14} 
-                        className="ml-2 group-hover/btn:translate-x-1 transition-transform duration-200" 
-                      />
-                    </Button>
+                    {cert.link && (
+                      <Button
+                        size="sm"
+                        variant="ghost"
+                        className="w-full text-primary hover:bg-primary hover:text-primary-foreground group/btn"
+                        onClick={() => window.open(cert.link, '_blank')}
+                      >
+                        {t('certifications.viewCredential')}
+                        <ExternalLink
+                          size={14}
+                          className="ml-2 group-hover/btn:translate-x-1 transition-transform duration-200"
+                        />
+                      </Button>
+                    )}
                   </div>
                 </div>
               ))}
@@ -161,7 +164,8 @@ const CertificationsSection = () => {
               {professionalCertifications.map((cert, index) => (
                 <div
                   key={index}
-                  className="professional-card text-center group"
+                  className="professional-card text-center group cursor-pointer"
+                  onClick={() => cert.link && window.open(cert.link, '_blank')}
                 >
                   <div className="inline-flex items-center justify-center w-14 h-14 hero-gradient rounded-2xl mb-6 group-hover:scale-110 transition-transform duration-200">
                     <Award className="w-6 h-6 text-primary-foreground" />
@@ -170,22 +174,29 @@ const CertificationsSection = () => {
                   <div className={`inline-block px-2 py-1 rounded-full text-xs font-medium border mb-3 ${getCategoryColor(cert.category)}`}>
                     {cert.category}
                   </div>
-                  
+
                   <h4 className="text-sm font-semibold text-foreground mb-2 min-h-[40px] flex items-center justify-center">
                     {cert.title}
                   </h4>
-                  
+
                   <p className="text-xs text-primary font-medium mb-1">
                     {cert.issuer}
                   </p>
-                  
+
                   <p className="text-xs text-muted-foreground mb-2">
                     {cert.date}
                   </p>
-                  
+
                   <div className="inline-block px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">
                     {cert.status}
                   </div>
+
+                  {cert.link && (
+                    <div className="mt-3 text-xs text-primary flex items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                      <span>View Credential</span>
+                      <ExternalLink size={12} />
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
