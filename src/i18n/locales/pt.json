@@ -386,7 +386,8 @@
         "credential": "JROSVNV9MOIM",
         "category": "IA/ML",
         "icon": "Brain",
-        "skills": ["Literacia em IA", "Python", "Gestão de Produtos", "Machine Learning"]
+        "skills": ["Literacia em IA", "Python", "Gestão de Produtos", "Machine Learning"],
+        "link": "https://www.coursera.org/account/accomplishments/records/JROSVNV9MOIM"
       },
       {
         "title": "Google Cloud Generative AI Leader",
@@ -395,7 +396,8 @@
         "credential": "Verificado",
         "category": "Liderança em IA",
         "icon": "Award",
-        "skills": ["GenAI", "Estratégia IA", "Cloud AI", "Liderança"]
+        "skills": ["GenAI", "Estratégia IA", "Cloud AI", "Liderança"],
+        "link": "https://www.credly.com/badges/b12aa0ee-90dc-439b-bda6-5eaf112d4e8e"
       },
       {
         "title": "Introdução ao Model Context Protocol",
@@ -404,7 +406,8 @@
         "credential": "oq6tdifkv33d",
         "category": "Desenvolvimento IA",
         "icon": "Code",
-        "skills": ["APIs IA", "MCP", "Integração IA", "Engenharia de Prompts"]
+        "skills": ["APIs IA", "MCP", "Integração IA", "Engenharia de Prompts"],
+        "link": "https://verify.skilljar.com/c/oq6tdifkv33d"
       },
       {
         "title": "Aplicação Prática de Gen AI para Gestores de Projeto",
@@ -413,7 +416,8 @@
         "credential": "Verificado",
         "category": "Gestão de Projetos",
         "icon": "Users",
-        "skills": ["GenAI", "Gestão de Projetos", "Produtividade IA"]
+        "skills": ["GenAI", "Gestão de Projetos", "Produtividade IA"],
+        "link": "https://www.credly.com/badges/d5a1a1ca-5f87-4f8a-af1a-0d1959ecc9eb"
       }
     ],
     "professionalCertifications": [
@@ -422,28 +426,32 @@
         "issuer": "Scrum.org",
         "date": "2022",
         "category": "Gestão de Produtos",
-        "status": "Vigente"
+        "status": "Vigente",
+        "link": "https://www.credly.com/badges/6c9ecfbc-a324-4e29-9896-b8c1edb12a25"
       },
       {
         "title": "Professional Scrum Master II (PSM II)",
         "issuer": "Scrum.org",
         "date": "2022",
         "category": "Liderança Ágil",
-        "status": "Vigente"
+        "status": "Vigente",
+        "link": "https://www.credly.com/badges/c846c530-1edc-447e-95db-873056f6165a"
       },
       {
         "title": "Microsoft Data Analyst Associate",
         "issuer": "Microsoft",
         "date": "2023",
         "category": "Análise de Dados",
-        "status": "Vigente"
+        "status": "Vigente",
+        "link": "https://www.credly.com/badges/50e14d3b-9119-4fc2-8d7e-b4fe0e2176d5"
       },
       {
         "title": "Databricks Fundamentals Accreditation",
         "issuer": "Databricks",
         "date": "Junho 2025",
         "category": "Engenharia de Dados",
-        "status": "Vigente"
+        "status": "Vigente",
+        "link": "https://credentials.databricks.com/1a1b3743-8786-4673-a96f-daec8b89f4b5#acc.GzhqJYAE"
       }
     ],
     "educationData": [
@@ -520,31 +528,9 @@
     }
   },
   "consent": {
-    "title": "Valorizo a Sua Privacidade",
-    "description": "Uso cookies para melhorar a sua experiência de navegação e analisar o tráfego do site. Pode personalizar as suas preferências ou aceitar todos os cookies.",
-    "acceptAll": "Aceitar Tudo",
-    "rejectAll": "Rejeitar Tudo",
-    "customize": "Personalizar",
-    "savePreferences": "Guardar Preferências",
-    "settings": {
-      "title": "Preferências de Cookies",
-      "description": "Gerir as suas preferências de cookies. Pode ativar ou desativar diferentes tipos de cookies abaixo.",
-      "essential": {
-        "title": "Cookies Essenciais",
-        "description": "Estes cookies são necessários para o funcionamento adequado do site. Não podem ser desativados."
-      },
-      "analytics": {
-        "title": "Cookies de Análise",
-        "description": "Estes cookies ajudam-me a entender como os visitantes interagem com o meu site, coletando e reportando informações anonimamente."
-      },
-      "marketing": {
-        "title": "Cookies de Marketing",
-        "description": "Estes cookies são usados para rastrear visitantes em sites para exibir anúncios relevantes e envolventes."
-      },
-      "preferences": {
-        "title": "Cookies de Preferências",
-        "description": "Estes cookies permitem que o site se lembre das suas escolhas (como idioma ou região) para fornecer uma experiência mais personalizada."
-      }
-    }
+    "title": "I Value Your Privacy",
+    "description": "I use Google Analytics to understand how visitors use this site. You can accept or reject analytics cookies.",
+    "accept": "Accept",
+    "reject": "Reject"
   }
 }
