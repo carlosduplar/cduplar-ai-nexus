@@ -13,7 +13,7 @@
 - [x] Remove "Business Impact" and "View Details" from projects
 
 ## Content Enhancements
-- [ ] Add "View Credential" links in CertificationsSection.tsx
+- [x] Add "View Credential" links in CertificationsSection.tsx
 - [ ] Add a "Schedule a Call" service to the website
 
 ## Technical
