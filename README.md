@@ -4,6 +4,11 @@ A modern, multilingual portfolio website showcasing professional experience, exp
 
 🌐 **Live Site:** [carlosmello.work](https://carlosmello.work)
 
+![Firebase Hosting](https://img.shields.io/badge/Firebase-Hosting-orange?logo=firebase)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript)
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite)
+
 ## 🚀 Tech Stack
 
 ### Core Framework
@@ -24,19 +29,18 @@ A modern, multilingual portfolio website showcasing professional experience, exp
 - **i18next-browser-languagedetector** - Automatic language detection
 
 ### Additional Tools
-- **React Hook Form** - Performant form handling
-- **Zod** - TypeScript-first schema validation
 - **EmailJS** - Contact form email service
-- **TanStack Query** - Data fetching and caching
+- **Sonner** - Toast notifications library
+- **Puppeteer** - Headless browser for prerendering
 
 ## ✨ Features
 
 - **🌍 Multilingual Support** - Full internationalization in 5 languages:
-  - 🇺🇸 English
-  - 🇧🇷 Portuguese
-  - 🇫🇷 French
-  - 🇩🇪 German
-  - 🇪🇸 Spanish
+  - English
+  - Portuguese
+  - French
+  - German
+  - Spanish
 
 - **🔍 Automatic Language Detection** - Detects user's preferred language from browser settings with fallback to localStorage preferences
 
@@ -49,6 +53,12 @@ A modern, multilingual portfolio website showcasing professional experience, exp
 - **♿ Accessible** - Built with accessibility in mind using Radix UI primitives
 
 - **⚡ Performance Optimized** - Fast loading times with Vite's build optimizations
+
+- **🔍 SEO Optimized** - robots.txt and sitemap.xml configured for search engine crawling
+
+- **📊 Analytics Ready** - Google Analytics integration for visitor tracking and insights
+
+- **⚡ Pre-rendered for Crawlers** - SEO-friendly static HTML available for search engine bots
 
 ## 📋 Prerequisites
 
@@ -88,10 +98,12 @@ npm run build
 
 Build output will be in the `dist/` directory.
 
-### Build for Development
+### Build without Prerendering
+
+For faster builds during development:
 
 ```bash
-npm run build:dev
+npm run build:no-prerender
 ```
 
 ## 👀 Preview
@@ -119,6 +131,7 @@ cduplar-ai-nexus/
 │   │   ├── ui/             # shadcn/ui components
 │   │   ├── AboutSection.tsx
 │   │   ├── CertificationsSection.tsx
+│   │   ├── ConsentBanner.tsx
 │   │   ├── ContactSection.tsx
 │   │   ├── ExperienceSection.tsx
 │   │   ├── ExpertiseSection.tsx
@@ -133,15 +146,21 @@ cduplar-ai-nexus/
 │   │   ├── Index.tsx       # Main landing page
 │   │   └── NotFound.tsx    # 404 page
 │   ├── hooks/              # Custom React hooks
+│   │   └── use-toast.ts    # Toast notification hook
 │   ├── lib/                # Utility functions
 │   ├── utils/              # Helper utilities
+│   │   └── consent.ts      # Google Analytics consent management
+│   ├── assets/             # Static assets (images, logos)
 │   ├── App.tsx             # Main app component
 │   └── main.tsx            # Application entry point
+├── scripts/                # Build and automation scripts
+│   └── prerender.mjs       # Puppeteer-based prerendering
 ├── public/                 # Static assets
 ├── dist/                   # Production build output
 ├── vite.config.ts          # Vite configuration
 ├── tailwind.config.ts      # Tailwind CSS configuration
 ├── tsconfig.json           # TypeScript configuration
+├── components.json         # shadcn/ui configuration
 └── package.json            # Project dependencies
 ```
 
@@ -166,11 +185,28 @@ cduplar-ai-nexus/
 - Custom animations (accordion)
 - Inter font family integration
 
+### shadcn/ui Configuration (`components.json`)
+- Path aliases for components (`@/components/ui`)
+- Tailwind CSS integration
+- Component variant management with CVA
+
 ## 🌐 Browser Support
 
 - **Modern Browsers:** Chrome, Firefox, Safari, Edge (latest versions)
 - **Mobile:** iOS Safari, Chrome Android, Firefox Android
 - **Legacy Support:** Firefox ESR and older Android browsers via polyfills
+
+## 🔍 SEO & Analytics
+
+### Search Engine Optimization
+- **robots.txt** - Crawler directives configured in `public/robots.txt`
+- **sitemap.xml** - Auto-generated sitemap available at `/sitemap.xml`
+- **Pre-rendering** - Static HTML generation for improved indexability
+- **Meta Tags** - Dynamic meta tags for each page using react-helmet-async
+
+### Analytics
+- **Google Analytics** - Tracking configured with GA4 measurement ID
+- **Performance Monitoring** - Page load and user interaction tracking
 
 ## 📦 Key Dependencies
 
@@ -184,6 +220,12 @@ cduplar-ai-nexus/
 | `react-router-dom` | Routing |
 | `@radix-ui/*` | Accessible UI primitives |
 | `@vitejs/plugin-legacy` | Legacy browser support |
+| `puppeteer` | Headless browser for prerendering |
+| `@emailjs/browser` | Email service for contact form |
+| `sonner` | Toast notifications |
+| `flag-icons` | Country flag icons |
+| `class-variance-authority` | Component variant management |
+| `clsx` & `tailwind-merge` | Utility for className management |
 
 ## 🚢 Deployment
 
@@ -214,4 +256,9 @@ This project is private and not licensed for public use.
 
 ---
 
-Built with Lovable, Claude Code, and Gemini CLI
+**Built with modern AI-powered development tools:**
+- 🎨 [Lovable](https://lovable.dev) - AI-powered UI generation
+- 🤖 [Claude Code](https://www.anthropic.com) - AI code assistance  
+- 💎 [Gemini CLI](https://ai.google.dev) - Command-line AI tooling
+
+*Showcasing practical AI tool integration in professional workflows*

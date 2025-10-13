@@ -23,7 +23,7 @@ This project now uses **custom Puppeteer-based prerendering** to generate SEO-fr
 
 3. **Build Process Integration**
    - `npm run build` - Full build with prerendering
-   - `npm run build:no-prerender` - Build without prerendering (faster for dev)
+   - `npm run build:no-prerender` - Build without prerendering (faster for development)
    - `npm run prerender` - Run prerendering manually
 
 ## 🔍 SEO Benefits
@@ -68,7 +68,7 @@ npm run build
 
 ### Development Build (no prerendering)
 ```bash
-npm run build:dev
+npm run build:no-prerender
 ```
 - Faster build for testing
 - No prerendering step
@@ -138,8 +138,9 @@ if (rootElement.hasChildNodes()) {
 ## 🌐 Multi-Language Support
 
 The prerenderer captures whatever language React renders by default:
-- Currently renders in **French** (detected from browser)
-- Search engines get full content in the detected language
+- Currently renders in the default language (English, as configured in i18next fallback)
+- The actual language may vary based on the prerendering environment
+- Search engines get full content in the rendered language
 - Client-side language switching still works after hydration
 
 ### To Prerender Multiple Languages
@@ -224,10 +225,10 @@ npm run prerender
 
 ### File Changes
 ```
-package.json         - Added prerender scripts
-src/main.tsx         - Added hydration support
-scripts/prerender.mjs - New: Prerendering script
-PRERENDERING.md      - This documentation
+package.json          - Added prerender scripts
+src/main.tsx          - Added hydration support
+scripts/prerender.mjs - Prerendering script
+PRERENDERING.md       - This documentation
 ```
 
 ### Browser Compatibility
