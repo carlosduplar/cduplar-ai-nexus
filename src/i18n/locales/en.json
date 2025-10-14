@@ -1,4 +1,22 @@
 {
+  "seo": {
+    "title": "Carlos Duplar Mello - Digital Transformation Product Owner & AI Specialist",
+    "description": "Digital Transformation Product Owner with 15+ years experience in AI, product management, and scalable digital solutions. Google Certified GenAI Leader specializing in LLM architectures and cross-functional team leadership in Switzerland.",
+    "keywords": "Digital Transformation, Product Owner, AI Specialist, Machine Learning, Scrum, Agile, Switzerland, Product Management, GenAI, LLM, RAG Architecture, IoT, SaaS, Power BI, Python, Azure, Cloud",
+    "ogTitle": "Carlos Duplar Mello - Digital Transformation Product Owner & AI Specialist",
+    "ogDescription": "15+ years of product lifecycle management experience. Currently Digital Transformation Project Manager at HEIG-VD, specializing in AI-powered solutions and scalable digital products.",
+    "twitterTitle": "Carlos Duplar Mello - Digital Transformation Product Owner & AI Specialist",
+    "twitterDescription": "15+ years of product lifecycle management experience. Currently Digital Transformation Project Manager at HEIG-VD, specializing in AI-powered solutions and scalable digital products."
+  },
+  "images": {
+    "profileAlt": "Carlos Duplar Mello - Digital Transformation Product Owner and AI Specialist",
+    "heigvdLogoAlt": "HEIG-VD logo - University of Applied Sciences Western Switzerland",
+    "gfLogoAlt": "Georg Fischer Machining Solutions logo - Industrial manufacturing technology company",
+    "siemensLogoAlt": "Siemens logo - Global technology and engineering company",
+    "brqLogoAlt": "BRQ Digital Solutions logo - Digital transformation and IT services company",
+    "timBrasilLogoAlt": "TIM Brasil logo - Telecom Italia Mobile Brazil telecommunications company",
+    "infogloboLogoAlt": "Infoglobo logo - Brazilian media and publishing company"
+  },
   "navigation": {
     "about": "About",
     "expertise": "Expertise",
@@ -461,7 +479,7 @@
       {
         "company": "Infoglobo",
         "role": "IT Product Owner | Senior Business Analyst",
-        "period": "October 2009 - July 2011",
+        "period": "January 2000 - July 2011",
         "location": "Rio de Janeiro, Brazil",
         "logo": "infogloboLogo",
         "website": "https://www.infoglobo.com.br/",

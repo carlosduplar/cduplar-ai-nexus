@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -20,12 +21,15 @@ const languages = [
 
 const LanguageSelector = () => {
   const { i18n } = useTranslation();
+  const navigate = useNavigate();
+  const { lang } = useParams<{ lang?: string }>();
   const [isOpen, setIsOpen] = useState(false);
 
   const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
 
   const handleLanguageChange = (languageCode: string) => {
-    i18n.changeLanguage(languageCode);
+    // Navigate to the new language URL, which will trigger i18n language change
+    navigate(`/${languageCode}`);
     setIsOpen(false);
   };
 

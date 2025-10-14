@@ -192,8 +192,8 @@ const CertificationsSection = () => {
                   </div>
 
                   {cert.link && (
-                    <div className="mt-3 text-xs text-primary flex items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                      <span>View Credential</span>
+                    <div className="mt-3 text-xs text-primary flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                      <span>{t('certifications.viewCredential')}</span>
                       <ExternalLink size={12} />
                     </div>
                   )}

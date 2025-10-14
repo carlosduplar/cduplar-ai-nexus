@@ -28,16 +28,20 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Security Headers - Note: These should ideally be set via HTTP headers in firebase.json -->
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <title>Carlos Duplar Mello - Digital Transformation Product Owner & AI Specialist</title>
-    <meta name="description" content="Carlos Duplar Mello: Digital Transformation Product Owner with 15+ years experience in AI, product management, and scalable digital solutions. Google Certified GenAI Leader specializing in LLM architectures and cross-functional team leadership." />
+    <title>Carlos Duplar Mello - Product Owner & AI Leader</title>
+    <meta name="description" content="Digital Transformation Product Owner with 15+ years in AI and product management. Google Certified GenAI Leader specializing in LLM-powered solutions." />
     <meta name="author" content="Carlos Duplar Mello" />
     <meta name="keywords" content="Digital Transformation, Product Owner, AI Specialist, Machine Learning, Scrum, Agile, Switzerland, Product Management" />
 
     <meta property="og:title" content="Carlos Duplar Mello - Digital Transformation Product Owner & AI Specialist" />
-    <meta property="og:description" content="15+ years of product lifecycle management experience. Currently Digital Transformation Project Manager at HEIG-VD, specializing in AI-powered solutions and scalable digital products." />
+    <meta property="og:description" content="Digital Transformation Product Owner with 15+ years in AI and product management. Google Certified GenAI Leader specializing in LLM-powered solutions." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://carlosmello.work" />
     <meta property="og:image" content="https://carlosmello.work/carlos-profile.jpg" />
@@ -47,7 +51,7 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Carlos Duplar Mello - Digital Transformation Product Owner & AI Specialist" />
-    <meta name="twitter:description" content="15+ years of product lifecycle management experience. Currently Digital Transformation Project Manager at HEIG-VD, specializing in AI-powered solutions and scalable digital products." />
+    <meta name="twitter:description" content="Digital Transformation Product Owner with 15+ years in AI and product management. Google Certified GenAI Leader specializing in LLM-powered solutions." />
     <meta name="twitter:image" content="https://carlosmello.work/carlos-profile.jpg" />
     <meta name="twitter:creator" content="@carlosduplar" />
     <link rel="icon" type="image/svg+xml" href="/placeholder.svg" />
@@ -57,36 +61,131 @@
     {
       "@context": "https://schema.org",
       "@type": "Person",
+      "@id": "https://carlosmello.work#me",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://carlosmello.work"
+      },
       "name": "Carlos Duplar Mello",
-      "jobTitle": "Digital Transformation Product Owner & AI Specialist",
-      "description": "Digital Transformation Project Manager at HEIG-VD with 15+ years of product lifecycle management experience. Google Certified GenAI Leader specializing in AI-powered solutions and scalable digital products.",
-      "url": "https://carlosmello.work",
+      "alternateName": "Carlos Mello",
       "image": "https://carlosmello.work/carlos-profile.jpg",
+      "url": "https://carlosmello.work",
       "email": "me@carlosmello.work",
       "telephone": "+41774903240",
+      "nationality": "Brazilian",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Biel/Bienne",
+        "addressRegion": "BE",
         "addressCountry": "CH"
       },
-      "worksFor": {
+      "jobTitle": "Digital Transformation Product Owner & AI Specialist",
+      "description": "Digital Transformation Project Manager at HEIG-VD with over 15 years in AI, SaaS, product lifecycle and public sector innovation.",
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "name": "HEIG-VD",
+          "url": "https://heig-vd.ch",
+          "sameAs": "https://www.linkedin.com/school/heigvd/",
+          "startDate": "2025-09"
+        },
+        {
+          "@type": "Organization",
+          "name": "Georg Fischer Machining Solutions",
+          "url": "https://www.georgfischer.com",
+          "startDate": "2022-09",
+          "endDate": "2025-08"
+        },
+        {
+          "@type": "Organization",
+          "name": "Siemens",
+          "url": "https://www.siemens.com",
+          "startDate": "2020-11",
+          "endDate": "2022-09"
+        },
+        {
+          "@type": "Organization",
+          "name": "BRQ Digital Solutions",
+          "url": "https://www.brq.com",
+          "startDate": "2019-01",
+          "endDate": "2020-11"
+        },
+        {
+          "@type": "Organization",
+          "name": "TIM Brazil",
+          "url": "https://www.tim.com.br",
+          "startDate": "2011-07",
+          "endDate": "2018-10"
+        },
+        {
+          "@type": "Organization",
+          "name": "Infoglobo",
+          "startDate": "2000-01",
+          "endDate": "2011-07"
+        }
+      ],
+      "alumniOf": {
         "@type": "Organization",
         "name": "HEIG-VD",
         "url": "https://heig-vd.ch"
       },
-      "alumniOf": {
-        "@type": "Organization",
-        "name": "HEIG-VD"
-      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Professional Scrum Product Owner II (PSPO II)",
+          "url": "https://www.scrum.org",
+          "dateIssued": "2022"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Professional Scrum Master II (PSM II)",
+          "url": "https://www.scrum.org",
+          "dateIssued": "2022"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Microsoft Certified: Data Analyst Associate",
+          "url": "https://learn.microsoft.com/en-us/certifications/data-analyst-associate/",
+          "dateIssued": "2023"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Google GenAI Leader Certification",
+          "url": "https://cloud.google.com"
+        }
+      ],
+      "knowsLanguage": [
+        { "@type": "Language", "name": "Portuguese", "proficiencyLevel": "native" },
+        { "@type": "Language", "name": "English", "proficiencyLevel": "C1" },
+        { "@type": "Language", "name": "French", "proficiencyLevel": "B1" },
+        { "@type": "Language", "name": "Spanish", "proficiencyLevel": "B2" },
+        { "@type": "Language", "name": "German", "proficiencyLevel": "B1" }
+      ],
       "knowsAbout": [
         "Digital Transformation",
         "Artificial Intelligence",
-        "Product Management",
-        "Machine Learning",
-        "Scrum",
-        "Agile Methodology",
+        "Generative AI",
+        "Prompt Engineering",
         "Large Language Models",
-        "GenAI"
+        "RAG architectures",
+        "LLMOps",
+        "LangChain",
+        "Vector Databases",
+        "n8n Automation",
+        "IoT Systems",
+        "Dashboards",
+        "Power BI",
+        "SaaS Migration",
+        "Cloud Architecture",
+        "Public Sector Innovation",
+        "Scrum",
+        "Agile Methodologies",
+        "Product Lifecycle Management",
+        "Change Management",
+        "UX Design",
+        "Stakeholder Management",
+        "Data Strategy",
+        "API Integration"
       ],
       "sameAs": [
         "https://linkedin.com/in/carlosduplar",
@@ -94,6 +193,7 @@
       ]
     }
     </script>
+
   </head>
 
   <body>

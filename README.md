@@ -245,7 +245,7 @@ No environment variables are required for basic operation. For EmailJS integrati
 
 ## 📄 License
 
-This project is private and not licensed for public use.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 👤 Contact
 

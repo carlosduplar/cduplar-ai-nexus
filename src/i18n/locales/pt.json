@@ -1,4 +1,22 @@
 {
+  "seo": {
+    "title": "Carlos Duplar Mello - Product Owner de Transformação Digital & Especialista em IA",
+    "description": "Product Owner de Transformação Digital com mais de 15 anos de experiência em IA, gestão de produtos e soluções digitais escaláveis. Líder GenAI Certificado pelo Google especializado em arquiteturas LLM e liderança de equipas multifuncionais na Suíça.",
+    "keywords": "Transformação Digital, Product Owner, Especialista IA, Machine Learning, Scrum, Agile, Suíça, Gestão de Produtos, GenAI, LLM, Arquitetura RAG, IoT, SaaS, Power BI, Python, Azure, Cloud",
+    "ogTitle": "Carlos Duplar Mello - Product Owner de Transformação Digital & Especialista em IA",
+    "ogDescription": "Mais de 15 anos de experiência em gestão do ciclo de vida de produtos. Atualmente Gestor de Projeto de Transformação Digital na HEIG-VD, especializado em soluções baseadas em IA e produtos digitais escaláveis.",
+    "twitterTitle": "Carlos Duplar Mello - Product Owner de Transformação Digital & Especialista em IA",
+    "twitterDescription": "Mais de 15 anos de experiência em gestão do ciclo de vida de produtos. Atualmente Gestor de Projeto de Transformação Digital na HEIG-VD, especializado em soluções baseadas em IA e produtos digitais escaláveis."
+  },
+  "images": {
+    "profileAlt": "Carlos Duplar Mello - Product Owner de Transformação Digital e Especialista em IA",
+    "heigvdLogoAlt": "Logotipo HEIG-VD - Escola Superior de Engenharia e Gestão do Cantão de Vaud",
+    "gfLogoAlt": "Logotipo Georg Fischer Machining Solutions - Empresa de tecnologia de fabricação industrial",
+    "siemensLogoAlt": "Logotipo Siemens - Empresa global de tecnologia e engenharia",
+    "brqLogoAlt": "Logotipo BRQ Digital Solutions - Empresa de transformação digital e serviços de TI",
+    "timBrasilLogoAlt": "Logotipo TIM Brasil - Empresa de telecomunicações Telecom Italia Mobile Brasil",
+    "infogloboLogoAlt": "Logotipo Infoglobo - Empresa brasileira de mídia e publicação"
+  },
   "navigation": {
     "about": "Sobre",
     "expertise": "Especialização",
@@ -266,7 +284,7 @@
       {
         "company": "Infoglobo",
         "role": "IT Product Owner | Senior Business Analyst",
-        "period": "Outubro 2009 - Julho 2011",
+        "period": "Janeiro 2000 - Julho 2011",
         "location": "Rio de Janeiro, Brasil",
         "logo": "infogloboLogo",
         "website": "https://www.infoglobo.com.br/",
@@ -528,9 +546,9 @@
     }
   },
   "consent": {
-    "title": "I Value Your Privacy",
-    "description": "I use Google Analytics to understand how visitors use this site. You can accept or reject analytics cookies.",
-    "accept": "Accept",
-    "reject": "Reject"
+    "title": "Valorizo a Sua Privacidade",
+    "description": "Utilizo o Google Analytics para compreender como os visitantes utilizam este site. Pode aceitar ou rejeitar cookies de análise.",
+    "accept": "Aceitar",
+    "reject": "Rejeitar"
   }
 }
