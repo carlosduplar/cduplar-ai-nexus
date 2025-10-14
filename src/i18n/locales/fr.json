@@ -1,4 +1,22 @@
 {
+  "seo": {
+    "title": "Carlos Duplar Mello - Chef de Projet Transformation Digitale & Spécialiste IA",
+    "description": "Chef de Projet Transformation Digitale avec plus de 15 ans d'expérience en IA, gestion de produits et solutions digitales évolutives. Leader GenAI Certifié Google spécialisé en architectures LLM et leadership d'équipes pluridisciplinaires en Suisse.",
+    "keywords": "Transformation Digitale, Product Owner, Spécialiste IA, Machine Learning, Scrum, Agile, Suisse, Gestion de Produits, GenAI, LLM, Architecture RAG, IoT, SaaS, Power BI, Python, Azure, Cloud",
+    "ogTitle": "Carlos Duplar Mello - Chef de Projet Transformation Digitale & Spécialiste IA",
+    "ogDescription": "Plus de 15 ans d'expérience en gestion du cycle de vie produit. Actuellement Chef de Projet Transformation Digitale chez HEIG-VD, spécialisé en solutions basées sur l'IA et produits digitaux évolutifs.",
+    "twitterTitle": "Carlos Duplar Mello - Chef de Projet Transformation Digitale & Spécialiste IA",
+    "twitterDescription": "Plus de 15 ans d'expérience en gestion du cycle de vie produit. Actuellement Chef de Projet Transformation Digitale chez HEIG-VD, spécialisé en solutions basées sur l'IA et produits digitaux évolutifs."
+  },
+  "images": {
+    "profileAlt": "Carlos Duplar Mello - Chef de Projet Transformation Digitale et Spécialiste IA",
+    "heigvdLogoAlt": "Logo HEIG-VD - Haute École d'Ingénierie et de Gestion du Canton de Vaud",
+    "gfLogoAlt": "Logo Georg Fischer Machining Solutions - Entreprise de technologie de fabrication industrielle",
+    "siemensLogoAlt": "Logo Siemens - Entreprise mondiale de technologie et d'ingénierie",
+    "brqLogoAlt": "Logo BRQ Digital Solutions - Entreprise de transformation digitale et services IT",
+    "timBrasilLogoAlt": "Logo TIM Brasil - Entreprise de télécommunications Telecom Italia Mobile Brésil",
+    "infogloboLogoAlt": "Logo Infoglobo - Entreprise brésilienne de médias et d'édition"
+  },
   "navigation": {
     "about": "À propos",
     "expertise": "Expertise",
@@ -534,9 +552,9 @@
     }
   },
   "consent": {
-    "title": "I Value Your Privacy",
-    "description": "I use Google Analytics to understand how visitors use this site. You can accept or reject analytics cookies.",
-    "accept": "Accept",
-    "reject": "Reject"
+    "title": "Je Valorise Votre Vie Privée",
+    "description": "J'utilise Google Analytics pour comprendre comment les visiteurs utilisent ce site. Vous pouvez accepter ou refuser les cookies analytiques.",
+    "accept": "Accepter",
+    "reject": "Refuser"
   }
 }

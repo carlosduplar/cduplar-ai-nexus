@@ -1,0 +1,53 @@
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
+import { generatePersonSchema, PersonSchema, generateCredentialSchema, CredentialSchema } from '@/utils/seoUtils';
+import { SupportedLanguage } from '@/utils/languageDetector';
+
+const StructuredData: React.FC = () => {
+  const { i18n, t } = useTranslation();
+  // The language from i18n is guaranteed to be one of the supported languages after initialization
+  const currentLanguage = i18n.language as SupportedLanguage;
+
+  // 1. Generate Person Schema (main structured data for a personal website)
+  const personSchema: PersonSchema = generatePersonSchema(currentLanguage);
+
+  // 2. Generate Credential Schemas for certifications
+  const recentCertifications = Object.values(t('certifications.recentCertifications', { returnObjects: true }) || []);
+  const professionalCertifications = Object.values(t('certifications.professionalCertifications', { returnObjects: true }) || []);
+
+  // Combine all certifications
+  const allCertifications = [...recentCertifications, ...professionalCertifications];
+
+  // Generate schemas for each certification
+  const credentialSchemas: CredentialSchema[] = allCertifications.map((cert: any) =>
+    generateCredentialSchema({
+      title: cert.title,
+      issuer: cert.issuer,
+      date: cert.date,
+      credential: cert.credential,
+      category: cert.category,
+      link: cert.link,
+    })
+  );
+
+  // 3. Convert all schemas to JSON-LD strings
+  const personJsonLd = JSON.stringify(personSchema, null, 2);
+  const credentialJsonLds = credentialSchemas.map(schema => JSON.stringify(schema, null, 2));
+
+  return (
+    <Helmet>
+      {/* Inject JSON-LD Structured Data for Person */}
+      <script type="application/ld+json">{personJsonLd}</script>
+
+      {/* Inject JSON-LD Structured Data for each Credential */}
+      {credentialJsonLds.map((jsonLd, index) => (
+        <script key={`credential-${index}`} type="application/ld+json">
+          {jsonLd}
+        </script>
+      ))}
+    </Helmet>
+  );
+};
+
+export default StructuredData;

@@ -1,7 +1,14 @@
 User-agent: *
 Allow: /
 
-# Sitemap
+# Allow all language versions
+Allow: /en/
+Allow: /fr/
+Allow: /de/
+Allow: /pt/
+Allow: /es/
+
+# Sitemap Index (references all language-specific sitemaps)
 Sitemap: https://carlosmello.work/sitemap.xml
 
 # Common crawl delays

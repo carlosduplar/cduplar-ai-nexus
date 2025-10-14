@@ -17,8 +17,32 @@ const resources = {
   es: { translation: es },
 };
 
+// Custom path detector for i18next to read language from URL
+const pathDetector = {
+  name: 'pathDetector',
+  lookup() {
+    const path = window.location.pathname;
+    const pathSegments = path.split('/').filter(Boolean);
+
+    if (pathSegments.length > 0) {
+      const firstSegment = pathSegments[0];
+      const supportedLngs = ['en', 'pt', 'fr', 'de', 'es'];
+
+      if (supportedLngs.includes(firstSegment)) {
+        return firstSegment;
+      }
+    }
+
+    return undefined;
+  }
+};
+
+// Register the custom detector
+const languageDetector = new LanguageDetector();
+languageDetector.addDetector(pathDetector);
+
 i18n
-  .use(LanguageDetector)
+  .use(languageDetector)
   .use(initReactI18next)
   .init({
     resources,
@@ -31,8 +55,9 @@ i18n
     },
 
     detection: {
-      // Detection order: localStorage (user preference) > navigator (browser language) > htmlTag > fallback
-      order: ['localStorage', 'navigator', 'htmlTag'],
+      // Detection order: URL path > localStorage > browser language > fallback
+      // This ensures URL takes priority and prevents flash of wrong language
+      order: ['pathDetector', 'localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
       lookupLocalStorage: 'i18nextLng',
       // Convert browser language codes to supported languages

@@ -1,4 +1,22 @@
 {
+  "seo": {
+    "title": "Carlos Duplar Mello - Digital Transformation Product Owner & KI-Spezialist",
+    "description": "Digital Transformation Product Owner mit über 15 Jahren Erfahrung in KI, Produktmanagement und skalierbaren digitalen Lösungen. Google Zertifizierter GenAI Leader spezialisiert auf LLM-Architekturen und funktionsübergreifende Teamführung in der Schweiz.",
+    "keywords": "Digitale Transformation, Product Owner, KI-Spezialist, Machine Learning, Scrum, Agile, Schweiz, Produktmanagement, GenAI, LLM, RAG-Architektur, IoT, SaaS, Power BI, Python, Azure, Cloud",
+    "ogTitle": "Carlos Duplar Mello - Digital Transformation Product Owner & KI-Spezialist",
+    "ogDescription": "Über 15 Jahre Erfahrung im Produktlebenszyklus-Management. Derzeit Digital Transformation Projektmanager bei HEIG-VD, spezialisiert auf KI-basierte Lösungen und skalierbare digitale Produkte.",
+    "twitterTitle": "Carlos Duplar Mello - Digital Transformation Product Owner & KI-Spezialist",
+    "twitterDescription": "Über 15 Jahre Erfahrung im Produktlebenszyklus-Management. Derzeit Digital Transformation Projektmanager bei HEIG-VD, spezialisiert auf KI-basierte Lösungen und skalierbare digitale Produkte."
+  },
+  "images": {
+    "profileAlt": "Carlos Duplar Mello - Digital Transformation Product Owner und KI-Spezialist",
+    "heigvdLogoAlt": "HEIG-VD Logo - Fachhochschule Westschweiz",
+    "gfLogoAlt": "Georg Fischer Machining Solutions Logo - Industrielles Fertigungstechnologie-Unternehmen",
+    "siemensLogoAlt": "Siemens Logo - Globales Technologie- und Ingenieurunternehmen",
+    "brqLogoAlt": "BRQ Digital Solutions Logo - Digitale Transformation und IT-Dienstleistungsunternehmen",
+    "timBrasilLogoAlt": "TIM Brasil Logo - Telecom Italia Mobile Brasilien Telekommunikationsunternehmen",
+    "infogloboLogoAlt": "Infoglobo Logo - Brasilianisches Medien- und Verlagsunternehmen"
+  },
   "navigation": {
     "about": "Über mich",
     "expertise": "Expertise",
@@ -534,9 +552,9 @@
     }
   },
   "consent": {
-    "title": "I Value Your Privacy",
-    "description": "I use Google Analytics to understand how visitors use this site. You can accept or reject analytics cookies.",
-    "accept": "Accept",
-    "reject": "Reject"
+    "title": "Ich Schätze Ihre Privatsphäre",
+    "description": "Ich verwende Google Analytics, um zu verstehen, wie Besucher diese Website nutzen. Sie können Analyse-Cookies akzeptieren oder ablehnen.",
+    "accept": "Akzeptieren",
+    "reject": "Ablehnen"
   }
 }

@@ -9,6 +9,13 @@ import siemensLogo from "@/assets/company-logos/siemens-logo.png";
 import brqLogo from "@/assets/company-logos/brq-logo.png";
 import timBrasilLogo from "@/assets/company-logos/tim-brasil-logo.png";
 import infogloboLogo from "@/assets/company-logos/globo-logo.png";
+import heigvdLogoWebP from "@/assets/company-logos/heig-vd-logo.webp";
+import gfLogoWebP from "@/assets/company-logos/gf-logo.webp";
+import siemensLogoWebP from "@/assets/company-logos/siemens-logo.webp";
+import brqLogoWebP from "@/assets/company-logos/brq-logo.webp";
+import timBrasilLogoWebP from "@/assets/company-logos/tim-brasil-logo.webp";
+import infogloboLogoWebP from "@/assets/company-logos/globo-logo.webp";
+import OptimizedImage from "@/components/OptimizedImage";
 
 const localeMap: { [key: string]: Locale } = {
   en: enUS,
@@ -79,13 +86,23 @@ const ExperienceSection = () => {
     infogloboLogo,
   };
 
+  const logoWebPMap: { [key: string]: string } = {
+    heigvdLogo: heigvdLogoWebP,
+    gfLogo: gfLogoWebP,
+    siemensLogo: siemensLogoWebP,
+    brqLogo: brqLogoWebP,
+    timBrasilLogo: timBrasilLogoWebP,
+    infogloboLogo: infogloboLogoWebP,
+  };
+
   const getTranslatedExperiences = () => {
     try {
       const jobs = t('experience.jobs', { returnObjects: true });
       if (Array.isArray(jobs)) {
         return jobs.map(job => ({
           ...job,
-          logo: logoMap[job.logo] || infogloboLogo, 
+          logo: logoMap[job.logo] || infogloboLogo,
+          logoWebP: logoWebPMap[job.logo] || infogloboLogoWebP,
         }));
       }
       return [];
@@ -127,8 +144,9 @@ const ExperienceSection = () => {
                   <div className="flex-shrink-0">
                     <a href={exp.website} target="_blank" rel="noopener noreferrer">
                       <div className="w-16 h-16 bg-background rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200 border shadow-sm">
-                        <img
+                        <OptimizedImage
                           src={exp.logo}
+                          webpSrc={exp.logoWebP}
                           alt={`${exp.company} logo`}
                           className="w-10 h-10 object-contain"
                           loading="lazy"

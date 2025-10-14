@@ -2,9 +2,12 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, MapPin, Briefcase } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import heroImage from "@/assets/carlos-profile.png";
+import heroImageWebP from "@/assets/carlos-profile.webp";
+import OptimizedImage from "@/components/OptimizedImage";
 
 const HeroSection = () => {
   const { t } = useTranslation();
+
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     if (element) {
@@ -68,7 +71,7 @@ const HeroSection = () => {
                 onClick={() => scrollToSection("#projects")}
                 className="hero-gradient glow-effect hover:glow-effect group text-lg px-8 py-6"
               >
-                Projects
+                {t('navigation.projects')}
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-200" size={20} />
               </Button>
               <Button
@@ -102,8 +105,9 @@ const HeroSection = () => {
             <div className="relative">
               {/* Main image container with professional styling */}
               <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[3/4]">
-                <img
+                <OptimizedImage
                   src={heroImage}
+                  webpSrc={heroImageWebP}
                   alt="Carlos Duplar Mello - Professional Portrait"
                   className="w-full h-full object-cover object-center"
                   loading="eager"

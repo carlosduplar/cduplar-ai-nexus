@@ -1,4 +1,22 @@
 {
+  "seo": {
+    "title": "Carlos Duplar Mello - Product Owner de Transformación Digital & Especialista en IA",
+    "description": "Product Owner de Transformación Digital con más de 15 años de experiencia en IA, gestión de productos y soluciones digitales escalables. Líder GenAI Certificado por Google especializado en arquitecturas LLM y liderazgo de equipos multifuncionales en Suiza.",
+    "keywords": "Transformación Digital, Product Owner, Especialista IA, Machine Learning, Scrum, Agile, Suiza, Gestión de Productos, GenAI, LLM, Arquitectura RAG, IoT, SaaS, Power BI, Python, Azure, Cloud",
+    "ogTitle": "Carlos Duplar Mello - Product Owner de Transformación Digital & Especialista en IA",
+    "ogDescription": "Más de 15 años de experiencia en gestión del ciclo de vida de productos. Actualmente Gestor de Proyecto de Transformación Digital en HEIG-VD, especializado en soluciones basadas en IA y productos digitales escalables.",
+    "twitterTitle": "Carlos Duplar Mello - Product Owner de Transformación Digital & Especialista en IA",
+    "twitterDescription": "Más de 15 años de experiencia en gestión del ciclo de vida de productos. Actualmente Gestor de Proyecto de Transformación Digital en HEIG-VD, especializado en soluciones basadas en IA y productos digitales escalables."
+  },
+  "images": {
+    "profileAlt": "Carlos Duplar Mello - Product Owner de Transformación Digital y Especialista en IA",
+    "heigvdLogoAlt": "Logo HEIG-VD - Universidad de Ciencias Aplicadas de Suiza Occidental",
+    "gfLogoAlt": "Logo Georg Fischer Machining Solutions - Empresa de tecnología de fabricación industrial",
+    "siemensLogoAlt": "Logo Siemens - Empresa global de tecnología e ingeniería",
+    "brqLogoAlt": "Logo BRQ Digital Solutions - Empresa de transformación digital y servicios de TI",
+    "timBrasilLogoAlt": "Logo TIM Brasil - Empresa de telecomunicaciones Telecom Italia Mobile Brasil",
+    "infogloboLogoAlt": "Logo Infoglobo - Empresa brasileña de medios y publicación"
+  },
   "navigation": {
     "about": "Acerca de",
     "expertise": "Experiencia",
@@ -534,9 +552,9 @@
     }
   },
   "consent": {
-    "title": "I Value Your Privacy",
-    "description": "I use Google Analytics to understand how visitors use this site. You can accept or reject analytics cookies.",
-    "accept": "Accept",
-    "reject": "Reject"
+    "title": "Valoro Tu Privacidad",
+    "description": "Utilizo Google Analytics para comprender cómo los visitantes usan este sitio. Puedes aceptar o rechazar las cookies analíticas.",
+    "accept": "Aceptar",
+    "reject": "Rechazar"
   }
 }
