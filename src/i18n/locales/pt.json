@@ -304,6 +304,30 @@
     "subtitle": "Aplicações práticas de IA, análise de dados e gestão estratégica de produtos que entregaram impacto mensurável no negócio.",
     "items": [
       {
+        "title": "Sistema de Delegação Autónoma de Tarefas Claude-Gemini",
+        "description": "Desenvolvi um framework inteligente de delegação de tarefas que permite ao Claude Code descarregar autonomamente tarefas pesadas em tokens (análise de grandes bases de código, operações em massa de ficheiros, geração de documentação) para o Gemini CLI, aproveitando a janela de contexto de 1M tokens e tier gratuito do Gemini. Inclui proteções personalizadas para prevenir operações destrutivas e configurações CLAUDE.md otimizadas para conformidade confiável.",
+        "category": "Ferramentas IA",
+        "achievements": [
+          "40-60% de redução no consumo de tokens do Claude",
+          "Delegação autónoma com proteções de segurança",
+          "Quota do Claude Pro efetivamente estendida"
+        ],
+        "status": "Desenvolvimento Ativo",
+        "impact": "Contornou limitações de quota e otimizou uso de ferramentas ao seu melhor potencial"
+      },
+      {
+        "title": "Website de Portfólio Multilingue Alimentado por IA",
+        "description": "Construí um website de portfólio moderno e de nível produção usando fluxo de desenvolvimento assistido por IA combinando Lovable, Claude Code e Gemini CLI. Possui internacionalização completa em 5 idiomas, otimização SEO com pré-renderização para motores de busca, suporte para navegadores legados e funcionalidade de contacto integrada.",
+        "category": "Desenvolvimento Web",
+        "achievements": [
+          "Suporte multilingue em 5 idiomas (EN/PT/FR/DE/ES)",
+          "Otimizado para SEO com pré-renderização estática",
+          "Compatibilidade cross-browser incluindo dispositivos legados"
+        ],
+        "status": "Produção",
+        "impact": "Domínio de frameworks web modernos através de aprendizagem assistida por IA"
+      },
+      {
         "title": "Modelo de Previsão Energética com Machine Learning",
         "description": "Desenvolvi um modelo ML sofisticado atingindo 96,4% de precisão na previsão de consumo energético para ambientes de fabricação industrial. O modelo usa análise de séries temporais e incorpora múltiplas variáveis ambientais e operacionais.",
         "category": "IA/ML",
@@ -312,7 +336,7 @@
           "Monitorização energética em tempo real",
           "Insights de otimização de custos"
         ],
-        "status": "Produção",
+        "status": "Concluído",
         "impact": "Permitiu 15% de redução nos custos energéticos"
       },
       {
@@ -324,7 +348,7 @@
           "Integração de base de dados vetorial",
           "Analíticas conversacionais"
         ],
-        "status": "Desenvolvimento Ativo",
+        "status": "Produção",
         "impact": "Acelerou prototipagem de funcionalidades IA em 60%"
       },
       {
