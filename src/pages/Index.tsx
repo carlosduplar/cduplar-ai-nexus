@@ -42,10 +42,10 @@ const Index = () => {
       <main>
         <AboutSection />
         <ExpertiseSection />
+        <ProjectsSection />        
         <ExperienceSection />
-        <ProjectsSection />
+        <TestimonialsSection />        
         <CertificationsSection />
-        <TestimonialsSection />
         <ContactSection />
       </main>
     </div>
