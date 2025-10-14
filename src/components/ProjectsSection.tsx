@@ -42,6 +42,15 @@ const ProjectsSection = () => {
     ["OPC-UA", "MTConnect", "Azure IoT", "Power BI", "Real-time Analytics"]
   ];
 
+  const projectLinks = [
+    "https://github.com/carlosduplar/claude-gemini-delegation",
+    "https://github.com/carlosduplar/cduplar-ai-nexus",
+    "https://www.loom.com/share/b279ea3dc3b849469e5336fbcaedc202?sid=78694866-4a67-4d7f-b2a3-dbc90efb4550",
+    "https://myaibox.carlosmello.work",
+    "https://www.loom.com/share/13c00e3264d64c948e5bcd3894979cf8?sid=2b2d4a38-ea87-439c-929c-b2a1ca4e24b2",
+    "https://www.gfms.com/en-us/machines/digitalization/myrconnect/analytics.html"
+  ];
+
   const getStatusColor = (status: string) => {
     const translatedProduction = t('projects.statuses.production');
     const translatedActiveDevelopment = t('projects.statuses.activeDevelopment');
@@ -142,6 +151,36 @@ const ProjectsSection = () => {
                     ))}
                   </div>
                 </div>
+
+                {/* Project Link */}
+                {projectLinks[index] && (
+                  <div className="mt-auto pt-4 border-t border-border">
+                    <Button
+                      variant="outline"
+                      className="w-full group/btn"
+                      asChild
+                    >
+                      <a
+                        href={projectLinks[index]}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2"
+                      >
+                        {projectLinks[index].includes('github.com') ? (
+                          <>
+                            <Github size={16} />
+                            {t('projects.labels.viewOnGithub') || 'View on GitHub'}
+                          </>
+                        ) : (
+                          <>
+                            <ExternalLink size={16} />
+                            {t('projects.labels.viewProject') || 'View Project'}
+                          </>
+                        )}
+                      </a>
+                    </Button>
+                  </div>
+                )}
               </div>
             ))}
           </div>

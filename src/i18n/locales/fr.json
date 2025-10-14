@@ -23,6 +23,7 @@
     "experience": "Expérience",
     "projects": "Projets",
     "certifications": "Certifications",
+    "testimonials": "Témoignages",
     "contact": "Contact"
   },
   "hero": {
@@ -386,7 +387,9 @@
       "keyAchievements": "Réalisations Clés:",
       "technologiesUsed": "Technologies Utilisées:",
       "businessImpact": "Impact Business:",
-      "viewDetails": "Voir les Détails"
+      "viewDetails": "Voir les Détails",
+      "viewOnGithub": "Voir sur GitHub",
+      "viewProject": "Voir le projet"
     },
     "statuses": {
       "production": "Production",
@@ -522,6 +525,14 @@
         "type": "Troisième cycle"
       }
     ]
+  },
+  "testimonials": {
+    "badge": "Témoignages",
+    "title": "Ce que Disent mes Collègues et Partenaires",
+    "subtitle": "Recommandations authentiques de professionnels avec qui j'ai travaillé tout au long de ma carrière, partagées publiquement sur LinkedIn.",
+    "readMore": "Lire la suite",
+    "readLess": "Montrer moins",
+    "footer": "Tous les témoignages proviennent des recommandations LinkedIn et peuvent être vérifiés en visitant le profil du recommandeur."
   },
   "contact": {
     "badge": "Connectons-nous",

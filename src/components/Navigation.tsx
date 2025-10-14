@@ -23,6 +23,7 @@ const Navigation = () => {
     { href: "#experience", label: t('navigation.experience') },
     { href: "#projects", label: t('navigation.projects') },
     { href: "#certifications", label: t('navigation.certifications') },
+    { href: "#testimonials", label: t('navigation.testimonials') },
     { href: "#contact", label: t('navigation.contact') },
   ];
 

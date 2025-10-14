@@ -23,6 +23,7 @@
     "experience": "Experience",
     "projects": "Projects",
     "certifications": "Certifications",
+    "testimonials": "Testimonials",
     "contact": "Contact"
   },
   "hero": {
@@ -255,7 +256,9 @@
       "keyAchievements": "Key Achievements:",
       "technologiesUsed": "Technologies Used:",
       "businessImpact": "Business Impact:",
-      "viewDetails": "View Details"
+      "viewDetails": "View Details",
+      "viewOnGithub": "View on GitHub",
+      "viewProject": "View Project"
     },
     "statuses": {
       "production": "Production",
@@ -516,6 +519,14 @@
         "skills": ["SEO Optimization", "Database Management", "Agile Implementation", "System Architecture"]
       }
     ]
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What Colleagues & Partners Say",
+    "subtitle": "Authentic recommendations from professionals I've worked with throughout my career, shared publicly on LinkedIn.",
+    "readMore": "Read more",
+    "readLess": "Show less",
+    "footer": "All testimonials are from LinkedIn recommendations and can be verified by visiting the recommender's profile."
   },
   "contact": {
     "badge": "Let's Connect",

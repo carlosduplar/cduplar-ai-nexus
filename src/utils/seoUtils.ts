@@ -327,3 +327,68 @@ export function generateSlug(text: string): string {
     .replace(/[^a-z0-9]+/g, '-') // Replace non-alphanumeric with hyphens
     .replace(/^-+|-+$/g, ''); // Remove leading/trailing hyphens
 }
+
+/**
+ * Review Schema.org structured data
+ */
+export interface ReviewSchema {
+  '@context': string;
+  '@type': string;
+  author: {
+    '@type': string;
+    name: string;
+    jobTitle?: string;
+    url?: string;
+  };
+  reviewBody: string;
+  datePublished: string;
+  reviewRating?: {
+    '@type': string;
+    ratingValue: number;
+    bestRating: number;
+  };
+  itemReviewed: {
+    '@type': string;
+    name: string;
+  };
+}
+
+/**
+ * Generate Review structured data for testimonials
+ */
+export function generateReviewSchema(testimonial: {
+  name: string;
+  title: string;
+  company: string;
+  linkedIn: string;
+  date: string;
+  text: string;
+}): ReviewSchema {
+  // Parse date to ISO format
+  const parseDateToISO = (dateStr: string): string => {
+    const date = new Date(dateStr);
+    return isNaN(date.getTime()) ? new Date().toISOString() : date.toISOString();
+  };
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    author: {
+      '@type': 'Person',
+      name: testimonial.name,
+      jobTitle: `${testimonial.title} at ${testimonial.company}`,
+      url: testimonial.linkedIn,
+    },
+    reviewBody: testimonial.text,
+    datePublished: parseDateToISO(testimonial.date),
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: 5,
+      bestRating: 5,
+    },
+    itemReviewed: {
+      '@type': 'Person',
+      name: 'Carlos Duplar Mello',
+    },
+  };
+}

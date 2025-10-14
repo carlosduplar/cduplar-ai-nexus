@@ -23,6 +23,7 @@
     "experience": "Experiência",
     "projects": "Projetos",
     "certifications": "Certificações",
+    "testimonials": "Recomendações",
     "contact": "Contato"
   },
   "hero": {
@@ -380,7 +381,9 @@
       "keyAchievements": "Principais Conquistas:",
       "technologiesUsed": "Tecnologias Utilizadas:",
       "businessImpact": "Impacto no Negócio:",
-      "viewDetails": "Ver Detalhes"
+      "viewDetails": "Ver Detalhes",
+      "viewOnGithub": "Ver no GitHub",
+      "viewProject": "Ver Projeto"
     },
     "statuses": {
       "production": "Produção",
@@ -516,6 +519,14 @@
         "type": "Pós-graduação"
       }
     ]
+  },
+  "testimonials": {
+    "badge": "Recomendações",
+    "title": "O Que Colegas e Parceiros Dizem",
+    "subtitle": "Recomendações autênticas de profissionais com quem trabalhei ao longo da minha carreira, partilhadas publicamente no LinkedIn.",
+    "readMore": "Ler mais",
+    "readLess": "Mostrar menos",
+    "footer": "Todas as recomendações são do LinkedIn e podem ser verificadas visitando o perfil do recomendador."
   },
   "contact": {
     "badge": "Vamos Conectar",
