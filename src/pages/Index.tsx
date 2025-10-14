@@ -37,7 +37,7 @@ const Index = () => {
 
   return (
     <div key={i18n.language} className="min-h-screen bg-background" suppressHydrationWarning>
-      <Navigation key={`nav-${i18n.language}`} />
+      <Navigation />
       <HeroSection key={`hero-${i18n.language}`} />
       <main>
         <AboutSection />
