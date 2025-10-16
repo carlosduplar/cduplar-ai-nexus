@@ -5,6 +5,15 @@ import { generatePersonSchema, PersonSchema, generateCredentialSchema, Credentia
 import { SupportedLanguage } from '@/utils/languageDetector';
 import testimonials from '@/data/testimonials.json';
 
+interface Certification {
+  title: string;
+  issuer: string;
+  date: string;
+  credential?: string;
+  category: string;
+  link?: string;
+}
+
 const StructuredData: React.FC = () => {
   const { i18n, t } = useTranslation();
   // The language from i18n is guaranteed to be one of the supported languages after initialization
@@ -14,14 +23,14 @@ const StructuredData: React.FC = () => {
   const personSchema: PersonSchema = generatePersonSchema(currentLanguage);
 
   // 2. Generate Credential Schemas for certifications
-  const recentCertifications = Object.values(t('certifications.recentCertifications', { returnObjects: true }) || []);
-  const professionalCertifications = Object.values(t('certifications.professionalCertifications', { returnObjects: true }) || []);
+  const recentCertifications: Certification[] = Object.values(t('certifications.recentCertifications', { returnObjects: true }) || []) as Certification[];
+  const professionalCertifications: Certification[] = Object.values(t('certifications.professionalCertifications', { returnObjects: true }) || []) as Certification[];
 
   // Combine all certifications
   const allCertifications = [...recentCertifications, ...professionalCertifications];
 
   // Generate schemas for each certification
-  const credentialSchemas: CredentialSchema[] = allCertifications.map((cert: any) =>
+  const credentialSchemas: CredentialSchema[] = allCertifications.map((cert) =>
     generateCredentialSchema({
       title: cert.title,
       issuer: cert.issuer,
