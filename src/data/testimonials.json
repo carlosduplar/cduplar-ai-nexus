@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Jason Pierrot",
+    "title": "Full-Stack Developer",
+    "company": "United Machining",
+    "companyInfo": "JavaScript/TypeScript, C# .NET, React, Blazor",
+    "linkedIn": "https://www.linkedin.com/in/itsjasonpierrot",
+    "date": "May 21, 2025",
+    "relationship": "Jason worked with Carlos Duplar on the same team",
+    "language": "en",
+    "text": "When Carlos joined GF MS some time after I did, and became Product Owner of several applications my immediate team and I were working on, he was able to immediately show his friendly but professional nature pertaining to the role at hand. Not afraid to go fully hands on and ensure the specifications were as clear to us as possible by conducting full User Research, his work has become the staple of what we expected from a Product Owner: clear, concise User Stories and task information, as well as having a consistent user/stakeholder feedback loop. He has always gone above and beyond in his role, ensuring we had the support and knowledge we need to do our development work, resulting in our team's very rapid efficiency in handing over results, even under tight delivery times. He is an asset to which ever team he will be in and it has been a pleasure to work with him."
+  },
+  {
+    "id": 2,
+    "name": "Adina Dorthe",
+    "title": "Head of Innovation and R&D, Digital Business",
+    "company": "United Machining",
+    "companyInfo": "April 23, 2025, Adina was senior to Carlos Duplar but didn't manage Carlos Duplar directly",
+    "linkedIn": "https://www.linkedin.com/in/adinadorthe",
+    "date": "April 23, 2025",
+    "relationship": "Adina was senior to Carlos Duplar but didn't manage Carlos Duplar directly",
+    "language": "en",
+    "text": "I've had the pleasure of working with Carlos at GFMS since participating in his recruitment process for our Digital team. From the very beginning, he impressed me with his adaptability and flexibility. He quickly found his footing in a complex technical environment and showed an exceptional ability to absorb and make sense of large amounts of information.\n\nCarlos brings a strong work ethic to everything he does. He tackles challenges head-on, stays focused under pressure, and is genuinely committed to delivering high-quality results. He also has a talent for finding creative and innovative solutions, especially in situations where standard approaches fall short.\n\nHis multilingual skills in English, French, German, Spanish, and Portuguese have been a real asset in our international context, helping him communicate effectively across teams and cultures.\n\nWhat stands out most is his resilience. No matter how priorities shift or deadlines tighten, Carlos remains calm, focused, and solution-oriented. His curiosity and willingness to keep learning play a big role in his success as a Product Owner in our digital initiatives.\n\nI continue to enjoy working with Carlos and greatly value the professionalism, insight, and positive energy he brings to the team. I recommend him wholeheartedly for roles that demand strategic thinking, creativity, and a collaborative spirit."
+  },
+  {
+    "id": 3,
+    "name": "Júlio Severo",
+    "title": "IT Manager",
+    "company": "Deloitte",
+    "companyInfo": "Enterprise Technology & Performance",
+    "linkedIn": "https://www.linkedin.com/in/juliosevero",
+    "date": "February 8, 2011",
+    "relationship": "Júlio worked with Carlos Duplar on the same team",
+    "language": "pt",
+    "text": "Tive o prazer de trabalhar junto com o Carlos Duplar na Infoglobo, onde vencemos diversos desafios. Dentre suas características, destaco sua imensa habilidade interpessoal, foco nos objetivos, liderança e sem dúvida, sua inteligência."
+  },
+  {
+    "id": 4,
+    "name": "Silvia Brand",
+    "title": "Business Development, Advocate & Notary",
+    "company": "Independent",
+    "companyInfo": "February 8, 2011, Silvia was Carlos Duplar's client",
+    "linkedIn": "https://www.linkedin.com/in/silviabrand10",
+    "date": "February 8, 2011",
+    "relationship": "Silvia was Carlos Duplar's client",
+    "language": "pt",
+    "text": "Carlos is extremely knowledgeable and professional. His professionalism and patience with constant changes on our part leaves me to believe he can work with the most difficult and challenging situations. I really enjoy working with Carlos and highly recommend him"
+  },
+  {
+    "id": 5,
+    "name": "Roberto Gaspar",
+    "title": "CEO",
+    "company": "Agência Titânio",
+    "companyInfo": "February 8, 2011, Roberto and Carlos Duplar studied together",
+    "linkedIn": "https://www.linkedin.com/in/robertogaspar",
+    "date": "February 8, 2011",
+    "relationship": "Roberto and Carlos Duplar studied together",
+    "language": "pt",
+    "text": "Fizemos trabalhos juntos na pós-graduação em Marketing Digital e sempre participou e contribuiu muito positivamente com o grupo. Não só nos trabalhos, mas também em sala, demonstrou saber bem o que faz. Além de bom profissional é uma ótima pessoa!"
+  }
+]

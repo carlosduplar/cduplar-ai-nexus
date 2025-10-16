@@ -23,6 +23,7 @@
     "experience": "Experience",
     "projects": "Projects",
     "certifications": "Certifications",
+    "testimonials": "Testimonials",
     "contact": "Contact"
   },
   "hero": {
@@ -179,6 +180,30 @@
     "subtitle": "Real-world applications of AI, data analytics, and strategic product management that delivered measurable business impact.",
     "items": [
       {
+        "title": "Claude-Gemini Autonomous Task Delegation System",
+        "description": "Engineered an intelligent task delegation framework that enables Claude Code to autonomously offload token-heavy tasks (large codebase analysis, bulk file operations, documentation generation) to Gemini CLI, leveraging Gemini's 1M token context window and free tier. Includes custom guardrails to prevent destructive operations and optimized CLAUDE.md configurations for reliable compliance.",
+        "category": "AI Tools",
+        "achievements": [
+          "40-60% reduction in Claude token consumption",
+          "Autonomous delegation with safety guardrails",
+          "Extended Claude Pro quota effectively"
+        ],
+        "status": "Active Development",
+        "impact": "Circumvented quota limitations and optimized tool usage to their best potential"
+      },
+      {
+        "title": "AI-Powered Multilingual Portfolio Website",
+        "description": "Built a modern, production-grade portfolio website using AI-assisted development workflow combining Lovable, Claude Code, and Gemini CLI. Features complete internationalization in 5 languages, SEO optimization with pre-rendering for search engines, legacy browser support, and integrated contact functionality.",
+        "category": "Web Development",
+        "achievements": [
+          "5-language multilingual support (EN/PT/FR/DE/ES)",
+          "SEO-optimized with static pre-rendering",
+          "Cross-browser compatibility including legacy devices"
+        ],
+        "status": "Production",
+        "impact": "Mastered modern web frameworks through AI-assisted learning"
+      },      
+      {
         "title": "Machine Learning Energy Forecast Model",
         "description": "Developed a sophisticated ML model achieving 96.4% accuracy in energy consumption prediction for industrial manufacturing environments. The model uses time-series analysis and incorporates multiple environmental and operational variables.",
         "category": "AI/ML",
@@ -187,7 +212,7 @@
           "Real-time energy monitoring",
           "Cost optimization insights"
         ],
-        "status": "Production",
+        "status": "Completed",
         "impact": "Enabled 15% reduction in energy costs"
       },
       {
@@ -199,7 +224,7 @@
           "Vector database integration",
           "Conversation analytics"
         ],
-        "status": "Active Development",
+        "status": "Production",
         "impact": "Accelerated AI feature prototyping by 60%"
       },
       {
@@ -231,7 +256,9 @@
       "keyAchievements": "Key Achievements:",
       "technologiesUsed": "Technologies Used:",
       "businessImpact": "Business Impact:",
-      "viewDetails": "View Details"
+      "viewDetails": "View Details",
+      "viewOnGithub": "View on GitHub",
+      "viewProject": "View Project"
     },
     "statuses": {
       "production": "Production",
@@ -492,6 +519,14 @@
         "skills": ["SEO Optimization", "Database Management", "Agile Implementation", "System Architecture"]
       }
     ]
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What Colleagues & Partners Say",
+    "subtitle": "Authentic recommendations from professionals I've worked with throughout my career, shared publicly on LinkedIn.",
+    "readMore": "Read more",
+    "readLess": "Show less",
+    "footer": "All testimonials are from LinkedIn recommendations and can be verified by visiting the recommender's profile."
   },
   "contact": {
     "badge": "Let's Connect",

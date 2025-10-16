@@ -314,26 +314,6 @@ const ContactSection = () => {
               </Card>
             </div>
           </div>
-
-          {/* Schedule a Call CTA */}
-          <div className="mt-16 text-center fade-in-up">
-            <Card className="p-8 professional-card max-w-3xl mx-auto">
-              <h3 className="text-2xl font-bold text-foreground mb-3">
-                {t('contact.cta.title')}
-              </h3>
-              <p className="text-muted-foreground mb-6">
-                {t('contact.cta.description')}
-              </p>
-              <Button
-                size="lg"
-                className="hero-gradient glow-effect hover:glow-effect group text-lg py-6"
-                onClick={() => window.open('https://calendly.com/carlosmello/30min', '_blank')} // TODO: Replace with actual Calendly link
-              >
-                {t('contact.cta.button')}
-                <Send className="ml-2 group-hover:translate-x-1 transition-transform duration-200" size={20} />
-              </Button>
-            </Card>
-          </div>
         </div>
       </div>
     </section>

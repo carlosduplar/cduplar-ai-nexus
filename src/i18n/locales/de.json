@@ -23,6 +23,7 @@
     "experience": "Erfahrung",
     "projects": "Projekte",
     "certifications": "Zertifizierungen",
+    "testimonials": "Empfehlungen",
     "contact": "Kontakt"
   },
   "hero": {
@@ -310,6 +311,30 @@
     "subtitle": "Reale Anwendungen von KI, Datenanalyse und strategischem Produktmanagement, die messbaren Geschäftswert geliefert haben.",
     "items": [
       {
+        "title": "Claude-Gemini Autonomes Aufgabendelegierungs-System",
+        "description": "Entwicklung eines intelligenten Aufgabendelegierungs-Frameworks, das Claude Code ermöglicht, Token-intensive Aufgaben (Analyse großer Codebasen, Massen-Dateioperationen, Dokumentationsgenerierung) autonom an Gemini CLI auszulagern und dabei Geminis 1M Token Kontextfenster und kostenloses Tier zu nutzen. Beinhaltet angepasste Schutzmaßnahmen zur Verhinderung destruktiver Operationen und optimierte CLAUDE.md-Konfigurationen für zuverlässige Compliance.",
+        "category": "KI-Tools",
+        "achievements": [
+          "40-60% Reduzierung des Claude Token-Verbrauchs",
+          "Autonome Delegierung mit Sicherheitsschutz",
+          "Claude Pro Kontingent effektiv erweitert"
+        ],
+        "status": "Aktive Entwicklung",
+        "impact": "Kontingent-Limitierungen umgangen und Tool-Nutzung optimal ausgeschöpft"
+      },
+      {
+        "title": "KI-Gestützte Mehrsprachige Portfolio-Website",
+        "description": "Erstellung einer modernen, produktionsreifen Portfolio-Website mit KI-unterstütztem Entwicklungs-Workflow unter Verwendung von Lovable, Claude Code und Gemini CLI. Umfasst vollständige Internationalisierung in 5 Sprachen, SEO-Optimierung mit Pre-Rendering für Suchmaschinen, Legacy-Browser-Unterstützung und integrierte Kontaktfunktionalität.",
+        "category": "Webentwicklung",
+        "achievements": [
+          "5-Sprachen mehrsprachige Unterstützung (EN/PT/FR/DE/ES)",
+          "SEO-optimiert mit statischem Pre-Rendering",
+          "Cross-Browser-Kompatibilität einschließlich Legacy-Geräte"
+        ],
+        "status": "Produktion",
+        "impact": "Moderne Web-Frameworks durch KI-unterstütztes Lernen gemeistert"
+      },
+      {
         "title": "Machine Learning Energieverbrauchsprognose-Modell",
         "description": "Entwicklung eines ausgeklügelten ML-Modells mit 96,4% Genauigkeit bei der Energieverbrauchsprognose für industrielle Fertigungsumgebungen. Das Modell nutzt Zeitreihenanalyse und berücksichtigt mehrere Umwelt- und Betriebsvariablen.",
         "category": "KI/ML",
@@ -318,7 +343,7 @@
           "Echtzeit-Energieüberwachung",
           "Kostenoptimierungseinblicke"
         ],
-        "status": "Produktion",
+        "status": "Abgeschlossen",
         "impact": "Ermöglichte 15% Reduzierung der Energiekosten"
       },
       {
@@ -330,7 +355,7 @@
           "Vektordatenbank-Integration",
           "Konversationsanalytik"
         ],
-        "status": "Aktive Entwicklung",
+        "status": "Produktion",
         "impact": "Beschleunigte KI-Feature-Prototyping um 60%"
       },
       {
@@ -362,7 +387,9 @@
       "keyAchievements": "Wichtige Erfolge:",
       "technologiesUsed": "Verwendete Technologien:",
       "businessImpact": "Geschäftswirkung:",
-      "viewDetails": "Details anzeigen"
+      "viewDetails": "Details anzeigen",
+      "viewOnGithub": "Auf GitHub ansehen",
+      "viewProject": "Projekt ansehen"
     },
     "statuses": {
       "production": "Produktion",
@@ -498,6 +525,14 @@
         "type": "Postgradual"
       }
     ]
+  },
+  "testimonials": {
+    "badge": "Empfehlungen",
+    "title": "Was Kollegen und Partner Sagen",
+    "subtitle": "Authentische Empfehlungen von Fachleuten, mit denen ich im Laufe meiner Karriere zusammengearbeitet habe, öffentlich auf LinkedIn geteilt.",
+    "readMore": "Mehr lesen",
+    "readLess": "Weniger anzeigen",
+    "footer": "Alle Empfehlungen stammen von LinkedIn-Empfehlungen und können durch einen Besuch des Profils des Empfehlers verifiziert werden."
   },
   "contact": {
     "badge": "Lassen Sie uns vernetzen",

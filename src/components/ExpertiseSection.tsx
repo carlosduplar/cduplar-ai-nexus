@@ -3,14 +3,9 @@ import {
   Users,
   Cog,
   BarChart3,
-  Zap,
-  Shield,
   Target,
-  TrendingUp,
   Lightbulb,
-  Database,
-  Cloud,
-  Code
+  Cloud
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 

@@ -16,18 +16,39 @@ const ProjectsSection = () => {
     }
   };
 
-  const projectIcons = [
-    <Brain className="w-6 h-6" />,
-    <Monitor className="w-6 h-6" />,
-    <TrendingUp className="w-6 h-6" />,
-    <Zap className="w-6 h-6" />
-  ];
+  const getProjectIcon = (category: string) => {
+    const categoryLower = category.toLowerCase();
+    if (categoryLower.includes('machine learning') || categoryLower.includes('ai')) {
+      return <Brain className="w-6 h-6" />;
+    } else if (categoryLower.includes('web') || categoryLower.includes('development')) {
+      return <Monitor className="w-6 h-6" />;
+    } else if (categoryLower.includes('analytics') || categoryLower.includes('bi')) {
+      return <TrendingUp className="w-6 h-6" />;
+    } else if (categoryLower.includes('iot') || categoryLower.includes('automation')) {
+      return <Zap className="w-6 h-6" />;
+    } else if (categoryLower.includes('tools')) {
+      return <Brain className="w-6 h-6" />;
+    } else {
+      return <Monitor className="w-6 h-6" />;
+    }
+  };
 
   const projectTechnologies = [
+    ["Claude Code", "Gemini CLI", "AI Guardrails", "Multi-Agent Architecture", "Token Optimization Strategies"],
+    ["Lovable", "Claude Code", "i18next", "React", "TypeScript", "Vite", "Tailwind CSS"],
     ["Python", "scikit-learn", "Time Series Analysis", "Data Visualization"],
     ["Ollama", "OpenWebUI", "LangChain", "Langfuse", "Qdrant", "Docker"],
     ["Power BI", "Python", "API Integration", "Statistical Analysis"],
     ["OPC-UA", "MTConnect", "Azure IoT", "Power BI", "Real-time Analytics"]
+  ];
+
+  const projectLinks = [
+    "https://github.com/carlosduplar/claude-gemini-delegation",
+    "https://github.com/carlosduplar/cduplar-ai-nexus",
+    "https://www.loom.com/share/b279ea3dc3b849469e5336fbcaedc202?sid=78694866-4a67-4d7f-b2a3-dbc90efb4550",
+    "https://myaibox.carlosmello.work",
+    "https://www.loom.com/share/13c00e3264d64c948e5bcd3894979cf8?sid=2b2d4a38-ea87-439c-929c-b2a1ca4e24b2",
+    "https://www.gfms.com/en-us/machines/digitalization/myrconnect/analytics.html"
   ];
 
   const getStatusColor = (status: string) => {
@@ -76,7 +97,7 @@ const ProjectsSection = () => {
                 <div className="flex items-start gap-4 mb-6">
                   <div className="flex-shrink-0 w-14 h-14 hero-gradient rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
                     <div className="text-primary-foreground">
-                      {projectIcons[index]}
+                      {getProjectIcon(project.category)}
                     </div>
                   </div>
                   <div className="flex-1">
@@ -130,6 +151,36 @@ const ProjectsSection = () => {
                     ))}
                   </div>
                 </div>
+
+                {/* Project Link */}
+                {projectLinks[index] && (
+                  <div className="mt-auto pt-4 border-t border-border">
+                    <Button
+                      variant="outline"
+                      className="w-full group/btn"
+                      asChild
+                    >
+                      <a
+                        href={projectLinks[index]}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2"
+                      >
+                        {projectLinks[index].includes('github.com') ? (
+                          <>
+                            <Github size={16} />
+                            {t('projects.labels.viewOnGithub') || 'View on GitHub'}
+                          </>
+                        ) : (
+                          <>
+                            <ExternalLink size={16} />
+                            {t('projects.labels.viewProject') || 'View Project'}
+                          </>
+                        )}
+                      </a>
+                    </Button>
+                  </div>
+                )}
               </div>
             ))}
           </div>

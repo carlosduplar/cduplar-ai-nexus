@@ -9,6 +9,7 @@ import ExpertiseSection from "@/components/ExpertiseSection";
 import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import CertificationsSection from "@/components/CertificationsSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 
 const Index = () => {
@@ -36,13 +37,14 @@ const Index = () => {
 
   return (
     <div key={i18n.language} className="min-h-screen bg-background" suppressHydrationWarning>
-      <Navigation key={`nav-${i18n.language}`} />
+      <Navigation />
       <HeroSection key={`hero-${i18n.language}`} />
       <main>
         <AboutSection />
         <ExpertiseSection />
+        <ProjectsSection />        
         <ExperienceSection />
-        <ProjectsSection />
+        <TestimonialsSection />        
         <CertificationsSection />
         <ContactSection />
       </main>

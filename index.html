@@ -32,9 +32,18 @@
     <!-- Security Headers - Note: These should ideally be set via HTTP headers in firebase.json -->
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
 
+    <!-- DNS Prefetch for external domains -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+
+    <!-- Preconnect for critical resources -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- Preload critical fonts with async loading -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"></noscript>
     <title>Carlos Duplar Mello - Product Owner & AI Leader</title>
     <meta name="description" content="Digital Transformation Product Owner with 15+ years in AI and product management. Google Certified GenAI Leader specializing in LLM-powered solutions." />
     <meta name="author" content="Carlos Duplar Mello" />

@@ -1,8 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
-import { generatePersonSchema, PersonSchema, generateCredentialSchema, CredentialSchema } from '@/utils/seoUtils';
+import { generatePersonSchema, PersonSchema, generateCredentialSchema, CredentialSchema, generateReviewSchema, ReviewSchema } from '@/utils/seoUtils';
 import { SupportedLanguage } from '@/utils/languageDetector';
+import testimonials from '@/data/testimonials.json';
 
 const StructuredData: React.FC = () => {
   const { i18n, t } = useTranslation();
@@ -31,9 +32,22 @@ const StructuredData: React.FC = () => {
     })
   );
 
-  // 3. Convert all schemas to JSON-LD strings
+  // 3. Generate Review Schemas for testimonials
+  const reviewSchemas: ReviewSchema[] = testimonials.map(testimonial =>
+    generateReviewSchema({
+      name: testimonial.name,
+      title: testimonial.title,
+      company: testimonial.company,
+      linkedIn: testimonial.linkedIn,
+      date: testimonial.date,
+      text: testimonial.text,
+    })
+  );
+
+  // 4. Convert all schemas to JSON-LD strings
   const personJsonLd = JSON.stringify(personSchema, null, 2);
   const credentialJsonLds = credentialSchemas.map(schema => JSON.stringify(schema, null, 2));
+  const reviewJsonLds = reviewSchemas.map(schema => JSON.stringify(schema, null, 2));
 
   return (
     <Helmet>
@@ -43,6 +57,13 @@ const StructuredData: React.FC = () => {
       {/* Inject JSON-LD Structured Data for each Credential */}
       {credentialJsonLds.map((jsonLd, index) => (
         <script key={`credential-${index}`} type="application/ld+json">
+          {jsonLd}
+        </script>
+      ))}
+
+      {/* Inject JSON-LD Structured Data for each Review/Testimonial */}
+      {reviewJsonLds.map((jsonLd, index) => (
+        <script key={`review-${index}`} type="application/ld+json">
           {jsonLd}
         </script>
       ))}

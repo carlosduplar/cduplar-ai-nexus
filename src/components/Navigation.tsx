@@ -20,8 +20,9 @@ const Navigation = () => {
   const navItems = [
     { href: "#about", label: t('navigation.about') },
     { href: "#expertise", label: t('navigation.expertise') },
+    { href: "#projects", label: t('navigation.projects') },    
     { href: "#experience", label: t('navigation.experience') },
-    { href: "#projects", label: t('navigation.projects') },
+    { href: "#testimonials", label: t('navigation.testimonials') },    
     { href: "#certifications", label: t('navigation.certifications') },
     { href: "#contact", label: t('navigation.contact') },
   ];
