@@ -152,9 +152,9 @@ const ExperienceSection = () => {
 
           {/* Experience Timeline */}
           <div className="space-y-8 fade-in-up">
-            {experiences.map((exp, index) => (
+            {experiences.map((exp) => (
               <div
-                key={index}
+                key={`${exp.company}-${exp.role}`}
                 className="professional-card group relative"
               >
 
@@ -216,9 +216,9 @@ const ExperienceSection = () => {
 
                     {/* Key Highlights */}
                     <div className="space-y-3">
-                      {exp.highlights.map((highlight, highlightIndex) => (
+                      {exp.highlights.map((highlight) => (
                         <div
-                          key={highlightIndex}
+                          key={highlight}
                           className="flex items-start gap-3 text-muted-foreground"
                         >
                           <ArrowRight 
@@ -262,8 +262,8 @@ const ExperienceSection = () => {
             </div>
 
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              {getTranslatedCareerStats().map((stat, index) => (
-                <div key={index} className="space-y-2">
+              {getTranslatedCareerStats().map((stat) => (
+                <div key={stat.label} className="space-y-2">
                   <div className="text-2xl font-bold text-primary">{stat.value}</div>
                   <div className="text-sm text-muted-foreground">{stat.label}</div>
                 </div>
