@@ -69,7 +69,7 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 fade-in-up">
             {getTranslatedAchievements().map((achievement, index) => (
               <div
-                key={index}
+                key={`achievement-${achievement.stat}-${achievement.description}`}
                 className="professional-card text-center group"
               >
                 <div className="inline-flex items-center justify-center w-12 h-12 hero-gradient rounded-xl mb-4 group-hover:scale-110 transition-transform duration-200">
@@ -99,7 +99,7 @@ const AboutSection = () => {
             <div className="grid lg:grid-cols-2 gap-8">
               {getTranslatedCoreStrengths().map((strength, index) => (
                 <div
-                  key={index}
+                  key={`strength-${strength.title}`}
                   className="professional-card group"
                 >
                   <div className="flex items-start gap-4">
