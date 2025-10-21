@@ -2,7 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { MapPin, Calendar, Building, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { format, Locale } from 'date-fns';
-import { enUS, ptBR, fr, de, es } from 'date-fns/locale';
+import { useState, useEffect } from 'react';
 import heigvdLogo from "@/assets/company-logos/heig-vd-logo.png";
 import gfLogo from "@/assets/company-logos/gf-logo.png";
 import siemensLogo from "@/assets/company-logos/siemens-logo.png";
@@ -17,19 +17,38 @@ import timBrasilLogoWebP from "@/assets/company-logos/tim-brasil-logo.webp";
 import infogloboLogoWebP from "@/assets/company-logos/globo-logo.webp";
 import OptimizedImage from "@/components/OptimizedImage";
 
-const localeMap: { [key: string]: Locale } = {
-  en: enUS,
-  pt: ptBR,
-  fr: fr,
-  de: de,
-  es: es,
+const loadLocale = async (lang: string): Promise<Locale> => {
+  const localeMap: { [key: string]: { name: string, key: string } } = {
+    'pt': { name: 'pt-BR', key: 'ptBR' },
+    'fr': { name: 'fr', key: 'fr' },
+    'de': { name: 'de', key: 'de' },
+    'es': { name: 'es', key: 'es' },
+    'en': { name: 'en-US', key: 'enUS' },
+  };
+
+  const { name, key } = localeMap[lang] || localeMap['en'];
+
+  try {
+    // Use a single dynamic import expression for bundler optimization
+    const module = await import(`date-fns/locale/${name}`);
+    return module[key];
+  } catch (error) {
+    // Fallback to English if the dynamic import fails
+    const module = await import('date-fns/locale/en-US');
+    return module.enUS;
+  }
 };
 
 const ExperienceSection = () => {
   const { t, i18n } = useTranslation();
+  const [currentLocale, setCurrentLocale] = useState<Locale | null>(null);
+
+  useEffect(() => {
+    loadLocale(i18n.language).then(setCurrentLocale);
+  }, [i18n.language]);
 
   const formatPeriod = (period: string) => {
-    const currentLocale = localeMap[i18n.language] || enUS;
+    if (!currentLocale) return period;
     const [start, end] = period.split(' - ');
 
     // Parse date string "Month YYYY" format
@@ -133,9 +152,9 @@ const ExperienceSection = () => {
 
           {/* Experience Timeline */}
           <div className="space-y-8 fade-in-up">
-            {experiences.map((exp, index) => (
+            {experiences.map((exp) => (
               <div
-                key={index}
+                key={`${exp.company}-${exp.role}`}
                 className="professional-card group relative"
               >
 
@@ -197,9 +216,9 @@ const ExperienceSection = () => {
 
                     {/* Key Highlights */}
                     <div className="space-y-3">
-                      {exp.highlights.map((highlight, highlightIndex) => (
+                      {exp.highlights.map((highlight) => (
                         <div
-                          key={highlightIndex}
+                          key={highlight}
                           className="flex items-start gap-3 text-muted-foreground"
                         >
                           <ArrowRight 
@@ -243,8 +262,8 @@ const ExperienceSection = () => {
             </div>
 
             <div className="grid md:grid-cols-4 gap-8 text-center">
-              {getTranslatedCareerStats().map((stat, index) => (
-                <div key={index} className="space-y-2">
+              {getTranslatedCareerStats().map((stat) => (
+                <div key={stat.label} className="space-y-2">
                   <div className="text-2xl font-bold text-primary">{stat.value}</div>
                   <div className="text-sm text-muted-foreground">{stat.label}</div>
                 </div>

@@ -82,9 +82,9 @@ const CertificationsSection = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
-              {recentCertifications.map((cert, index) => (
+              {recentCertifications.map((cert) => (
                 <div
-                  key={index}
+                  key={`recent-cert-${cert.credential || cert.title}`}
                   className="professional-card group"
                 >
                   <div className="flex items-start gap-4 mb-4">
@@ -161,9 +161,9 @@ const CertificationsSection = () => {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {professionalCertifications.map((cert, index) => (
+              {professionalCertifications.map((cert) => (
                 <div
-                  key={index}
+                  key={`prof-cert-${cert.title}`}
                   className="professional-card text-center group cursor-pointer"
                   onClick={() => cert.link && window.open(cert.link, '_blank')}
                 >
@@ -214,9 +214,9 @@ const CertificationsSection = () => {
             </div>
 
             <div className="space-y-4">
-              {education.map((edu, index) => (
+              {education.map((edu) => (
                 <div
-                  key={index}
+                  key={`edu-${edu.degree}-${edu.institution}`}
                   className="professional-card group"
                 >
                   <div className="flex items-center gap-4">
@@ -260,8 +260,8 @@ const CertificationsSection = () => {
                 {t('certifications.learning.p1')}
               </p>
               <div className="grid md:grid-cols-3 gap-6 pt-6">
-                {(Object.values(t('certifications.learning.stats', { returnObjects: true }) || []) as LearningStat[]).map((stat, index) => (
-                  <div key={index} className="text-center">
+                {(Object.values(t('certifications.learning.stats', { returnObjects: true }) || []) as LearningStat[]).map((stat) => (
+                  <div key={stat.label} className="text-center">
                     <div className="text-2xl font-bold text-primary">{stat.value}</div>
                     <div className="text-sm text-muted-foreground">{stat.label}</div>
                   </div>

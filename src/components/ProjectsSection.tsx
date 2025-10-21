@@ -90,7 +90,7 @@ const ProjectsSection = () => {
           <div className="grid lg:grid-cols-2 gap-8 fade-in-up">
             {getTranslatedProjects().map((project, index) => (
               <div
-                key={index}
+                key={`project-${project.title}`}
                 className="professional-card group h-full flex flex-col"
               >
                 {/* Project Header */}
@@ -124,9 +124,9 @@ const ProjectsSection = () => {
                 <div className="mb-6">
                   <h4 className="text-sm font-semibold text-foreground mb-3">{t('projects.labels.keyAchievements')}</h4>
                   <div className="space-y-2">
-                    {project.achievements.map((achievement, achievementIndex) => (
+                    {project.achievements.map((achievement) => (
                       <div
-                        key={achievementIndex}
+                        key={`achievement-${achievement}`}
                         className="flex items-center gap-2 text-sm text-muted-foreground"
                       >
                         <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
