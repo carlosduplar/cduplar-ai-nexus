@@ -229,7 +229,7 @@ cduplar-ai-nexus/
 
 ## 🚢 Deployment
 
-This site is deployed as a static site in Firebase Hosting. The build output in `dist/` can be hosted on:
+This site is deployed as a static site in Firebase Hosting integrated with CloudFlare. The build output in `dist/` can be hosted on:
 - Netlify
 - Vercel
 - GitHub Pages
