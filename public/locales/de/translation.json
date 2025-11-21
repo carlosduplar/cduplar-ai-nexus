@@ -1,0 +1,595 @@
+{
+  "seo": {
+    "title": "Carlos Duplar Mello - Digital Transformation Product Owner & KI-Spezialist",
+    "description": "Digital Transformation Product Owner mit über 15 Jahren Erfahrung in KI, Produktmanagement und skalierbaren digitalen Lösungen. Google Zertifizierter GenAI Leader spezialisiert auf LLM-Architekturen und funktionsübergreifende Teamführung in der Schweiz.",
+    "keywords": "Digitale Transformation, Product Owner, KI-Spezialist, Machine Learning, Scrum, Agile, Schweiz, Produktmanagement, GenAI, LLM, RAG-Architektur, IoT, SaaS, Power BI, Python, Azure, Cloud",
+    "ogTitle": "Carlos Duplar Mello - Digital Transformation Product Owner & KI-Spezialist",
+    "ogDescription": "Über 15 Jahre Erfahrung im Produktlebenszyklus-Management. Derzeit Digital Transformation Projektmanager bei HEIG-VD, spezialisiert auf KI-basierte Lösungen und skalierbare digitale Produkte.",
+    "twitterTitle": "Carlos Duplar Mello - Digital Transformation Product Owner & KI-Spezialist",
+    "twitterDescription": "Über 15 Jahre Erfahrung im Produktlebenszyklus-Management. Derzeit Digital Transformation Projektmanager bei HEIG-VD, spezialisiert auf KI-basierte Lösungen und skalierbare digitale Produkte."
+  },
+  "images": {
+    "profileAlt": "Carlos Duplar Mello - Digital Transformation Product Owner und KI-Spezialist",
+    "heigvdLogoAlt": "HEIG-VD Logo - Fachhochschule Westschweiz",
+    "gfLogoAlt": "Georg Fischer Machining Solutions Logo - Industrielles Fertigungstechnologie-Unternehmen",
+    "siemensLogoAlt": "Siemens Logo - Globales Technologie- und Ingenieurunternehmen",
+    "brqLogoAlt": "BRQ Digital Solutions Logo - Digitale Transformation und IT-Dienstleistungsunternehmen",
+    "timBrasilLogoAlt": "TIM Brasil Logo - Telecom Italia Mobile Brasilien Telekommunikationsunternehmen",
+    "infogloboLogoAlt": "Infoglobo Logo - Brasilianisches Medien- und Verlagsunternehmen"
+  },
+  "navigation": {
+    "about": "Über mich",
+    "expertise": "Expertise",
+    "experience": "Erfahrung",
+    "projects": "Projekte",
+    "certifications": "Zertifizierungen",
+    "testimonials": "Empfehlungen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "location": "Grossraum Bern, Schweiz",
+    "role": "Digital Transformation PM",
+    "title": "Komplexe Technische Herausforderungen in Skalierbare Digitale Produkte Verwandeln",
+    "subtitle": "Digital Transformation Projektmanager bei HEIG-VD | AI Product Owner | Google Zertifizierter GenAI Leader mit 15+ Jahren Erfahrung im Produktlebenszyklus-Management",
+    "cta": "Lassen Sie uns vernetzen",
+    "languages": "Sprachen, die ich spreche:",
+    "availability": "Verfügbar für neue Möglichkeiten",
+    "languageNames": {
+      "portuguese": "Portugiesisch",
+      "english": "Englisch",
+      "french": "Französisch",
+      "german": "Deutsch",
+      "spanish": "Spanisch"
+    },
+    "stats": {
+      "yearsExperience": "Jahre Erfahrung",
+      "usersServed": "Betreute Nutzer",
+      "timeReduction": "Zeitreduzierung"
+    }
+  },
+  "about": {
+    "badge": "Über Mich",
+    "title": "Leidenschaftlich für Digitale Innovation und KI-Basierte Lösungen",
+    "description": "Ich bin ein erfahrener Digital Transformation Projektmanager mit über 15 Jahren Erfahrung im Produktlebenszyklus-Management. Derzeit bei HEIG-VD, spezialisiere ich mich darauf, komplexe technische Herausforderungen mit skalierbaren Geschäftslösungen zu verbinden.",
+    "passion": "Meine Leidenschaft liegt darin, modernste KI-Technologien und strategisches Produktmanagement zu nutzen, um bedeutungsvolle digitale Transformationsinitiativen voranzutreiben, die echten Geschäftswert liefern.",
+    "coreStrengthsTitle": "Kernkompetenzen und Fachexpertise",
+    "highlights": [
+      "15+ Jahre im Produktlebenszyklus-Management",
+      "Google Zertifizierter GenAI Leader",
+      "Experte in KI-basierten Lösungsarchitekturen",
+      "Nachgewiesene Erfolgsbilanz in funktionsübergreifender Teamführung"
+    ],
+    "achievements": [
+      {
+        "stat": "79%",
+        "description": "Verkürzung der Service-Antwortzeiten",
+        "detail": "bei Georg Fischer Machining Solutions"
+      },
+      {
+        "stat": "8.2M",
+        "description": "Nutzerbasis gewachsen",
+        "detail": "TIM Brazil mobile App"
+      },
+      {
+        "stat": "5x",
+        "description": "Steigerung der Nutzerakzeptanz",
+        "detail": "Siemens globale SaaS-Plattform"
+      },
+      {
+        "stat": "39%",
+        "description": "QoQ Maschinenverbindungswachstum",
+        "detail": "seit Q3 2023 bei GFMS"
+      }
+    ],
+    "coreStrengths": [
+      {
+        "title": "KI & Technologie-Leadership",
+        "description": "Google Zertifizierter GenAI Leader mit praktischer Erfahrung in LLMs, RAG-Architekturen und Prompt Engineering. Führung von KI-Initiativen und Coaching von Teams bei der Einführung generativer KI."
+      },
+      {
+        "title": "Funktionsübergreifende Teamführung",
+        "description": "15+ Jahre Erfahrung in der Führung komplexer Stakeholder-Beziehungen in Fertigung, Telekommunikation, Bildung und Unternehmens-IT, mit Fokus auf Abstimmung zwischen technischen und Geschäftszielen."
+      },
+      {
+        "title": "Digitale Transformationsstrategie",
+        "description": "Nachgewiesene Erfolgsbilanz bei der Umsetzung komplexer technischer Herausforderungen in skalierbare digitale Produkte, die messbaren Geschäftswert und operative Effizienz liefern."
+      },
+      {
+        "title": "Mehrsprachige & Globale Perspektive",
+        "description": "Muttersprachliche Beherrschung von Portugiesisch und Englisch, professionelle Arbeitssprachen Französisch, Deutsch und Spanisch, ermöglicht effektive Zusammenarbeit in internationalen Teams."
+      }
+    ],
+    "professionalJourney": {
+      "title": "Beruflicher Werdegang",
+      "paragraph1": "Meine 15+ Jahre im Produktlebenszyklus-Management in Fertigung, Telekommunikation und Unternehmens-IT haben meinen Ansatz für datengetriebene Entscheidungsfindung und Stakeholder-Abstimmung geprägt. Bei GF Machining Solutions lieferte ich Echtzeit-Maschinenüberwachungs-Dashboards und SaaS-Migrationsprogramme, die die operative Transparenz global verbesserten.",
+      "paragraph2": "Bei Siemens skalierte ich eine Passwort-Management-SaaS auf 13+ Länder und baute interne BI-Tools für die Optimierung der Benutzererfahrung auf. Als anerkannter KI-Befürworter wurde ich für Microsoft 365 Copilot-Pilotprojekte ausgewählt und coachte globale Teams in Prompt Engineering Best Practices.",
+      "paragraph3": "Derzeit experimentiere ich mit selbst gehosteten LLM-Stacks (Ollama, OpenWebUI, LangChain, Langfuse, Qdrant), um das Verständnis für KI-Produktinfrastruktur zu vertiefen und Innovation in der Bildungstechnologie voranzutreiben. Ich kombiniere Agile-Methoden mit technischer Tiefe, um komplexe Anforderungen in nutzbare, skalierbare Produkte umzuwandeln."
+    },
+    "technicalExpertise": "Technische Expertise:"
+  },
+  "expertise": {
+    "badge": "Kernexpertise",
+    "title": "Fähigkeiten, die Innovation Vorantreiben",
+    "subtitle": "Ein umfassendes Kompetenzspektrum, das strategisches Produktdenken, modernste KI-Expertise und bewährte Führungskompetenzen kombiniert, aufgebaut über 15+ Jahre der Umsetzung komplexer digitaler Lösungen.",
+    "areas": {
+      "productStrategy": {
+        "title": "Produkt & Strategie",
+        "skills": [
+          "Datengesteuerte Priorisierung",
+          "Agile (Scrum, SAFe)",
+          "Stakeholder-Management",
+          "Digitale Transformation"
+        ]
+      },
+      "aiTechnology": {
+        "title": "KI & Technologie",
+        "skills": [
+          "KI-Agenten & MCP",
+          "LLM/RAG-Architekturen",
+          "Prompt Engineering",
+          "Cloud-Plattformen (Azure, GCP)"
+        ]
+      },
+      "leadership": {
+        "title": "Führung",
+        "skills": [
+          "Funktionsübergreifende Teamführung",
+          "Change Management",
+          "Wertmetriken & KPIs",
+          "Risiko & Compliance"
+        ]
+      }
+    },
+    "techStack": {
+      "title": "Technische Expertise",
+      "subtitle": "Moderne Technologien und Frameworks, mit denen ich skalierbare, unternehmenstaugliche Lösungen liefere.",
+      "categories": {
+        "aiMl": {
+          "title": "KI & ML",
+          "technologies": ["OpenAI/Gemini APIs", "Ollama", "LangChain", "Qdrant", "scikit-learn", "Prompt Engineering"]
+        },
+        "dataBi": {
+          "title": "Daten & BI",
+          "technologies": ["Power BI", "Python", "SQL", "Databricks", "Power Automate", "Datenvisualisierung"]
+        },
+        "cloudDevops": {
+          "title": "Cloud & DevOps",
+          "technologies": ["Azure", "GCP", "Docker", "Git", "API-Integration", "SaaS-Plattformen"]
+        },
+        "productTools": {
+          "title": "Produkttools",
+          "technologies": ["Jira", "Figma", "Confluence", "Scrum", "SAFe", "Design Thinking"]
+        }
+      }
+    },
+    "achievements": [
+      {
+        "value": "79%",
+        "label": "Verkürzung der Service-Antwortzeiten",
+        "detail": "Digitale Transformationswirkung"
+      },
+      {
+        "value": "13+",
+        "label": "Länder skaliert",
+        "detail": "Siemens SaaS-Plattform"
+      },
+      {
+        "value": "100+",
+        "label": "Teammitglieder trainiert",
+        "detail": "KI, SEO & digitale Fähigkeiten"
+      }
+    ]
+  },
+  "experience": {
+    "badge": "Beruflicher Werdegang",
+    "title": "15+ Jahre Exzellenz in der Produktführung",
+    "subtitle": "Von Startups bis hin zu globalen Unternehmen habe ich konsequent transformative Ergebnisse in verschiedenen Branchen und technischen Landschaften geliefert.",
+    "careerStats": {
+      "title": "Zusammenfassung der Karrierewirkung",
+      "subtitle": "Quantifizierbare Ergebnisse über verschiedene Branchen und Rollen hinweg",
+      "stats": [
+        {
+          "value": "6",
+          "label": "Große Unternehmen"
+        },
+        {
+          "value": "3",
+          "label": "Länder gearbeitet"
+        },
+        {
+          "value": "€300k+",
+          "label": "Budget verwaltet"
+        },
+        {
+          "value": "30+",
+          "label": "Teammitglieder geführt"
+        }
+      ]
+    },
+    "types": {
+      "fullTime": "Vollzeit",
+      "partTime": "Teilzeit",
+      "contract": "Vertrag",
+      "present": "Heute"
+    },
+    "jobs": [
+      {
+        "company": "HEIG-VD",
+        "role": "Digital Transformation Projektmanager",
+        "period": "September 2025 - Heute",
+        "location": "Yverdon, Waadt, Schweiz",
+        "logo": "heigvdLogo",
+        "website": "https://www.heig-vd.ch/",
+        "highlights": [
+          "Definition und Leitung digitaler Transformationsinitiativen zur Verbesserung der Bildungstechnologie-Infrastruktur",
+          "Entwicklung umfassender Projekt-Roadmaps in Übereinstimmung mit HES-SOs Schéma Directeur Numérique (SDN) Rahmenwerk",
+          "Leitung multidisziplinärer Teams einschließlich IT, Fakultät und administrativer Stakeholder",
+          "Management von Risikobewertungen bei gleichzeitiger Einhaltung Schweizer öffentlicher Standards"
+        ],
+        "skills": ["Projektmanagement", "Digitale Transformation", "Strategische Planung", "Teamführung"]
+      },
+      {
+        "company": "Georg Fischer Machining Solutions",
+        "role": "Senior Product Owner",
+        "period": "September 2022 - Juli 2025",
+        "location": "Biel, Bern, Schweiz",
+        "logo": "gfLogo",
+        "website": "https://www.gfms.com/",
+        "highlights": [
+          "Reduzierung der Service-Antwort- und Lösungszeiten um bis zu 79% mit globalem Service Power BI KPI Dashboard",
+          "Leitung des Microsoft 365 Copilot-Pilotprojekts und Schulung von 30+ Kollegen in Prompt Engineering",
+          "Gestaltung der SaaS-Roadmap für GFMS-Endkunden mit durchschnittlich 39% QoQ-Wachstum bei Maschinenverbindungen seit Q3 2023",
+          "Design von Echtzeit-Maschinenüberwachungs-Dashboards mit OPC-UA und MTConnect-Protokollen"
+        ],
+        "skills": ["Produktmanagement", "KI/GenAI", "Power BI", "SaaS-Migration", "IoT"]
+      },
+      {
+        "company": "Siemens",
+        "role": "Product Owner für Smart Infrastructure",
+        "period": "November 2020 - September 2022",
+        "location": "Lissabon, Portugal",
+        "logo": "siemensLogo",
+        "website": "https://www.siemens.com/",
+        "highlights": [
+          "Steigerung der Nutzerakzeptanz um das 5-fache für ein globales SaaS-Passwort-Management-Produkt",
+          "Zusammenarbeit mit Produkt- und Lösungssicherheitsexperten für Sicherheitsüberprüfungen und Risikobewertungen",
+          "Management des Siemens Energy Carve-out-Projekts zur Sicherstellung eines reibungslosen und konformen Übergangs",
+          "Skalierung des Passwort-Management-SaaS auf 13+ Länder bei gleichzeitigem Aufbau interner BI-Tools"
+        ],
+        "skills": ["SaaS-Skalierung", "Sicherheit", "Risikomanagement", "Globale Teams"]
+      },
+      {
+        "company": "BRQ Digital Solutions",
+        "role": "Team Lead | Senior Application Specialist | Scrum Master",
+        "period": "Januar 2019 - November 2020",
+        "location": "Lissabon, Portugal",
+        "logo": "brqLogo",
+        "website": "https://www.brq.com/",
+        "highlights": [
+          "Leitung von zwei Remote-funktionsübergreifenden Scrum-Teams für hochprofilierende native iOS/Android-App",
+          "Zusammenarbeit mit Vertriebsberatung bei mehreren RFIs und RFPs",
+          "Direkter Beitrag zu zwei neuen Vertragsabschlüssen durch technische Beratung",
+          "Bereitstellung von Lösungen für TIM Brazil mit Fokus auf Mobile-First-Ansatz"
+        ],
+        "skills": ["Mobile-Entwicklung", "Scrum", "Remote-Teams", "Vertriebsunterstützung"]
+      },
+      {
+        "company": "TIM Brazil (Telecom Italia Mobile)",
+        "role": "Senior IT Specialist | IT Product Owner",
+        "period": "Juli 2011 - Oktober 2018",
+        "location": "Rio de Janeiro, Brasilien",
+        "logo": "timBrasilLogo",
+        "website": "https://www.tim.com.br/",
+        "highlights": [
+          "Start und Skalierung der TIM-Kunden-Self-Service-App auf 8,2 Mio. Nutzer insgesamt (1,4 Mio. tägliche Sitzungen)",
+          "Verbesserung der App-Bewertungen von 1,5 auf 4,0 Sterne und Erreichung der Top-5-Utility-App-Store-Platzierung",
+          "Vorreiter von TIMs erstem Agile-Projekt im Jahr 2011, Reduzierung der Vorlaufzeit für Kundenportal um 67%",
+          "Management eines jährlichen IT-Budgets von 300.000 € mit 3 direkten Mitarbeitern"
+        ],
+        "skills": ["Mobile Apps", "Agile Transformation", "Budgetverwaltung", "Teamführung"]
+      },
+      {
+        "company": "Infoglobo",
+        "role": "IT Product Owner | Senior Business Analyst",
+        "period": "Januar 2000 - Juli 2011",
+        "location": "Rio de Janeiro, Brasilien",
+        "logo": "infogloboLogo",
+        "website": "https://www.infoglobo.com.br/",
+        "highlights": [
+          "Verbesserung des SEO für alle Unternehmens-Websites und Schulung von Redaktionsmitarbeitern, was zu 18% Anstieg der monatlichen Besucher führte",
+          "Vorreiter des Datenbank-Vereinheitlichungsprojekts, Zusammenarbeit mit Marketing- und CRM-Teams zur Optimierung von Benutzerdaten",
+          "Leitung der Agile-Initiative für die neue Website von Jornal Extra, Erreichung von 71% Anstieg des Suchmaschinenverkehrs im Jahr 2011",
+          "Tätigkeit als Solutions Architect, Überwachung der technischen Auswahl des neuen CMS und der redaktionellen Plattform"
+        ],
+        "skills": ["SEO-Optimierung", "Datenbankverwaltung", "Agile-Implementierung", "Systemarchitektur"]
+      }
+    ]
+  },
+  "projects": {
+    "badge": "Ausgewählte Arbeiten",
+    "title": "Transformative Projekte & Ergebnisse",
+    "subtitle": "Reale Anwendungen von KI, Datenanalyse und strategischem Produktmanagement, die messbaren Geschäftswert geliefert haben.",
+    "items": [
+      {
+        "title": "Claude-Gemini Autonomes Aufgabendelegierungs-System",
+        "description": "Entwicklung eines intelligenten Aufgabendelegierungs-Frameworks, das Claude Code ermöglicht, Token-intensive Aufgaben (Analyse großer Codebasen, Massen-Dateioperationen, Dokumentationsgenerierung) autonom an Gemini CLI auszulagern und dabei Geminis 1M Token Kontextfenster und kostenloses Tier zu nutzen. Beinhaltet angepasste Schutzmaßnahmen zur Verhinderung destruktiver Operationen und optimierte CLAUDE.md-Konfigurationen für zuverlässige Compliance.",
+        "category": "KI-Tools",
+        "achievements": [
+          "40-60% Reduzierung des Claude Token-Verbrauchs",
+          "Autonome Delegierung mit Sicherheitsschutz",
+          "Claude Pro Kontingent effektiv erweitert"
+        ],
+        "status": "Aktive Entwicklung",
+        "impact": "Kontingent-Limitierungen umgangen und Tool-Nutzung optimal ausgeschöpft"
+      },
+      {
+        "title": "KI-Gestützte Mehrsprachige Portfolio-Website",
+        "description": "Erstellung einer modernen, produktionsreifen Portfolio-Website mit KI-unterstütztem Entwicklungs-Workflow unter Verwendung von Lovable, Claude Code und Gemini CLI. Umfasst vollständige Internationalisierung in 5 Sprachen, SEO-Optimierung mit Pre-Rendering für Suchmaschinen, Legacy-Browser-Unterstützung und integrierte Kontaktfunktionalität.",
+        "category": "Webentwicklung",
+        "achievements": [
+          "5-Sprachen mehrsprachige Unterstützung (EN/PT/FR/DE/ES)",
+          "SEO-optimiert mit statischem Pre-Rendering",
+          "Cross-Browser-Kompatibilität einschließlich Legacy-Geräte"
+        ],
+        "status": "Produktion",
+        "impact": "Moderne Web-Frameworks durch KI-unterstütztes Lernen gemeistert"
+      },
+      {
+        "title": "Machine Learning Energieverbrauchsprognose-Modell",
+        "description": "Entwicklung eines ausgeklügelten ML-Modells mit 96,4% Genauigkeit bei der Energieverbrauchsprognose für industrielle Fertigungsumgebungen. Das Modell nutzt Zeitreihenanalyse und berücksichtigt mehrere Umwelt- und Betriebsvariablen.",
+        "category": "KI/ML",
+        "achievements": [
+          "96,4% Vorhersagegenauigkeit",
+          "Echtzeit-Energieüberwachung",
+          "Kostenoptimierungseinblicke"
+        ],
+        "status": "Abgeschlossen",
+        "impact": "Ermöglichte 15% Reduzierung der Energiekosten"
+      },
+      {
+        "title": "Selbst-gehostetes KI-Tools & Infrastruktur-Labor",
+        "description": "Aufbau und Bereitstellung einer umfassenden KI-Infrastruktur mit Open-Source-Tools für Experimente mit LLMs, Vektordatenbanken und konversationeller KI. Dieses Labor dient als Testumgebung für KI-Produktfunktionen und Training.",
+        "category": "KI-Infrastruktur",
+        "achievements": [
+          "Multi-Modell LLM-Unterstützung",
+          "Vektordatenbank-Integration",
+          "Konversationsanalytik"
+        ],
+        "status": "Produktion",
+        "impact": "Beschleunigte KI-Feature-Prototyping um 60%"
+      },
+      {
+        "title": "SBB Pünktlichkeits-Analytics Dashboard",
+        "description": "Erstellung eines interaktiven Power BI Dashboards zur Analyse der Schweizer Eisenbahn-Pünktlichkeitsmuster unter Verwendung öffentlicher Verkehrsdaten. Das Dashboard bietet Einblicke in Verspätungen, saisonale Trends und Streckenleistung.",
+        "category": "Datenanalytik",
+        "achievements": [
+          "Echtzeit-Verspätungsverfolgung",
+          "Saisonale Musteranalyse",
+          "Streckenoptimierungseinblicke"
+        ],
+        "status": "Abgeschlossen",
+        "impact": "Verbesserte Effizienz der Streckenplanung"
+      },
+      {
+        "title": "GFMS Maschinenüberwachungs-Dashboard",
+        "description": "Leitete die Entwicklung eines Echtzeit-Industriemaschinenüberwachungssystems mit OPC-UA und MTConnect-Protokollen. Die Plattform bietet operative Einblicke und prädiktive Wartungsfähigkeiten.",
+        "category": "IoT/Industrie",
+        "achievements": [
+          "79% Reduzierung der Antwortzeiten",
+          "Echtzeit-Maschinenüberwachung",
+          "Prädiktive Wartungsalarme"
+        ],
+        "status": "Produktion",
+        "impact": "39% QoQ Wachstum bei Maschinenverbindungen"
+      }
+    ],
+    "labels": {
+      "keyAchievements": "Wichtige Erfolge:",
+      "technologiesUsed": "Verwendete Technologien:",
+      "businessImpact": "Geschäftswirkung:",
+      "viewDetails": "Details anzeigen",
+      "viewOnGithub": "Auf GitHub ansehen",
+      "viewProject": "Projekt ansehen"
+    },
+    "statuses": {
+      "production": "Produktion",
+      "activeDevelopment": "Aktive Entwicklung",
+      "completed": "Abgeschlossen"
+    },
+    "cta": {
+      "title": "Interessiert an mehr technischen Details?",
+      "description": "Ich arbeite ständig an neuen KI-Experimenten und digitalen Transformationsprojekten. Lassen Sie uns besprechen, wie diese Erfahrungen Ihrer Organisation zugute kommen können.",
+      "button": "Lassen Sie uns vernetzen"
+    }
+  },
+  "certifications": {
+    "badge": "Zeugnisse & Weiterbildung",
+    "title": "Kontinuierliche Berufliche Entwicklung",
+    "subtitle": "An der Spitze der Technologie bleiben durch formale Zertifizierungen und praktisches Lernen in KI, Produktmanagement und digitaler Transformation.",
+    "recentAI": {
+      "title": "Aktuelle KI & Leadership-Zertifizierungen (2025)",
+      "subtitle": "Neueste Zertifizierungen mit Fokus auf KI-Leadership und praktische Anwendung"
+    },
+    "professional": {
+      "title": "Professionelle Zertifizierungen",
+      "subtitle": "Branchenweit anerkannte Zertifizierungen in Produktmanagement, agilen Methoden und Datenanalyse"
+    },
+    "education": {
+      "title": "Bildungshintergrund",
+      "subtitle": "Starke Grundlage in Informatik und digitalen Technologien"
+    },
+    "learning": {
+      "title": "Engagement für kontinuierliches Lernen",
+      "p1": "Im sich schnell entwickelnden Bereich der KI und digitalen Transformation glaube ich daran, durch kontinuierliches Lernen voraus zu bleiben. Mein aktueller Fokus auf KI-Leadership, maschinelles Lernen und Prompt Engineering spiegelt mein Engagement wider, modernste Technologien in praktischen Geschäftskontexten zu verstehen und anzuwenden.",
+      "stats": [
+        { "value": "10+", "label": "Aktuelle Zertifizierungen" },
+        { "value": "25+", "label": "Jahre Lernen" },
+        { "value": "5", "label": "Gesprochene Sprachen" }
+      ]
+    },
+    "viewCredential": "Zertifikat ansehen",
+    "credentialId": "Zertifikat-ID:",
+    "recentCertifications": [
+      {
+        "title": "Machine Learning Grundlagen für Produktmanager",
+        "issuer": "Duke University (Coursera)",
+        "date": "Juli 2025",
+        "credential": "JROSVNV9MOIM",
+        "category": "KI/ML",
+        "icon": "Brain",
+        "skills": ["KI-Kompetenz", "Python", "Produktmanagement", "Maschinelles Lernen"],
+        "link": "https://www.coursera.org/account/accomplishments/records/JROSVNV9MOIM"
+      },
+      {
+        "title": "Google Cloud Generative AI Leader",
+        "issuer": "Google",
+        "date": "2025",
+        "credential": "Verifiziert",
+        "category": "KI-Leadership",
+        "icon": "Award",
+        "skills": ["GenAI", "KI-Strategie", "Cloud KI", "Leadership"],
+        "link": "https://www.credly.com/badges/b12aa0ee-90dc-439b-bda6-5eaf112d4e8e"
+      },
+      {
+        "title": "Einführung in Model Context Protocol",
+        "issuer": "Anthropic Academy",
+        "date": "Juli 2025",
+        "credential": "oq6tdifkv33d",
+        "category": "KI-Entwicklung",
+        "icon": "Code",
+        "skills": ["KI-APIs", "MCP", "KI-Integration", "Prompt Engineering"],
+        "link": "https://verify.skilljar.com/c/oq6tdifkv33d"
+      },
+      {
+        "title": "Praktische Anwendung von Gen AI für Projektmanager",
+        "issuer": "Project Management Institute",
+        "date": "August 2025",
+        "credential": "Verifiziert",
+        "category": "Projektmanagement",
+        "icon": "Users",
+        "skills": ["GenAI", "Projektmanagement", "KI-Produktivität"],
+        "link": "https://www.credly.com/badges/d5a1a1ca-5f87-4f8a-af1a-0d1959ecc9eb"
+      }
+    ],
+    "professionalCertifications": [
+      {
+        "title": "Professional Scrum Product Owner II (PSPO II)",
+        "issuer": "Scrum.org",
+        "date": "2022",
+        "category": "Produktmanagement",
+        "status": "Aktuell",
+        "link": "https://www.credly.com/badges/6c9ecfbc-a324-4e29-9896-b8c1edb12a25"
+      },
+      {
+        "title": "Professional Scrum Master II (PSM II)",
+        "issuer": "Scrum.org",
+        "date": "2022",
+        "category": "Agiles Leadership",
+        "status": "Aktuell",
+        "link": "https://www.credly.com/badges/c846c530-1edc-447e-95db-873056f6165a"
+      },
+      {
+        "title": "Microsoft Data Analyst Associate",
+        "issuer": "Microsoft",
+        "date": "2023",
+        "category": "Datenanalyse",
+        "status": "Aktuell",
+        "link": "https://www.credly.com/badges/50e14d3b-9119-4fc2-8d7e-b4fe0e2176d5"
+      },
+      {
+        "title": "Databricks Fundamentals Accreditation",
+        "issuer": "Databricks",
+        "date": "Juni 2025",
+        "category": "Datentechnik",
+        "status": "Aktuell",
+        "link": "https://credentials.databricks.com/1a1b3743-8786-4673-a96f-daec8b89f4b5#acc.GzhqJYAE"
+      }
+    ],
+    "educationData": [
+      {
+        "degree": "Bachelor of Science - Informatik",
+        "institution": "Pontifícia Universidade Católica do Rio de Janeiro",
+        "period": "1995 - 1999",
+        "type": "Grundstudium"
+      },
+      {
+        "degree": "Postgradual - Internet-Technologien",
+        "institution": "COPPE-UFRJ / IBPI",
+        "period": "1999 - 2000",
+        "type": "Postgradual"
+      },
+      {
+        "degree": "Postgradual - Strategisches Management für Digitales Marketing",
+        "institution": "IGEC - FACHA",
+        "period": "2009",
+        "type": "Postgradual"
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Empfehlungen",
+    "title": "Was Kollegen und Partner Sagen",
+    "subtitle": "Authentische Empfehlungen von Fachleuten, mit denen ich im Laufe meiner Karriere zusammengearbeitet habe, öffentlich auf LinkedIn geteilt.",
+    "readMore": "Mehr lesen",
+    "readLess": "Weniger anzeigen",
+    "footer": "Alle Empfehlungen stammen von LinkedIn-Empfehlungen und können durch einen Besuch des Profils des Empfehlers verifiziert werden."
+  },
+  "contact": {
+    "badge": "Lassen Sie uns vernetzen",
+    "title": "Bereit, Ihre Digitalen Produkte zu Transformieren?",
+    "subtitle": "Ob Sie KI-Lösungen implementieren, Ihre digitalen Produkte skalieren oder digitale Transformationsinitiativen leiten möchten, ich würde gerne besprechen, wie wir zusammenarbeiten können.",
+    "form": {
+      "title": "Senden Sie mir eine Nachricht",
+      "description": "Ich bin immer interessiert an Diskussionen über neue Möglichkeiten in digitaler Transformation, KI-Produktentwicklung und strategischen Produktmanagement-Rollen.",
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "company": "Unternehmen/Organisation",
+      "message": "Nachricht",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "emailPlaceholder": "ihre.email@unternehmen.com",
+      "companyPlaceholder": "Ihr Unternehmen oder Organisation",
+      "messagePlaceholder": "Erzählen Sie mir von Ihrem Projekt, Ihrer Gelegenheit oder wie ich helfen kann...",
+      "submit": "Nachricht Senden",
+      "sending": "Nachricht wird gesendet...",
+      "success": "Nachricht Erfolgreich Gesendet!",
+      "successDescription": "Danke für Ihre Kontaktaufnahme. Ich werde Ihnen innerhalb von 24 Stunden antworten.",
+      "error": "Fehler beim Senden der Nachricht",
+      "errorDescription": "Es gab einen Fehler beim Senden Ihrer Nachricht. Bitte versuchen Sie es erneut oder kontaktieren Sie mich direkt."
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "description": "Bevorzugen Sie direkten Kontakt? Zögern Sie nicht, mich über eine der folgenden Methoden zu kontaktieren.",
+      "email": "me@carlosmello.work",
+      "phone": "+41 77 490 32 40",
+      "location": "Biel/Bienne, Schweiz",
+      "linkedin": "linkedin.com/in/carlosduplar",
+      "github": "github.com/carlosduplar"
+    },
+    "features": {
+      "title": "Warum Mit Mir Arbeiten?",
+      "responseTime": {
+        "title": "24h Antwortzeit",
+        "description": "Ich antworte normalerweise innerhalb von 24 Stunden auf Nachrichten"
+      },
+      "languages": {
+        "title": "Mehrere Sprachen",
+        "description": "Verfügbar in DE, EN, PT, FR, ES"
+      },
+      "availability": {
+        "title": "Offen für Möglichkeiten",
+        "description": "Beratung, Festanstellungen und Partnerschaften"
+      }
+    },
+    "cta": {
+      "title": "Bereit Anzufangen?",
+      "description": "Lassen Sie uns einen Anruf planen, um Ihre Bedürfnisse in der digitalen Transformation, KI-Strategie oder Produktentwicklungsherausforderungen zu besprechen.",
+      "button": "Anruf Planen"
+    }
+  },
+  "consent": {
+    "title": "Ich Schätze Ihre Privatsphäre",
+    "description": "Ich verwende Google Analytics, um zu verstehen, wie Besucher diese Website nutzen. Sie können Analyse-Cookies akzeptieren oder ablehnen.",
+    "accept": "Akzeptieren",
+    "reject": "Ablehnen"
+  }
+}

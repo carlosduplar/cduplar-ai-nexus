@@ -1,0 +1,595 @@
+{
+  "seo": {
+    "title": "Carlos Duplar Mello - Chef de Projet Transformation Digitale & Spécialiste IA",
+    "description": "Chef de Projet Transformation Digitale avec plus de 15 ans d'expérience en IA, gestion de produits et solutions digitales évolutives. Leader GenAI Certifié Google spécialisé en architectures LLM et leadership d'équipes pluridisciplinaires en Suisse.",
+    "keywords": "Transformation Digitale, Product Owner, Spécialiste IA, Machine Learning, Scrum, Agile, Suisse, Gestion de Produits, GenAI, LLM, Architecture RAG, IoT, SaaS, Power BI, Python, Azure, Cloud",
+    "ogTitle": "Carlos Duplar Mello - Chef de Projet Transformation Digitale & Spécialiste IA",
+    "ogDescription": "Plus de 15 ans d'expérience en gestion du cycle de vie produit. Actuellement Chef de Projet Transformation Digitale chez HEIG-VD, spécialisé en solutions basées sur l'IA et produits digitaux évolutifs.",
+    "twitterTitle": "Carlos Duplar Mello - Chef de Projet Transformation Digitale & Spécialiste IA",
+    "twitterDescription": "Plus de 15 ans d'expérience en gestion du cycle de vie produit. Actuellement Chef de Projet Transformation Digitale chez HEIG-VD, spécialisé en solutions basées sur l'IA et produits digitaux évolutifs."
+  },
+  "images": {
+    "profileAlt": "Carlos Duplar Mello - Chef de Projet Transformation Digitale et Spécialiste IA",
+    "heigvdLogoAlt": "Logo HEIG-VD - Haute École d'Ingénierie et de Gestion du Canton de Vaud",
+    "gfLogoAlt": "Logo Georg Fischer Machining Solutions - Entreprise de technologie de fabrication industrielle",
+    "siemensLogoAlt": "Logo Siemens - Entreprise mondiale de technologie et d'ingénierie",
+    "brqLogoAlt": "Logo BRQ Digital Solutions - Entreprise de transformation digitale et services IT",
+    "timBrasilLogoAlt": "Logo TIM Brasil - Entreprise de télécommunications Telecom Italia Mobile Brésil",
+    "infogloboLogoAlt": "Logo Infoglobo - Entreprise brésilienne de médias et d'édition"
+  },
+  "navigation": {
+    "about": "À propos",
+    "expertise": "Expertise",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "certifications": "Certifications",
+    "testimonials": "Témoignages",
+    "contact": "Contact"
+  },
+  "hero": {
+    "location": "Région de Berne, Suisse",
+    "role": "Chef de Projet Transformation Digitale",
+    "title": "Transformer les Défis Techniques Complexes en Produits Digitaux Évolutifs",
+    "subtitle": "Chef de Projet Transformation Digitale chez HEIG-VD | Product Owner IA | Leader GenAI Certifié Google avec plus de 15 ans d'expérience en gestion du cycle de vie produit",
+    "cta": "Connectons-nous",
+    "languages": "Langues que je parle :",
+    "availability": "Disponible pour de nouvelles opportunités",
+    "languageNames": {
+      "portuguese": "Portugais",
+      "english": "Anglais",
+      "french": "Français",
+      "german": "Allemand",
+      "spanish": "Espagnol"
+    },
+    "stats": {
+      "yearsExperience": "Années d'Expérience",
+      "usersServed": "Utilisateurs Servis",
+      "timeReduction": "Réduction de Temps"
+    }
+  },
+  "about": {
+    "badge": "À propos de moi",
+    "title": "Passionné par l'Innovation Digitale et les Solutions Basées sur l'IA",
+    "description": "Je suis un Chef de Projet Transformation Digitale expérimenté avec plus de 15 ans d'expérience en gestion du cycle de vie produit. Actuellement chez HEIG-VD, je me spécialise dans la création de ponts entre les défis techniques complexes et les solutions business évolutives.",
+    "passion": "Ma passion réside dans l'exploitation des technologies IA de pointe et la gestion stratégique de produits pour conduire des initiatives significatives de transformation digitale qui apportent une vraie valeur business.",
+    "coreStrengthsTitle": "Compétences Clés et Expertise",
+    "highlights": [
+      "Plus de 15 ans en gestion du cycle de vie produit",
+      "Leader GenAI Certifié Google",
+      "Expert en architecture de solutions basées sur l'IA",
+      "Historique prouvé en leadership d'équipes pluridisciplinaires"
+    ],
+    "achievements": [
+      {
+        "stat": "79%",
+        "description": "Réduction des temps de réponse service",
+        "detail": "chez Georg Fischer Machining Solutions"
+      },
+      {
+        "stat": "8.2M",
+        "description": "Base d'utilisateurs augmentée",
+        "detail": "App mobile TIM Brazil"
+      },
+      {
+        "stat": "5x",
+        "description": "Augmentation adoption utilisateurs",
+        "detail": "Plateforme SaaS globale Siemens"
+      },
+      {
+        "stat": "39%",
+        "description": "Croissance QoQ connexions machines",
+        "detail": "depuis Q3 2023 chez GFMS"
+      }
+    ],
+    "coreStrengths": [
+      {
+        "title": "Leadership IA & Technologie",
+        "description": "Leader GenAI Certifié Google avec expérience pratique en LLMs, architectures RAG et ingénierie des prompts. Direction d'initiatives IA et coaching d'équipes sur l'adoption de l'IA générative."
+      },
+      {
+        "title": "Leadership d'Équipes Pluridisciplinaires",
+        "description": "Plus de 15 ans de gestion de relations complexes avec les parties prenantes dans la fabrication, les télécoms, l'éducation et l'IT d'entreprise, assurant l'alignement entre objectifs techniques et business."
+      },
+      {
+        "title": "Stratégie de Transformation Digitale",
+        "description": "Historique prouvé de traduction des défis techniques complexes en produits digitaux évolutifs qui génèrent un impact business mesurable et une efficacité opérationnelle."
+      },
+      {
+        "title": "Perspective Multilingue & Globale",
+        "description": "Maîtrise native du portugais et de l'anglais, compétence professionnelle en français, allemand et espagnol, permettant une collaboration efficace dans des équipes internationales diverses."
+      }
+    ],
+    "professionalJourney": {
+      "title": "Parcours Professionnel",
+      "paragraph1": "Mes plus de 15 ans de gestion du cycle de vie produit dans la fabrication, les télécoms et l'IT d'entreprise ont façonné mon approche de la prise de décision basée sur les données et de l'alignement des parties prenantes. Chez GF Machining Solutions, j'ai livré des tableaux de bord de surveillance machine en temps réel et des programmes de migration SaaS qui ont amélioré la transparence opérationnelle globalement.",
+      "paragraph2": "Chez Siemens, j'ai fait évoluer un SaaS de gestion de mots de passe vers plus de 13 pays tout en construisant des outils BI internes pour l'optimisation de l'expérience utilisateur. En tant que défenseur reconnu de l'IA, j'ai été sélectionné pour les pilotes Microsoft 365 Copilot et ai coaché des équipes globales sur les meilleures pratiques d'ingénierie des prompts.",
+      "paragraph3": "Actuellement en expérimentation avec des stacks LLM auto-hébergés (Ollama, OpenWebUI, LangChain, Langfuse, Qdrant) pour approfondir la compréhension de l'infrastructure produit IA et stimuler l'innovation en technologie éducative. Je combine les méthodologies Agile avec la profondeur technique pour transformer des exigences complexes en produits utilisables et évolutifs."
+    },
+    "technicalExpertise": "Expertise Technique :"
+  },
+  "expertise": {
+    "badge": "Expertise Principale",
+    "title": "Compétences qui Stimulent l'Innovation",
+    "subtitle": "Un ensemble de compétences complet combinant la réflexion stratégique produit, l'expertise IA de pointe et des capacités de leadership éprouvées développées au cours de plus de 15 ans de livraison de solutions digitales complexes.",
+    "areas": {
+      "productStrategy": {
+        "title": "Produit & Stratégie",
+        "skills": [
+          "Priorisation Basée sur les Données",
+          "Agile (Scrum, SAFe)",
+          "Gestion des Parties Prenantes",
+          "Transformation Digitale"
+        ]
+      },
+      "aiTechnology": {
+        "title": "IA & Technologie",
+        "skills": [
+          "Agents IA & MCP",
+          "Architectures LLM/RAG",
+          "Ingénierie des Prompts",
+          "Plateformes Cloud (Azure, GCP)"
+        ]
+      },
+      "leadership": {
+        "title": "Leadership",
+        "skills": [
+          "Leadership d'Équipes Pluridisciplinaires",
+          "Gestion du Changement",
+          "Métriques de Valeur & KPIs",
+          "Risques & Conformité"
+        ]
+      }
+    },
+    "techStack": {
+      "title": "Expertise Technique",
+      "subtitle": "Technologies et frameworks modernes avec lesquels je travaille pour livrer des solutions évolutives de niveau entreprise.",
+      "categories": {
+        "aiMl": {
+          "title": "IA & ML",
+          "technologies": ["APIs OpenAI/Gemini", "Ollama", "LangChain", "Qdrant", "scikit-learn", "Ingénierie des Prompts"]
+        },
+        "dataBi": {
+          "title": "Data & BI",
+          "technologies": ["Power BI", "Python", "SQL", "Databricks", "Power Automate", "Visualisation de Données"]
+        },
+        "cloudDevops": {
+          "title": "Cloud & DevOps",
+          "technologies": ["Azure", "GCP", "Docker", "Git", "Intégration API", "Plateformes SaaS"]
+        },
+        "productTools": {
+          "title": "Outils Produit",
+          "technologies": ["Jira", "Figma", "Confluence", "Scrum", "SAFe", "Design Thinking"]
+        }
+      }
+    },
+    "achievements": [
+      {
+        "value": "79%",
+        "label": "Réduction du Temps de Réponse du Service",
+        "detail": "Impact de la Transformation Digitale"
+      },
+      {
+        "value": "13+",
+        "label": "Pays Évolués",
+        "detail": "Plateforme SaaS de Siemens"
+      },
+      {
+        "value": "100+",
+        "label": "Membres d'Équipe Formés",
+        "detail": "IA, SEO & Compétences Digitales"
+      }
+    ]
+  },
+  "experience": {
+    "badge": "Parcours Professionnel",
+    "title": "Plus de 15 Ans d'Excellence en Leadership Produit",
+    "subtitle": "Des startups aux entreprises mondiales, j'ai constamment livré des résultats transformationnels à travers diverses industries et paysages techniques.",
+    "careerStats": {
+      "title": "Résumé de l'Impact de Carrière",
+      "subtitle": "Résultats quantifiables dans différentes industries et rôles",
+      "stats": [
+        {
+          "value": "6",
+          "label": "Grandes Entreprises"
+        },
+        {
+          "value": "3",
+          "label": "Pays Travaillés"
+        },
+        {
+          "value": "€300k+",
+          "label": "Budget Géré"
+        },
+        {
+          "value": "30+",
+          "label": "Membres d'Équipe Dirigés"
+        }
+      ]
+    },
+    "types": {
+      "fullTime": "Temps Plein",
+      "partTime": "Temps Partiel",
+      "contract": "Contrat",
+      "present": "Présent"
+    },
+    "jobs": [
+      {
+        "company": "HEIG-VD",
+        "role": "Chef de Projet Transformation Digitale",
+        "period": "Septembre 2025 - Présent",
+        "location": "Yverdon, Vaud, Suisse",
+        "logo": "heigvdLogo",
+        "website": "https://www.heig-vd.ch/",
+        "highlights": [
+          "Définir et diriger des initiatives de transformation digitale pour améliorer l'infrastructure technologique éducative",
+          "Développer des feuilles de route de projet complètes alignées avec le cadre Schéma Directeur Numérique (SDN) de HES-SO",
+          "Diriger des équipes multidisciplinaires incluant IT, faculté et parties prenantes administratives",
+          "Gérer l'évaluation des risques tout en assurant le respect des normes du secteur public suisse"
+        ],
+        "skills": ["Gestion de Projet", "Transformation Digitale", "Planification Stratégique", "Leadership d'Équipe"]
+      },
+      {
+        "company": "Georg Fischer Machining Solutions",
+        "role": "Senior Product Owner",
+        "period": "Septembre 2022 - Juillet 2025",
+        "location": "Biel, Berne, Suisse",
+        "logo": "gfLogo",
+        "website": "https://www.gfms.com/",
+        "highlights": [
+          "Réduction des temps de réponse et de résolution du service jusqu'à 79% avec dashboard KPI de service global Power BI",
+          "Direction du pilote Microsoft 365 Copilot et formation de 30+ collègues sur l'ingénierie des prompts",
+          "Façonné la feuille de route SaaS client final de GFMS, avec une croissance moyenne de 39% QoQ des connexions machines depuis Q3 2023",
+          "Conception de dashboards de surveillance machines en temps réel utilisant les protocoles OPC-UA et MTConnect"
+        ],
+        "skills": ["Gestion de Produits", "IA/GenAI", "Power BI", "Migration SaaS", "IoT"]
+      },
+      {
+        "company": "Siemens",
+        "role": "Product Owner pour Smart Infrastructure",
+        "period": "Novembre 2020 - Septembre 2022",
+        "location": "Lisbonne, Portugal",
+        "logo": "siemensLogo",
+        "website": "https://www.siemens.com/",
+        "highlights": [
+          "Augmentation de l'adoption utilisateur de 5x pour un produit SaaS global de gestion de mots de passe",
+          "Collaboration avec les Experts en Sécurité Produits et Solutions pour les revues de sécurité et évaluations des risques",
+          "Gestion du projet de séparation Siemens Energy assurant une transition fluide et conforme",
+          "Évolution du SaaS de gestion de mots de passe vers 13+ pays tout en construisant des outils BI internes"
+        ],
+        "skills": ["Évolution SaaS", "Sécurité", "Gestion des Risques", "Équipes Mondiales"]
+      },
+      {
+        "company": "BRQ Digital Solutions",
+        "role": "Team Lead | Senior Application Specialist | Scrum Master",
+        "period": "Janvier 2019 - Novembre 2020",
+        "location": "Lisbonne, Portugal",
+        "logo": "brqLogo",
+        "website": "https://www.brq.com/",
+        "highlights": [
+          "Direction de deux équipes Scrum pluridisciplinaires à distance pour application native iOS/Android à fort impact",
+          "Collaboration avec le conseil en vente sur plusieurs RFIs et RFPs",
+          "Contribution directe à deux nouveaux contrats gagnés par consultation technique",
+          "Livraison de solutions pour TIM Brazil avec approche mobile-first"
+        ],
+        "skills": ["Développement Mobile", "Scrum", "Équipes Distantes", "Support Ventes"]
+      },
+      {
+        "company": "TIM Brazil (Telecom Italia Mobile)",
+        "role": "Senior IT Specialist | IT Product Owner",
+        "period": "Juillet 2011 - Octobre 2018",
+        "location": "Rio de Janeiro, Brésil",
+        "logo": "timBrasilLogo",
+        "website": "https://www.tim.com.br/",
+        "highlights": [
+          "Lancement et évolution de l'application libre-service consommateur TIM à 8,2M utilisateurs totaux (1,4M sessions quotidiennes)",
+          "Amélioration des notes de l'application de 1,5 à 4,0 étoiles et atteinte du classement Top 5 en app store Utilitaires",
+          "Pionnier du premier projet Agile de TIM en 2011, réduisant le délai du portail consommateur de 67%",
+          "Gestion d'un budget IT annuel de 300k€ avec 3 rapports directs"
+        ],
+        "skills": ["Applications Mobiles", "Transformation Agile", "Gestion de Budget", "Leadership d'Équipe"]
+      },
+      {
+        "company": "Infoglobo",
+        "role": "IT Product Owner | Senior Business Analyst",
+        "period": "Janvier 2000 - Juillet 2011",
+        "location": "Rio de Janeiro, Brésil",
+        "logo": "infogloboLogo",
+        "website": "https://www.infoglobo.com.br/",
+        "highlights": [
+          "Amélioration du SEO pour tous les sites web de l'entreprise et formation du personnel éditorial, résultant en 18% d'augmentation des visiteurs mensuels",
+          "Pionnier du projet d'unification de base de données, collaboration avec les équipes Marketing et CRM pour rationaliser les données utilisateur",
+          "Direction de l'initiative Agile pour le nouveau site web de Jornal Extra, atteignant 71% d'augmentation du trafic moteur de recherche en 2011",
+          "Service en tant qu'Architecte de Solutions, supervisant la sélection technique du nouveau CMS et plateforme éditoriale"
+        ],
+        "skills": ["Optimisation SEO", "Gestion de Base de Données", "Implémentation Agile", "Architecture Système"]
+      }
+    ]
+  },
+  "projects": {
+    "badge": "Réalisations Phares",
+    "title": "Projets Transformateurs & Résultats",
+    "subtitle": "Applications concrètes de l'IA, de l'analyse de données et de la gestion stratégique de produits qui ont généré un impact business mesurable.",
+    "items": [
+      {
+        "title": "Système de Délégation Autonome de Tâches Claude-Gemini",
+        "description": "Conçu un framework intelligent de délégation de tâches qui permet à Claude Code de décharger automatiquement les tâches gourmandes en tokens (analyse de grandes bases de code, opérations en masse sur fichiers, génération de documentation) vers Gemini CLI, exploitant la fenêtre de contexte de 1M tokens et le tier gratuit de Gemini. Comprend des garde-fous personnalisés pour prévenir les opérations destructrices et des configurations CLAUDE.md optimisées pour une conformité fiable.",
+        "category": "Outils IA",
+        "achievements": [
+          "40-60% de réduction de la consommation de tokens Claude",
+          "Délégation autonome avec garde-fous de sécurité",
+          "Quota Claude Pro effectivement étendu"
+        ],
+        "status": "Développement Actif",
+        "impact": "Contourné les limitations de quota et optimisé l'utilisation des outils à leur meilleur potentiel"
+      },
+      {
+        "title": "Site Web Portfolio Multilingue Alimenté par IA",
+        "description": "Construit un site web portfolio moderne de qualité production utilisant un workflow de développement assisté par IA combinant Lovable, Claude Code et Gemini CLI. Comprend une internationalisation complète en 5 langues, une optimisation SEO avec pré-rendu pour les moteurs de recherche, le support des navigateurs legacy et une fonctionnalité de contact intégrée.",
+        "category": "Développement Web",
+        "achievements": [
+          "Support multilingue en 5 langues (EN/PT/FR/DE/ES)",
+          "Optimisé pour le SEO avec pré-rendu statique",
+          "Compatibilité cross-browser incluant les appareils legacy"
+        ],
+        "status": "Production",
+        "impact": "Maîtrisé les frameworks web modernes grâce à l'apprentissage assisté par IA"
+      },
+      {
+        "title": "Modèle de Prévision Énergétique par Machine Learning",
+        "description": "Développement d'un modèle ML sophistiqué atteignant 96,4% de précision dans la prédiction de consommation énergétique pour les environnements de fabrication industrielle. Le modèle utilise l'analyse de séries temporelles et incorpore plusieurs variables environnementales et opérationnelles.",
+        "category": "IA/ML",
+        "achievements": [
+          "96,4% de précision de prédiction",
+          "Surveillance énergétique en temps réel",
+          "Insights d'optimisation des coûts"
+        ],
+        "status": "Terminé",
+        "impact": "Permis 15% de réduction des coûts énergétiques"
+      },
+      {
+        "title": "Laboratoire d'Outils IA & Infrastructure Auto-hébergé",
+        "description": "Construction et déploiement d'une infrastructure IA complète utilisant des outils open-source pour l'expérimentation avec les LLMs, bases de données vectorielles et IA conversationnelle. Ce laboratoire sert de terrain d'essai pour les fonctionnalités produits IA et la formation.",
+        "category": "Infrastructure IA",
+        "achievements": [
+          "Support multi-modèle LLM",
+          "Intégration base de données vectorielle",
+          "Analytiques conversationnelles"
+        ],
+        "status": "Production",
+        "impact": "Accéléré le prototypage de fonctionnalités IA de 60%"
+      },
+      {
+        "title": "Dashboard d'Analytiques de Ponctualité SBB",
+        "description": "Création d'un dashboard Power BI interactif analysant les schémas de ponctualité ferroviaire suisse utilisant les données de transport public. Le dashboard fournit des insights sur les retards, tendances saisonnières et performance des itinéraires.",
+        "category": "Analytiques de Données",
+        "achievements": [
+          "Suivi des retards en temps réel",
+          "Analyse des schémas saisonniers",
+          "Insights d'optimisation d'itinéraires"
+        ],
+        "status": "Terminé",
+        "impact": "Amélioration de l'efficacité de planification d'itinéraires"
+      },
+      {
+        "title": "Dashboard de Surveillance de Machines GFMS",
+        "description": "Direction du développement d'un système de surveillance de machines industrielles en temps réel utilisant les protocoles OPC-UA et MTConnect. La plateforme fournit des insights opérationnels et des capacités de maintenance prédictive.",
+        "category": "IoT/Industriel",
+        "achievements": [
+          "79% de réduction des temps de réponse",
+          "Surveillance de machines en temps réel",
+          "Alertes de maintenance prédictive"
+        ],
+        "status": "Production",
+        "impact": "39% de croissance QoQ des connexions machines"
+      }
+    ],
+    "labels": {
+      "keyAchievements": "Réalisations Clés:",
+      "technologiesUsed": "Technologies Utilisées:",
+      "businessImpact": "Impact Business:",
+      "viewDetails": "Voir les Détails",
+      "viewOnGithub": "Voir sur GitHub",
+      "viewProject": "Voir le projet"
+    },
+    "statuses": {
+      "production": "Production",
+      "activeDevelopment": "Développement Actif",
+      "completed": "Terminé"
+    },
+    "cta": {
+      "title": "Intéressé par Plus de Détails Techniques?",
+      "description": "Je travaille toujours sur de nouvelles expériences IA et projets de transformation digitale. Discutons de comment ces expériences peuvent bénéficier à votre organisation.",
+      "button": "Connectons-nous"
+    }
+  },
+  "certifications": {
+    "badge": "Accréditations & Formation",
+    "title": "Développement Professionnel Continu",
+    "subtitle": "Rester à la pointe de la technologie grâce à des certifications formelles et à l'apprentissage pratique en IA, gestion de produits et transformation digitale.",
+    "recentAI": {
+      "title": "Certifications Récentes en IA et Leadership (2025)",
+      "subtitle": "Dernières certifications axées sur le leadership en IA et l'application pratique"
+    },
+    "professional": {
+      "title": "Certifications Professionnelles",
+      "subtitle": "Certifications reconnues par l'industrie en gestion de produits, méthodologies agiles et analyse de données"
+    },
+    "education": {
+      "title": "Formation Académique",
+      "subtitle": "Base solide en informatique et technologies numériques"
+    },
+    "learning": {
+      "title": "Engagement envers l'Apprentissage Continu",
+      "p1": "Dans le domaine en rapide évolution de l'IA et de la transformation digitale, je crois qu'il faut rester en avance grâce à l'apprentissage continu. Mon accent récent sur le leadership en IA, l'apprentissage automatique et l'ingénierie des prompts reflète mon engagement à comprendre et à appliquer les technologies de pointe dans des contextes commerciaux pratiques.",
+      "stats": [
+        { "value": "10+", "label": "Certifications Récentes" },
+        { "value": "25+", "label": "Années d'Apprentissage" },
+        { "value": "5", "label": "Langues Parlées" }
+      ]
+    },
+    "viewCredential": "Voir les Accréditations",
+    "credentialId": "ID d'Accréditation:",
+    "recentCertifications": [
+      {
+        "title": "Fondements du Machine Learning pour Gestionnaires de Produits",
+        "issuer": "Duke University (Coursera)",
+        "date": "Juillet 2025",
+        "credential": "JROSVNV9MOIM",
+        "category": "IA/ML",
+        "icon": "Brain",
+        "skills": ["Littératie IA", "Python", "Gestion de Produits", "Machine Learning"],
+        "link": "https://www.coursera.org/account/accomplishments/records/JROSVNV9MOIM"
+      },
+      {
+        "title": "Google Cloud Generative AI Leader",
+        "issuer": "Google",
+        "date": "2025",
+        "credential": "Vérifié",
+        "category": "Leadership IA",
+        "icon": "Award",
+        "skills": ["GenAI", "Stratégie IA", "Cloud AI", "Leadership"],
+        "link": "https://www.credly.com/badges/b12aa0ee-90dc-439b-bda6-5eaf112d4e8e"
+      },
+      {
+        "title": "Introduction au Model Context Protocol",
+        "issuer": "Anthropic Academy",
+        "date": "Juillet 2025",
+        "credential": "oq6tdifkv33d",
+        "category": "Développement IA",
+        "icon": "Code",
+        "skills": ["APIs IA", "MCP", "Intégration IA", "Ingénierie des Prompts"],
+        "link": "https://verify.skilljar.com/c/oq6tdifkv33d"
+      },
+      {
+        "title": "Application Pratique de Gen AI pour Chefs de Projet",
+        "issuer": "Project Management Institute",
+        "date": "Août 2025",
+        "credential": "Vérifié",
+        "category": "Gestion de Projet",
+        "icon": "Users",
+        "skills": ["GenAI", "Gestion de Projet", "Productivité IA"],
+        "link": "https://www.credly.com/badges/d5a1a1ca-5f87-4f8a-af1a-0d1959ecc9eb"
+      }
+    ],
+    "professionalCertifications": [
+      {
+        "title": "Professional Scrum Product Owner II (PSPO II)",
+        "issuer": "Scrum.org",
+        "date": "2022",
+        "category": "Gestion de Produits",
+        "status": "Actuel",
+        "link": "https://www.credly.com/badges/6c9ecfbc-a324-4e29-9896-b8c1edb12a25"
+      },
+      {
+        "title": "Professional Scrum Master II (PSM II)",
+        "issuer": "Scrum.org",
+        "date": "2022",
+        "category": "Leadership Agile",
+        "status": "Actuel",
+        "link": "https://www.credly.com/badges/c846c530-1edc-447e-95db-873056f6165a"
+      },
+      {
+        "title": "Microsoft Data Analyst Associate",
+        "issuer": "Microsoft",
+        "date": "2023",
+        "category": "Analyse de Données",
+        "status": "Actuel",
+        "link": "https://www.credly.com/badges/50e14d3b-9119-4fc2-8d7e-b4fe0e2176d5"
+      },
+      {
+        "title": "Databricks Fundamentals Accreditation",
+        "issuer": "Databricks",
+        "date": "Juin 2025",
+        "category": "Ingénierie de Données",
+        "status": "Actuel",
+        "link": "https://credentials.databricks.com/1a1b3743-8786-4673-a96f-daec8b89f4b5#acc.GzhqJYAE"
+      }
+    ],
+    "educationData": [
+      {
+        "degree": "Licence en Sciences - Informatique",
+        "institution": "Pontifícia Universidade Católica do Rio de Janeiro",
+        "period": "1995 - 1999",
+        "type": "Premier cycle"
+      },
+      {
+        "degree": "Troisième cycle - Technologies Internet",
+        "institution": "COPPE-UFRJ / IBPI",
+        "period": "1999 - 2000",
+        "type": "Troisième cycle"
+      },
+      {
+        "degree": "Troisième cycle - Gestion Stratégique du Marketing Digital",
+        "institution": "IGEC - FACHA",
+        "period": "2009",
+        "type": "Troisième cycle"
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Témoignages",
+    "title": "Ce que Disent mes Collègues et Partenaires",
+    "subtitle": "Recommandations authentiques de professionnels avec qui j'ai travaillé tout au long de ma carrière, partagées publiquement sur LinkedIn.",
+    "readMore": "Lire la suite",
+    "readLess": "Montrer moins",
+    "footer": "Tous les témoignages proviennent des recommandations LinkedIn et peuvent être vérifiés en visitant le profil du recommandeur."
+  },
+  "contact": {
+    "badge": "Connectons-nous",
+    "title": "Prêt à Transformer vos Produits Digitaux?",
+    "subtitle": "Que vous cherchiez à implémenter des solutions IA, faire évoluer vos produits digitaux ou conduire des initiatives de transformation digitale, j'aimerais discuter de notre collaboration.",
+    "form": {
+      "title": "Envoyez-moi un Message",
+      "description": "Je suis toujours intéressé par les discussions sur les nouvelles opportunités en transformation digitale, développement de produits IA et rôles stratégiques de gestion produit.",
+      "name": "Nom Complet",
+      "email": "Adresse Email",
+      "company": "Entreprise/Organisation",
+      "message": "Message",
+      "namePlaceholder": "Votre nom complet",
+      "emailPlaceholder": "votre.email@entreprise.com",
+      "companyPlaceholder": "Votre entreprise ou organisation",
+      "messagePlaceholder": "Parlez-moi de votre projet, opportunité ou comment je peux aider...",
+      "submit": "Envoyer le Message",
+      "sending": "Envoi du Message...",
+      "success": "Message Envoyé avec Succès!",
+      "successDescription": "Merci de m'avoir contacté. Je vous répondrai dans les 24 heures.",
+      "error": "Échec de l'Envoi du Message",
+      "errorDescription": "Il y a eu une erreur lors de l'envoi de votre message. Veuillez réessayer ou me contacter directement."
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "description": "Vous préférez un contact direct? N'hésitez pas à me contacter en utilisant l'une des méthodes ci-dessous.",
+      "email": "me@carlosmello.work",
+      "phone": "+41 77 490 32 40",
+      "location": "Biel/Bienne, Suisse",
+      "linkedin": "linkedin.com/in/carlosduplar",
+      "github": "github.com/carlosduplar"
+    },
+    "features": {
+      "title": "Pourquoi Travailler Avec Moi?",
+      "responseTime": {
+        "title": "Temps de Réponse 24h",
+        "description": "Je réponds généralement aux messages dans les 24 heures"
+      },
+      "languages": {
+        "title": "Plusieurs Langues",
+        "description": "Disponible en FR, EN, PT, DE, ES"
+      },
+      "availability": {
+        "title": "Ouvert aux Opportunités",
+        "description": "Conseil, postes permanents et partenariats"
+      }
+    },
+    "cta": {
+      "title": "Prêt à Commencer?",
+      "description": "Planifions un appel pour discuter de vos besoins en transformation digitale, stratégie IA ou défis de développement produit.",
+      "button": "Planifier un Appel"
+    }
+  },
+  "consent": {
+    "title": "Je Valorise Votre Vie Privée",
+    "description": "J'utilise Google Analytics pour comprendre comment les visiteurs utilisent ce site. Vous pouvez accepter ou refuser les cookies analytiques.",
+    "accept": "Accepter",
+    "reject": "Refuser"
+  }
+}
